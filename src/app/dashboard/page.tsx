@@ -20,6 +20,19 @@ export default async function DashboardPage() {
 
   const displayName = user.user_metadata?.display_name ?? user.email ?? "friend";
 
+  const { data: zones } = await supabase
+    .from("zones")
+    .select("id")
+    .eq("user_id", user.id);
+
+  const { data: observations } = await supabase
+    .from("observations")
+    .select("id")
+    .eq("user_id", user.id);
+
+  const zoneCount = zones?.length ?? 0;
+  const observationCount = observations?.length ?? 0;
+
   return (
     <main className="min-h-screen bg-stone-100 px-6 py-12 text-stone-900">
       <div className="mx-auto max-w-2xl space-y-4">
@@ -29,24 +42,28 @@ export default async function DashboardPage() {
             Welcome, {displayName}
           </h1>
           <p className="mt-2 text-sm text-stone-500 italic">Your land is waiting.</p>
+          <div className="mt-4 flex gap-4">
+            <span className="text-xs text-stone-400">{zoneCount} {zoneCount === 1 ? "zone" : "zones"}</span>
+            <span className="text-xs text-stone-400">{observationCount} {observationCount === 1 ? "observation" : "observations"}</span>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
           <a href="/journal" className="rounded-2xl border border-stone-200 bg-amber-50 p-6 shadow-sm transition hover:shadow-md hover:border-stone-300 block">
             <p className="text-2xl mb-2">📓</p>
             <h2 className="text-lg font-semibold text-stone-800">Field Journal</h2>
-            <p className="mt-1 text-sm text-stone-500 italic">Record what the land is showing you.</p>
+          <p className="mt-1 text-sm text-stone-500 italic">Record what the land is showing you.</p>
+          </a>
+
+          <a href="/zones" className="rounded-2xl border border-stone-200 bg-amber-50 p-6 shadow-sm transition hover:shadow-md hover:border-stone-300 block">
+            <p className="text-2xl mb-2">🗺️</p>
+            <h2 className="text-lg font-semibold text-stone-800">Your Zones</h2>
+            <p className="mt-1 text-sm text-stone-500 italic">The named places on your land.</p>
           </a>
 
           <div className="rounded-2xl border border-stone-200 bg-amber-50 p-6 shadow-sm opacity-50">
             <p className="text-2xl mb-2">🌿</p>
             <h2 className="text-lg font-semibold text-stone-800">Plant Oracle</h2>
-            <p className="mt-1 text-sm text-stone-500 italic">Coming soon.</p>
-          </div>
-
-          <div className="rounded-2xl border border-stone-200 bg-amber-50 p-6 shadow-sm opacity-50">
-            <p className="text-2xl mb-2">🗺️</p>
-            <h2 className="text-semibold text-stone-800">Land Map</h2>
             <p className="mt-1 text-sm text-stone-500 italic">Coming soon.</p>
           </div>
 
