@@ -55,17 +55,24 @@ export default async function DashboardPage() {
             <p className="mt-1 text-sm text-stone-500 italic">Coming soon.</p>
           </div>
           <a href="/mentor" className="rounded-2xl border border-stone-200 bg-green-50 p-6 shadow-sm transition hover:shadow-md hover:border-green-300 block">
-            <p className="tl mb-2">🧠</p>
+            <p className="text-2xl mb-2">🧠</p>
             <h2 className="text-lg font-semibold text-stone-800">Ecological Mentor</h2>
             <p className="mt-1 text-sm text-stone-500 italic">Ask anything about your land.</p>
           </a>
-        </div>
-        <div className="rounded-2xl border border-stone-200 bg-amber-50 p-6 shadow-sm">
-          <form action={signOut}>
-            <button type="submit" className="rounded-lg bg-stone-800 px-4 py-2 text-sm font-medium text-stone-100 transition hover:bg-stone-900">
-              Log out
-            </button>
-          </form>
+          <a href="/profile" className="rounded-2xl border border-stone-200 bg-amber-50 p-6 shadow-sm transition hover:shadow-md hover:border-stone-300 block">
+            <p className="text-2xl mb-2">🌱</p>
+            <h2 className="text-lg font-semibold text-stone-800">Profile</h2>
+            <p className="mt-1 text-sm text-stone-500 italic">Tell the Mentor about your land.</p>
+          </a>
+          <div className="rounded-2xl border border-stone-200 bg-amber-50 p-6 shadow-sm">
+            <form action={signOut}>
+              <p className="text-2xl mb-2">👋</p>
+              <h2 className="text-lg font-semibold text-stone-800 mb-3">Sign out</h2>
+              <button type="submit" className="rounded-lg bg-stone-800 px-4 py-2 text-sm font-medium text-stone-100 transition hover:bg-stone-900">
+                Log out
+              </button>
+            </form>
+          </div>
         </div>
       </div>
     </main>

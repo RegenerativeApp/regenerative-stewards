@@ -1,0 +1,125 @@
+const fs = require('fs');
+const path = require('path');
+
+const REQUIRED_FIELDS = [
+  'chunk_id',
+  'source_document',
+  'topic',
+  'species_mentioned',
+  'ecological_concepts',
+  'steward_relevance',
+  'season_relevance',
+  'action_type',
+  'summary',
+  'content'
+];
+
+const VALID_ARCHETYPES = [
+  'Homegrower',
+  'Market Gardener',
+  'Homesteader',
+  'Transitioning Farmer',
+  'Rancher',
+  'Land Steward',
+  'Consultant',
+  'Education'
+];
+
+const VALID_ACTION_TYPES = [
+  'Observation',
+  'Harvest',
+  'Intervention',
+  'Restoration',
+  'Planning',
+  'Education'
+];
+
+function validateChunks(filePath) {
+  console.log('\n🌿 Regenerative Stewards — Chunk Validator');
+  console.log('📄 File: ' + filePath + '\n');
+
+  if (!fs.existsSync(filePath)) {
+    console.error('❌ CHECK 1 FAILED: File not found: ' + filePath);
+    process.exit(1);
+  }
+  console.log('✅ CHECK 1: File exists');
+
+  let chunks;
+  try {
+    const raw = fs.readFileSync(filePath, 'utf8');
+    chunks = JSON.parse(raw);
+  } catch (err) {
+    console.error('❌ CHECK 2 FAILED: Invalid JSON — ' + err.message);
+    process.exit(1);
+  }
+  console.log('✅ CHECK 2: Valid JSON');
+
+  if (!Array.isArray(chunks)) {
+    console.error('❌ CHECK 3 FAILED: Root element must be a JSON array');
+    process.exit(1);
+  }
+  console.log('✅ CHECK 3: Root is an array (' + chunks.length + ' chunks found)');
+
+  if (chunks.length === 0) {
+    console.error('❌ CHECK 4 FAILED: Array is empty');
+    process.exit(1);
+  }
+  console.log('✅ CHECK 4: Array is not empty');
+
+  var errors = [];
+
+  chunks.forEach(function(chunk, index) {
+    var id = chunk.chunk_id || 'chunk_' + index;
+
+    REQUIRED_FIELDS.forEach(function(field) {
+      if (chunk[field] === undefined || chunk[field] === null || chunk[field] === '') {
+        errors.push('[' + id + '] CHECK 5: Missing required field — ' + field);
+      }
+    });
+
+    if (typeof chunk.content !== 'string' || chunk.content.trim().length < 50) {
+      errors.push('[' + id + '] CHECK 6: content field is missing or too short');
+    }
+
+    if (Array.isArray(chunk.steward_relevance)) {
+      chunk.steward_relevance.forEach(function(archetype) {
+        if (!VALID_ARCHETYPES.includes(archetype)) {
+          errors.push('[' + id + '] CHECK 7: Unknown archetype ' + archetype);
+        }
+      });
+    } else {
+      errors.push('[' + id + '] CHECK 7: steward_relevance must be an array');
+    }
+
+    if (!VALID_ACTION_TYPES.includes(chunk.action_type)) {
+      errors.push('[' + id + '] CHECK 8: Invalid action_type ' + chunk.action_type);
+    }
+  });
+
+  var ids = chunks.map(function(c) { return c.chunk_id; });
+  var duplicates = ids.filter(function(id, index) { return ids.indexOf(id) !== index; });
+  if (duplicates.length > 0) {
+    errors.push('DUPLICATE chunk_ids found: ' + duplicates.join(', '));
+  }
+
+  if (errors.length === 0) {
+    console.log('✅ CHECK 5: All required fields present');
+    console.log('✅ CHECK 6: All content fields valid');
+    console.log('✅ CHECK 7: All archetypes valid');
+    console.log('✅ CHECK 8: All action_types valid');
+    console.log('\n🌱 VALIDATION PASSED — ' + chunks.length + ' chunks ready for ingestion\n');
+  } else {
+    console.log('\n❌ VALIDATION FAILED — ' + errors.length + ' error(s) found:\n');
+    errors.forEach(function(err) { console.log('   → ' + err); });
+    console.log('');
+    process.exit(1);
+  }
+}
+
+var filePath = process.argv[2];
+if (!filePath) {
+  console.error('Usage: node scripts/validate.js <path-to-chunks.json>');
+  process.exit(1);
+}
+
+validateChunks(path.resolve(filePath));
