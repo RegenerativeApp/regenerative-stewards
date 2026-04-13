@@ -1,0 +1,677 @@
+[
+  {
+    "chunk_id": "shepherds_purse_wisdom_001",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "App Intelligence Header and Archetype Relevance",
+    "species_mentioned": [
+      "Capsella bursa-pastoris (L.) Medik.",
+      "Shepherd’s Purse",
+      "Brassicaceae"
+    ],
+    "ecological_concepts": [
+      "Living Plant Wisdom Profile",
+      "Archetype Relevance Matrix",
+      "Bioindicator",
+      "Phytoremediation",
+      "IPM trap crop"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Market Gardener",
+      "Homesteader",
+      "Transitioning Farmer",
+      "Land Steward",
+      "Rancher",
+      "Consultant"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Planning",
+    "summary": "This chunk contains the Layer 0 App Intelligence Header, defining the plant's identity and its relevance across different land stewardship archetypes. It outlines primary, secondary, and tertiary use cases ranging from wild edible foraging to professional phytoremediation consultancy.",
+    "chunk_text": "--- LAYER 0 — APP INTELLIGENCE HEADER\nShepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0\n=== BLOCK 1: PLANT IDENTITY === Common Name: Shepherd’s Purse Scientific Name: Capsella bursa-pastoris (L.) Medik.\nFamily: Brassicaceae (Mustard family) Profile Type: Living Plant Wisdom Profile Version: 2.0 Source Document ID: shepherds_purse_wisdom_profile Knowledge Tier: Tier 1 – Core Library (High Retrieval Priority)\n=== BLOCK 2: ARCHETYPE RELEVANCE MATRIX ===\nPrimary Archetypes (HIGH relevance — retrieve for all queries from these users):\nHomegrower: Identification, wild edible use in salads/porridge, and first-aid for minor cuts/nosebleeds.\nMarket Gardener: Managing winter \"volunteer\" cover, spring weed phenology, and niche sales of \"Ji Cai\" to culinary markets.\nHomesteader: Multi-purpose ",
+    "pharmacy,": "ivestock first aid, and nutrient-dense spring tonics.\nTransitioning Farmer: Utilizing spontaneous winter cover to reduce seed costs and scavenging nitrates.\nSecondary Archetypes (MODERATE relevance — retrieve when topic matches):\nLand Steward: Using as a bioindicator for soil fertility and heavy metal contamination.\nRancher: Managing nitrate risks in heavily manured paddocks and early spring forage value.\nTertiary Archetypes (LOW relevance — retrieve only for specialized queries):\nConsultant: Designing integrated pest management (IPM) trap crop strategies and phytoremediation plans."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_002",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "Ecological Role and Soil Language",
+    "species_mentioned": [
+      "Capsella bursa-pastoris",
+      "Honeybees",
+      "Hoverflies",
+      "Chickens",
+      "Sheep",
+      "Winter Peas",
+      "Vetch",
+      "Cabbage",
+      "Canola"
+    ],
+    "ecological_concepts": [
+      "Dynamic Accumulator",
+      "Living Mulch",
+      "Nitrogen Scavenger",
+      "Protocarnivore",
+      "Early Succession",
+      "Soil Indicator Value",
+      "Humus building",
+      "C:N ratio"
+    ],
+    "steward_relevance": [
+      "Land Steward",
+      "Transitioning Farmer",
+      "Market Gardener",
+      "Homesteader"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Observation",
+    "summary": "This section details the ecological functions of Shepherd's Purse, including its role as a dynamic accumulator of minerals and a nitrogen scavenger. It explains how the plant's growth patterns signal soil health, fertility levels, and potential contamination.",
+    "chunk_text": "=== BLOCK 3: ECOLOGICAL ROLE CLASSIFICATION ===\nFunctional Guild Roles:\nDynamic Accumulator (Potassium, Calcium, Iron)\nSoil Stabilizer / Living Mulch\nEarly Season Pollinator Support\nNitrogen Scavenger\nProtocarnivore (Seed stage nematode trapping)\nSuccession Stage: Early — An opportunistic \"first responder\" that blankets disturbed or bare ground before perennials return.\nSoil Indicator Value: HIGH — Signals fertile, nitrogen/nitrate-rich soil and recent physical disturbance. Associated Species / Guild Partners:\nHoneybees/Hoverflies (Pollination)\nChickens/Sheep (Forage)\nWinter Peas/Vetch (Regenerative polyculture)\nCabbage/Canola (Pest/Disease reservoir)\n=== BLOCK 4: SOIL LANGUAGE === Soil Preferences: Fertile, mesic to semi-dry loams; avoids waterlogged or boggy ground.\npH Range: 5.5–7.5 (Tolerates slightly acidic to slightly alkaline). Drainage: Moderate to Good.\nTexture Affinity: Loam, friable soils, gravelly ground, or silty post-flood mud.\nSoil Health Signal: Lush growth indicates high nitrates and moisture availability; stunted/reddened growth may signal exhaustion or contamination.\nSoil Building Contribution:\nScavenges leaching nitrates and redistributes them to topsoil upon decay.\nContributes nitrogen-rich biomass (low C:N ratio) that builds humus quickly."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_003",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "Seasonal Windows and Enterprise Intelligence",
+    "species_mentioned": [
+      "Capsella bursa-pastoris",
+      "Shepherd's Purse"
+    ],
+    "ecological_concepts": [
+      "Phenology",
+      "Vernalization",
+      "Hemostatic",
+      "Uterotonic",
+      "Astringent",
+      "Phytoremediation",
+      "Bioindicator"
+    ],
+    "steward_relevance": [
+      "Market Gardener",
+      "Homesteader",
+      "Consultant",
+      "Transitioning Farmer"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Harvest",
+    "summary": "Covers the seasonal action windows for harvesting and management, alongside medicinal actions and revenue potential. It provides strategy flags for using the plant as a 'free' cover crop or for phytoremediation of heavy metals.",
+    "chunk_text": "=== BLOCK 5: SEASONAL ACTION WINDOWS ===\nSpring:\nEarly Spring: Harvest young rosettes for food (March/April).\nMid-Spring: Harvest whole flowering herb for medicinal tinctures/drying.\nLate Spring: Collect seeds for propagation; manage weed flushes post-rain. Summer:\nGenerally dormant as seed; avoid foraging from dry, brown stalks unless collecting seed. Fall:\nSeptember/October: Monitor for second wave of germination; allow as winter cover. Winter:\nJanuary/February: Observe overwintering rosettes; harvest \"Nazuna\" for traditional rituals (Jan 7th).\n=== BLOCK 6: MEDICINAL AND NUTRITIONAL FLAGS ===\nNutritional Tier: HIGH\nExceptional source of Vitamin K, Vitamin C, and Provitamin A.\nHigh in Potassium (up to 4% dry weight) and Calcium.\nSurprising protein content (22–36% dry weight). Key Medicinal Actions:\nHemostatic (Stops internal/external bleeding)\nUterotonic (Contracts uterus postpartum)\nAstringent (Reduces heavy menstruation and diarrhea)\nMild Diuretic and Antimicrobial Safety Flags:\nAVOID during pregnancy (stimulates contractions).\nCAUTION: Antagonizes blood thinners (Warfarin) due to high Vit K.\nCAUTION: Potential BP fluctuations; avoid in severe heart conditions.\nDO NOT forage from polluted urban/industrial sites (heavy metal accumulator).\n=== BLOCK 7: ENTERPRISE INTELLIGENCE ===\nRevenue Potential: MODERATE\nProduct Streams:\nFresh culinary greens (\"Ji Cai\" or \"Naengi\") for specialty/ethnic markets.\nMedicinal tinctures and dried cut/sifted herb for midwives/herbalists.\nValue-added first-aid products (styptic swabs/washes).\nFarm-based educational workshops/weed walks. Input Cost: Near-zero (Self-seeding volunteer). Labor Intensity: Low (Management) to Moderate (Harvesting tiny seeds/leaves).\n=== BLOCK 8: BRIDGE STRATEGY FLAGS ===\nExtractive Pressure Scenarios This Plant Addresses:\nScenario: High cost of cover crop seed. Bridge: Use volunteer Shepherd's Purse as a \"free\" winter cover that scavenges nutrients.\nScenario: Dependence on pharmaceutical styptics in remote areas. Bridge: Use readily available tincture or fresh poultice for emergency bleeding.\nScenario: Heavy metal soil contamination. Bridge: Use as a pioneer phytoremediator to harvest out Cu/Ni/Co."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_004",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "Cultural Respect, TEK, and Botanical Identification",
+    "species_mentioned": [
+      "Capsella bursa-pastoris",
+      "Shepherd's Purse",
+      "Dandelion",
+      "Yarrow",
+      "Chickweed",
+      "Arabidopsis",
+      "Honeybees",
+      "Hoverflies"
+    ],
+    "ecological_concepts": [
+      "Traditional Ecological Knowledge (TEK)",
+      "Traditional Chinese Medicine (TCM)",
+      "Nanakusa-no-sekku",
+      "Reciprocity",
+      "Botanical Identity",
+      "Rosette",
+      "Silicle"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Homesteader",
+      "Land Steward",
+      "Education"
+    ],
+    "season_relevance": [
+      "Spring",
+      "Winter"
+    ],
+    "action_type": "Observation",
+    "summary": "This chunk transitions from the intelligence header to the narrative profile, covering cultural respect, traditional names across different cultures (TCM, Japanese, Indigenous), and the initial botanical meeting with the plant in the field.",
+    "chunk_text": "=== BLOCK 9: TEK AND CULTURAL RESPECT FLAGS ===\nIndigenous Knowledge Present: YES\nTraditional Chinese Medicine (TCM): Ancient use as \"Ji Cai\" for cooling blood and dysentery.\nJapanese: ",
+    "Nazuna,": "art of the Seven Herbs of Spring (Nanakusa-no-sekku).\nNorth American: Post-colonial adoption by Iroquois/Cherokee for wounds (learned from settlers). Cultural Handling Notes:\nReciprocity:",
+    "some": "o ensure reseeding.\nTraditional ethics: Acknowledge the lineage of midwives and peasant healers who preserved this knowledge.\nTEK Sources Present: YES — Documented (TCM texts, European herbals) and inferred (folk sayings/midwife rituals).\n=== BLOCK 10: RETRIEVAL ROUTING TAGS ===\nPrimary Query Topics This Profile Should Surface For:",
+    "naturally": "natural remedy for heavy periods",
+    "how to identify shepherd's purse": "weeds that indicate high nitrogen",
+    "using weeds as a winter cover crop": "edible wild mustard family greens",
+    "herbs for postpartum bleeding": "phytoremediation of copper in soil",
+    "is shepherd's purse safe for sheep": "how to make fermented plant juice for potassium\" Cross-Reference Profiles: Dandelion (Spring tonic), Yarrow (Styptic), Chickweed (Winter cover partner), Arabidopsis (Genetics/Ecological relative).\n=== END LAYER 0 HEADER ===\n=== BEGIN PROFILE TEXT BELOW ===\nBioregion Focus: Temperate North America (wild and garden settings) Primary Focus: Wild Weed – Food & Medicine\nPart I: The First Meeting\n1) Opening Field Vignette: Late March in a temperate field on the Pacific Northwest coast, you crouch low to inspect a newcomer in the spring sun. The ground is damp from melting snow. There, amid last year’s stubble, is a small rosette of green, its lobed leaves hugging the soil. Slender stems rise about 15 cm, bearing tiny white four-petaled flowers. In the breeze, the stems sway, each dangling a constellation of heart-shaped pods – the “purses” that give Shepherd’s Purse its name. You pinch a leaf; it smells faintly peppery and green, like fresh cabbage with a bite. A few early honeybees and hoverflies flit from flower to flower, gathering the sparse nectar this humble mustard offers."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_005",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "Plant Identity, Names, and Global History",
+    "species_mentioned": [
+      "Capsella bursa-pastoris",
+      "Shepherd's Purse",
+      "Thlaspi",
+      "Mother’s Heart",
+      "Caseweed",
+      "Nazuna",
+      "Ji Cai"
+    ],
+    "ecological_concepts": [
+      "Botanical Nomenclature",
+      "Indigenous Names",
+      "Introduced Species",
+      "Traditional Chinese Medicine (TCM)",
+      "Naturalized Species"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Homesteader",
+      "Education"
+    ],
+    "season_relevance": [
+      "Spring",
+      "Winter"
+    ],
+    "action_type": "Observation",
+    "summary": "This chunk explores the various names and cultural identities of Shepherd's Purse. It traces the botanical Latin roots, European folk names, and its long-standing history in East Asian traditions as both a vegetable and a remedy.",
+    "chunk_text": "A few early honeybees and hoverflies flit from flower to flower, gathering the sparse nectar this humble mustard offers. The surrounding earth is bare in patches, still healing from winter’s scouring, but Shepherd’s Purse is already at work: its fibrous roots grip the soil, preventing erosion, while its leaves absorb the lengthening daylight. A gentle tug frees an entire plant – taproot and all. Mud clings to the thin, branching root, and you notice tiny orange-brown seeds spilling from a split pod. They’re sticky when wet, gluing bits of sand to your fingertips. You set the plant back and pat the soil. In this quiet moment, the weed reveals itself not as an intruder, but as a modest first responder of spring, blanketing disturbed ground with green hope. Having met them through sight, smell, and touch – the delicate white blooms, the heart-shaped seedpods, the peppery leaf – let’s learn this plant’s many names and identities across time and cultures.\nPart II: Getting to Know Them\n2) Plant Identity & Names 2.1 Common & Indigenous Names: Shepherd’s Purse – the name evokes the triangular, pouch-like seedpods reminiscent of the little leather purses once carried by shepherds. This common English name dates back at least to the 15th century, appearing in medieval herbals. In older European texts it was also called Mother’s Heart or Mother’s Purse, alluding to the heart-shaped pods and perhaps its use in women’s health (folk herbalists noted its value for postpartum mothers – more on that later). Another English nickname, Caseweed, refers to those seed “cases.”\nIndigenous Names: Because Capsella bursa-pastoris is not native to the Americas, there is no known pre-colonial Indigenous name in North America (Unknown). After its introduction, some Native communities may have learned of its uses through exchange or observation, but documentation is scant. In contrast, across the Pacific, Shepherd’s Purse has long been familiar in East Asia: in Traditional Chinese Medicine it’s called “荠菜” (jì cài, literally “wild vegetable”), celebrated as both food and remedy. In Japan it’s Nazuna (薺), one of the symbolic Seven Herbs of Spring – on January 7th, a festival porridge includes Shepherd’s Purse to invite health for the year (Probable, culturally recorded)."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_006",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "Look-alikes, Misidentification, and Taxonomy",
+    "species_mentioned": [
+      "Capsella bursa-pastoris",
+      "Field Pennycress",
+      "Thlaspi arvense",
+      "Pepperweeds",
+      "Lepidium",
+      "Virginia pepperweed",
+      "Arabidopsis",
+      "Dandelion",
+      "Plantain",
+      "Poison Hemlock",
+      "Water Hemlock"
+    ],
+    "ecological_concepts": [
+      "Silicle",
+      "Silique",
+      "Pinnatifid",
+      "Misidentification Hazard",
+      "Taxonomy",
+      "Invasive Status",
+      "Seed bank longevity"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Market Gardener",
+      "Homesteader",
+      "Land Steward"
+    ],
+    "season_relevance": [
+      "Spring",
+      "Winter"
+    ],
+    "action_type": "Observation",
+    "summary": "This chunk focuses on accurate identification of Shepherd's Purse, contrasting it with common look-alikes like Field Pennycress and Pepperweed. It also provides botanical taxonomy, distribution status, and safety flags regarding toxic mimics like Water Hemlock.",
+    "chunk_text": "In Japan it’s Nazuna (薺), one of the symbolic Seven Herbs of Spring – on January 7th, a festival porridge includes Shepherd’s Purse to invite health for the year (Probable, culturally recorded). These names reflect the plant’s ubiquity and humble service: a wild weed that feeds and heals. Wherever it has traveled – and it now grows on every inhabited continent – people give it names linking to purses, hearts, or its nourishing nature. (No restricted Indigenous knowledge is presented; all traditional names are from public historical and ethnobotanical sources.) Trade & Other Names: In botanical Latin it’s Capsella bursa-pastoris – literally “little box of the shepherd,” echoing the common name. Older classifications placed it in genus Thlaspi (pennycresses), so some 19th-century texts refer to Thlaspi bursa-pastoris. European folk names include “Pick-purse,” “Shepherd’s Bag,” and in French Bourse de pasteur (shepherd’s purse) – nearly identical across languages, a rare consistency in plant nomenclature.\n2.2 Look-alikes & Misidentification Hazards: In bloom and seed, Shepherd’s Purse is quite distinctive – no other common weed has those tiny heart-shaped seed pods held out on slender stalks. Nevertheless, a few relatives could confuse the keen forager or farmer: Field Pennycress (Thlaspi arvense): Another mustard weed with flat circular pods. It differs by having round, coin-like silicles (hence penny-cress) rather than heart shapes. Pennycress leaves are smooth-edged and hairless, whereas Shepherd’s Purse rosette leaves are toothed or lobed and can be hairy. Also, pennycress pods sit directly against the stem, not on long stalks. Pepperweeds (Lepidium spp., e.g. Virginia pepperweed): These have many small round seed pods and leafy flowering stems. Pepperweed stems carry leaves all the way up, while Shepherd’s Purse typically has bare, unbranched upper stems with only a few small leaves at the lower part. Pepperweed seed pods are more oval and lack the obvious notch at the pod tip that Shepherd’s Purse has.\nOther Mustard Family Weeds: Capsella’s seedpods set it apart. Small winter annual mustards like Arabidopsis (the related mouse-ear cress) have similar rosettes and tiny white flowers but their seedpods are skinny elongated siliques, not triangular silicles. Young Shepherd’s Purse rosettes (before flowering) might superficially resemble other basal weeds like dandelion or plantain to an untrained eye, but those lack the lobed, pinnatifid leaf shape with occasional hairs that Shepherd’s Purse shows. 🚩 SAFETY FLAG: Fortunately, no dangerously toxic plant closely mimics Shepherd’s Purse in North America (Established). Its mustard-family kin are generally non-poisonous (many are even edible). Still, one should avoid harvesting from areas where pesticides might have been used, or where look-alike rosettes of unknown identity grow intermingled. One remote misidentification risk is with young poison hemlock or water hemlock rosettes – but those belong to the carrot family, have very different finely divided leaves and a distinct mousy odor when crushed."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_007",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "Soil Intelligence, Microbial Partnerships, and Proto-carnivory",
+    "species_mentioned": [
+      "Capsella bursa-pastoris",
+      "Pseudomonas",
+      "Nematodes"
+    ],
+    "ecological_concepts": [
+      "Glucosinolates",
+      "Isothiocyanates",
+      "Bio-fumigation",
+      "Mycorrhizal non-association",
+      "Rhizobacteria",
+      "Myxospermy",
+      "Proto-carnivory",
+      "Niche exploitation"
+    ],
+    "steward_relevance": [
+      "Land Steward",
+      "Market Gardener",
+      "Consultant"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Observation",
+    "summary": "This section explores the 'Ecological Intelligence' of Shepherd's Purse, specifically its underground behavior. Key topics include its lack of mycorrhizal partnerships, its 'proto-carnivorous' seed stage using myxospermy to trap nematodes, and its use of glucosinolates for soil bio-fumigation.",
+    "chunk_text": "One remote misidentification risk is with young poison hemlock or water hemlock rosettes – but those belong to the carrot family, have very different finely divided leaves and a distinct mousy odor when crushed. Always wait to see the flower and seedpod if uncertain; with Shepherd’s Purse, the unique heart-shaped pouch confirms the ID unambiguously. (Confidence: Established that common mustard weeds are edible; Unknown for any extremely rare look-alike.)\n3) Ecological Intelligence & Soil Relations 3.1 Soil Communication Systems: Shepherd’s Purse might be humble in stature, but it interacts with its soil environment in intriguing ways: Root Exudates & Allelopathy: As a fast-growing annual, Shepherd’s Purse doesn’t invest in deep woody roots, but it does secrete substances to influence its immediate soil neighborhood. Being in the mustard family, it produces glucosinolates – sulfur-containing compounds. When the plant decays or its roots are damaged, glucosinolates hydrolyze into isothiocyanates (mustard oils) which can suppress some soil pathogens and weed seeds (Plausible, by analogy to cover-crop mustards). This is nature’s little bio-fumigation: the plant “cleans up” certain microbes around its root zone, possibly reducing damping-off fungi where it sprouts (Speculative). However, these same compounds mean it can inhibit beneficial neighbors too, so Shepherd’s Purse often grows solo or in sparse stands rather than in tight mix with grasses.\nMycorrhizal Relations: Unusually, Shepherd’s Purse does not typically form arbuscular mycorrhizal (AM) partnerships (Established). Most Brassicaceae are non-mycorrhizal, and Capsella is largely a mycorrhiza-“no” plant. This means it forages soil nutrients without the fungal networks many plants rely on. In most soils, it seems to do fine alone. Interestingly, a few studies have observed AM fungi attempting to colonize Capsella roots (finding hyphae and vesicles but no functional arbuscules). So, Shepherd’s Purse may sometimes host fungi in a limited, one-sided way but derives little benefit (Unknown significance). Its strategy is more “go-it-alone”: rapid root proliferation in the surface soil to grab available nutrients. In nutrient-poor soils, it remains small. In fertile soils, it can grow larger and seed more – which correlates with its tendency to appear on rich, manured, or nitrate-laden ground (Probable).\nBacterial Allies: Even without mycorrhizae, Shepherd’s Purse isn’t without microbial partners. It likely associates with some rhizobacteria. For example, its root mucilage can feed soil microbes. Certain bacteria that thrive on mustard root exudates (like Pseudomonas spp.) might cluster around its roots, possibly protecting it from root-rot or producing growth hormones (Plausible). It doesn’t fix nitrogen (no nodules; it is not a legume), but by proliferating in high-nitrate environments it may host denitrifying or nitrifying bacteria cycles around its root zone. Carnivorous Trick – Myxospermy: One of Shepherd’s Purse’s most remarkable soil interactions happens at the seed stage. Its seeds perform myxospermy: upon wetting, they exude a sticky mucilage. This mucilage can trap soil microorganisms and even tiny nematodes, which then die and decompose near the seed. In experiments, Capsella seeds entrapped nematode worms, suggesting a form of proto-carnivory where the germinating seedling may absorb nutrients from these captured prey. In essence, the seed secures a micro-fertilizer packet by sacrificing some mucilage (Established, demonstrated scientifically)."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_008",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "Nutrient Mining, Phytoremediation, and Habitat Niche",
+    "species_mentioned": [
+      "Capsella bursa-pastoris",
+      "Arabidopsis"
+    ],
+    "ecological_concepts": [
+      "Dynamic Accumulator",
+      "Nitrate accumulation",
+      "Phytoremediation",
+      "Metal accumulator",
+      "Bioindicator",
+      "Early Succession",
+      "Winter Annual",
+      "Living Mulch"
+    ],
+    "steward_relevance": [
+      "Land Steward",
+      "Homesteader",
+      "Consultant",
+      "Market Gardener"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Observation",
+    "summary": "This chunk details how Shepherd's Purse mines and redistributes minerals like calcium and potassium. It highlights the plant's role as a metal accumulator for phytoremediation and its ecological niche as a winter annual that acts as a 'living mulch' on disturbed ground.",
+    "chunk_text": "In experiments, Capsella seeds entrapped nematode worms, suggesting a form of proto-carnivory where the germinating seedling may absorb nutrients from these captured prey. In essence, the seed secures a micro-fertilizer packet by sacrificing some mucilage (Established, demonstrated scientifically). This rare strategy (seen in a few desert plants and mustards) hints at an evolutionary innovation: Shepherd’s Purse can germinate in nutrient-poor, disturbed soils and still get a nitrogen boost by “digesting” soil fauna (Speculative mechanism but plausible given experimental evidence). It’s a tiny ecosystem engineering feat at the microscopic level – an annual weed ensuring its own nutrient kickstart.\nNutrient Mining: Capsella has a slender taproot with fibrous laterals. It doesn’t drill deep like a daikon radish, but it can reach perhaps 20–30 cm down in friable soil. It is known to accumulate certain minerals. Its leaves are notably high in calcium and potassium (when grown on rich soil, 100g dry weight can contain >1.7% Ca and 1.3% K) – implying it draws these from the soil (Established lab analysis). It also accumulates nitrates readily (as many fast-growing weeds do in fertile soil), storing them in tissues – which can be a concern for grazing animals if they eat large amounts (Probable). Importantly, as a metal accumulator, Shepherd’s Purse shows a split strategy: it tends to exclude some heavy metals like chromium or strontium but accumulates others like copper, nickel, cobalt, and iron in its tissues. In urban polluted soils, it can take up significant levels of Cu, Ni, etc., acting as a bioindicator and mild phytoremediator. For the plant, this is a double-edged sword – it tolerates these metals (Probable, given it grows on mine tailings in some reports) but concentrates them, which might deter herbivores. When the plant dies, those nutrients (or pollutants) return to the topsoil as the tissue decays.\n3.2 Community Ecology: Within plant communities, Shepherd’s Purse is the archetype of an early successional opportunist – a “weed” that appears after disturbance and helps pave the way (Probable): Habitat & Niche: It thrives in open, disturbed habitats – plowed fields, gardens, construction sites, road edges. In a lawn or perennial meadow, it’s outcompeted once taller or faster-growing plants shade it (Established by ecological observation). It’s often a winter annual: germinating in fall, overwintering as a rosette, then flowering in late winter or spring before thicker vegetation grows up. This phenology allows it to exploit a window when soil is moist and light reaches the ground. Facilitation: While Shepherd’s Purse can be somewhat allelopathic, it also provides modest facilitation. Its rosette and quick ground cover can protect soil moisture and prevent erosion, benefiting germination of other seeds that arrive later (Established, general weed ecology)."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_009",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "Ecosystem Functions, Pollinators, and Wildlife",
+    "species_mentioned": [
+      "Capsella bursa-pastoris",
+      "Wild bees",
+      "Honeybees",
+      "Syrphid flies",
+      "Chickens",
+      "Sheep",
+      "Rabbits",
+      "Groundhogs",
+      "Sparrows",
+      "Finches",
+      "Doves",
+      "Pigeons",
+      "Arabidopsis"
+    ],
+    "ecological_concepts": [
+      "Pollinator Forage",
+      "Herbivory",
+      "Nitrate poisoning",
+      "Pathogen reservoirhost",
+      "Erosion Control",
+      "Living Mulch",
+      "Nutrient Cycling"
+    ],
+    "steward_relevance": [
+      "Rancher",
+      "Market Gardener",
+      "Homesteader",
+      "Land Steward"
+    ],
+    "season_relevance": [
+      "Spring",
+      "Winter"
+    ],
+    "action_type": "Observation",
+    "summary": "Details the broader ecosystem functions of Shepherd's Purse, including its support for early-season pollinators and its role in the food web for birds and livestock. It also notes its potential as a reservoir for brassica diseases and the risk of nitrate accumulation for grazing animals.",
+    "chunk_text": "Its rosette and quick ground cover can protect soil moisture and prevent erosion, benefiting germination of other seeds that arrive later (Established, general weed ecology). By drawing up minerals and then dying, it leaves behind organic matter and nutrients near the surface. In a garden setting, one might notice other seedlings often sprout near where a Shepherd’s Purse decayed – perhaps taking advantage of the nutrient patch it created (Plausible). Benefiting Relationships: The small white flowers produce nectar and pollen that attract beneficial insects, though not in huge numbers. Early pollinators like small wild bees, syrphid flies, and occasional honeybees will visit (Probable – observations note Syrphidae on Capsella flowers). The plant is self-pollinating for seed, so pollinators aren’t needed, but when present they get a minor food source from it. In turn, syrphid fly larvae are aphid predators, so having Shepherd’s Purse blooming in early spring could support these beneficial insects that later help control aphids on other plants (Plausible, minor but not insignificant).\nHerbivores: As a mustard, it contains some peppery compounds, but many animals do graze it. Rabbits and groundhogs nibble the greens (probably attracted to the early green bite after winter). Livestock like chickens and sheep will eat it in pasture if it’s present (Established – it’s noted as generally palatable). There is a caution for livestock on nitrate-rich soil: Capsella can accumulate nitrates, which in large quantity could cause nitrate poisoning in ruminants (Speculative, based on known cases with other brassica weeds). Importantly, some insect herbivores specialize on mustards: e.g., certain flea beetles or caterpillars may feed on Shepherd’s Purse leaves. However, as a winter/early spring plant, it often finishes its life before summer herbivores peak. In fact, Capsella is closely related to Arabidopsis, the model plant, and shares some pest/disease profiles: it can host white rust (an Albugo fungus) or downy mildew, serving as a reservoir for these pathogens that can also attack brassica crops (Probable). Thus, in agro-ecology, it’s a reservoir host: not devastating, but something to monitor.\n3.3 Ecosystem Functions: What does Shepherd’s Purse do for the broader ecosystem? Despite its unassuming size, it has several functional contributions: Ground Cover & Erosion Control: A flush of Shepherd’s Purse seedlings on exposed soil acts as a living mulch. Even though each plant is small, collectively they form a mat of foliage that covers a high percentage of ground in early spring. This protects soil from heavy rain impact and slows runoff (Probable). Their fine roots bind the topsoil. Especially on garden beds or fallow fields left bare over winter, Shepherd’s Purse can significantly reduce erosion and topsoil loss during late-winter rains or snowmelt (Probable). In this way, the weed unintentionally performs a service."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_010",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "Indicator Species Value and Soil Signals",
+    "species_mentioned": [
+      "Capsella bursa-pastoris"
+    ],
+    "ecological_concepts": [
+      "Indicator Species",
+      "Soil Fertility",
+      "Nitrate Indicator",
+      "Anthropocene",
+      "Phenology",
+      "Succession Marker",
+      "Bioindication of pollution"
+    ],
+    "steward_relevance": [
+      "Land Steward",
+      "Market Gardener",
+      "Homesteader",
+      "Consultant"
+    ],
+    "season_relevance": [
+      "Spring",
+      "Fall"
+    ],
+    "action_type": "Observation",
+    "summary": "Explains how to read Shepherd's Purse as an indicator species for land stewards. It signals high nitrogen fertility, recent soil disturbance, and moderate drainage, while potentially flagging urban pollutants and heavy metal contamination in the soil.",
+    "chunk_text": "In this way, the weed unintentionally performs a service. Farmers sometimes notice less capping/crusting on spring soils where winter annual weeds grew, thanks to root channels left behind (Plausible). Soil Fertility & Humus: Although a single plant is tiny, a dense stand of Shepherd’s Purse (hundreds per square meter) produces a noticeable amount of biomass when it dies. After it sets seed and dries, its brittle stems and leaves return organic matter to the soil by early summer. This detritus decomposes quickly (it’s green and nitrogen-rich if tilled in at flowering). It thereby contributes modestly to humus formation. It’s no cover crop legume, but over a decade of continual presence, it can help build a thin layer of topsoil on subsoil or fill dirt (Plausible; analogous to other weed successions).\n3.4 Indicator Species Value: If you encounter a patch of Shepherd’s Purse, what can it tell you about the land and soil? Here’s what Shepherd’s Purse signals (Confidence levels based on agronomic studies and ecology): Soil Fertility: Shepherd’s Purse favors fertile soils with ample nitrogen (Established). It often pops up in manured gardens, near animal pens, or where compost has been applied. A luxurious, tall growth of Shepherd’s Purse (relative to its usual 4–12 inch stature) suggests high nutrient availability, especially nitrates. Conversely, very spindly plants with pale leaves might hint the soil is exhausted or lacking nitrogen (Probable). Disturbance History: This weed is an archeological marker of human or natural disturbance. Finding it in quantity usually means the soil was recently disturbed (tillage, construction, flooding) within the past year (Established). It rarely invades well-established sod or thick native prairies. So its presence tells you “this ground was open/bare recently.” Historically, its spread closely followed European settlement; archaeobotanical records in North America show Capsella seeds sharply increase in soil layers after colonial agriculture (Probable). Thus, on a broad scale, it’s an indicator of the Anthropocene’s footprint.\nMoisture & Drainage: Shepherd’s Purse doesn’t like waterlogged soil. It indicates moderate moisture – places that get rain but drain well. If soil is too boggy or heavy clay that stays wet, you won’t find much Capsella. So a healthy population suggests the site has decent drainage or is on a slight rise (Probable). Pollution & Urban Impact: As noted, Shepherd’s Purse can accumulate heavy metals. If you find it robustly growing in urban vacant lots or roadsides, the plant itself might be concentrating lead, copper, etc. While the plant won’t outwardly show those metals, its mere ability to grow there shows it’s somewhat tolerant of urban pollutants. One 2025 study confirmed Capsella as an “underexplored medicinal herb and bioindicator of potentially toxic elements” due to its high uptake capacity (Established)."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_011",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "Water Wisdom and On-Farm Applications",
+    "species_mentioned": [
+      "Capsella bursa-pastoris"
+    ],
+    "ecological_concepts": [
+      "Hydrology",
+      "Drought escape",
+      "Life cycle plasticity",
+      "Living Mulch",
+      "Bioindicator for irrigation",
+      "Phytoremediation of drainage"
+    ],
+    "steward_relevance": [
+      "Homesteader",
+      "Market Gardener",
+      "Transitioning Farmer",
+      "Land Steward"
+    ],
+    "season_relevance": [
+      "Spring",
+      "Summer",
+      "Fall"
+    ],
+    "action_type": "Planning",
+    "summary": "Discusses the plant's strategies for managing water, including drought escape through rapid life cycle completion and tolerance of intermittent moisture. It also covers on-farm water management applications, such as using the plant as a 'free' winter cover or an indicator for irrigation timing.",
+    "chunk_text": "One 2025 study confirmed Capsella as an “underexplored medicinal herb and bioindicator of potentially toxic elements” due to its high uptake capacity (Established). In essence, Helena Pasture’s little purse whispers that the ground beneath is open, fertile, and recovering. It says: “Here the earth was disturbed, but nutrients are ample and water is not far – a good place for quick growth.” It also subtly warns, “If you use me as food or medicine from a city place, be mindful of what I’ve absorbed.”\n4) Water Wisdom & Hydrology: Shepherd’s Purse is modest in its water needs but has noteworthy strategies for dealing with both abundance and scarcity of moisture: Natural Preferences: Capsella bursa-pastoris prefers mesic to slightly dry soils – not swampy, not desert. It colonizes dry, gravelly ground if there’s enough rain at some point for germination. Drought Responses: As an annual weed, Shepherd’s Purse deals with drought mainly through life cycle timing. If a dry spell hits, it has a plasticity to bolt while small – it will flower at just a few centimeters tall and set a few pods then die, essentially opting for survival via at least some seed production (Established). It can also produce seeds quickly (as little as 4-6 weeks from germination). Thus, the plant’s “wisdom” around water is mainly escape and endure: grow when you can, hunker down as seed when you can’t.\n4.2 On-Farm Water Applications: Farmers and permaculturists rarely plant Shepherd’s Purse on purpose, but its presence or management can be turned to water-wise advantage: Living Mulch & Cover: In orchards or perennial crop alleys, allowing a winter cohort of Shepherd’s Purse and other small weeds to grow can protect soil from winter rains. This acts as a seasonal cover crop that requires no seeding (it volunteers) (Probable). One can then lightly cultivate or mow in spring to incorporate the organic matter and eliminate competition before main crops grow (Established practice). Indicator for Irrigation: Some farmers note that Shepherd’s Purse is among the first weeds to wilt in a dry spell (due to its shallow root focus). It can thus serve as a bioindicator for irrigation timing. If you see your Capsella patches drooping at midday, the topsoil moisture is getting low – a sign it might be time to water sensitive shallow-rooted crops nearby (Speculative but logical). Phytoremediation of Drainage Areas: In small-scale situations, encouraging weeds like Shepherd’s Purse can help sop up some contaminants or nutrients. A seasonal drainage ditch that collects fertilizer runoff might grow thick with Shepherd’s Purse; letting it mature and then trimming/removing that biomass can remove a bit of the excess nitrogen and any absorbed metals (Probable minor benefit)."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_012",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "52-Week Phenology (Pacific NW Example)",
+    "species_mentioned": [
+      "Capsella bursa-pastoris",
+      "Pigweed",
+      "Purslane",
+      "Peas"
+    ],
+    "ecological_concepts": [
+      "Phenology",
+      "Vernalization",
+      "Germination",
+      "Bolting",
+      "Growing Degree Days (GDD)",
+      "Thermo-inhibition",
+      "Seed bank dynamics"
+    ],
+    "steward_relevance": [
+      "Market Gardener",
+      "Homegrower",
+      "Homesteader",
+      "Land Steward"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Observation",
+    "summary": "Provides a detailed 52-week phenological calendar for Shepherd's Purse based on a temperate climate (USDA Zone 8). It tracks the plant from overwintering rosettes in January through the spring explosion of flowers and seeds, summer dormancy, and the fall germination wave.",
+    "chunk_text": "By aligning human activities, whether foraging, medicine making, or farm uses, with Shepherd’s Purse’s life cycle, one taps into its fullest potential. The key is timing: catching it while vibrant in spring or fall. Traditional knowledge and modern practice both emphasize this: gather when nature signals peak vitality (flowers just forming), and the plant will give the best of its strength.\n5) Sensory Ecology 5.1 Phenological Precision (Temperate Pacific NW example): Shepherd’s Purse lives fast and flexibly. Here is a rough 52-week phenology for a temperate North American zone (coastal Pacific Northwest, USDA Zone 8): Weeks 1–4 (Jan): Many Shepherd’s Purse plants overwinter as small rosettes. In milder winters, you’ll see these low clumps of green on any open ground. They sit nearly dormant but hold their space. Deep cold or snow may kill some, but often they tolerate light frost. Weeks 5–8 (Feb): As daylight lengthens and soil temps inch up (~5–10°C), germination begins in earnest (Probable). Overwintered rosettes start to grow again. Weeks 9–12 (Mar): Explosion of growth. By mid-March, many plants begin to bolt – a skinny central stem elongates from the rosette’s center. By late March, the earliest flowers open, white and minute.\nWeeks 13–16 (Apr): Peak flowering and seeding. Virtually all overwintered plants are flowering profusely by early April. By mid-April, many plants look mostly like a spray of heart-shaped pods. Weeks 17–20 (May): Transition. Many existing Capsella plants complete their cycle: the last flowers bloom and final pods form. By the end of May, most Shepherd’s Purse above-ground is dead or dying. Weeks 21–30 (Jun–Jul): Interlude. Summer heat arrives, and Shepherd’s Purse is largely absent as a live plant. It “escapes” the harsh season as seed. Studies show warm soil (e.g. 35°C day) can enforce dormancy in Capsella seeds (Established). Weeks 31–40 (Aug–early Oct): In late summer, if temperatures moderate (below 85°F/29°C), a fall generation can arise. It’s common to see a second wave of rosettes in early fall. Weeks 41–52 (late Oct–Dec): Autumn and early winter mirror the late winter stage: rosettes persistent, slow-growing, and semi-dormant in cold. Frost tolerance is high (down to ~20°F/-6°C). Degree-Day & Cues: If one tracks Growing Degree Days (base ~5°C), Shepherd’s Purse tends to germinate around ~50–100 GDD, flower at ~250–350 GDD, and mature seed at ~500+ GDD. It is day-length sensitive: it flowers as soon as days approach 13–14 hours (Probable)."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_013",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "Harvest, Processing, and Farm Remedies",
+    "species_mentioned": [
+      "Capsella bursa-pastoris",
+      "Mint",
+      "Nettle",
+      "Comfrey"
+    ],
+    "ecological_concepts": [
+      "Ethnobotany",
+      "Harvest Calendar",
+      "Tincture",
+      "Decoction",
+      "Fermented Plant Juice (FPJ)",
+      "Green Manure",
+      "Styptic",
+      "Biofumigant"
+    ],
+    "steward_relevance": [
+      "Homesteader",
+      "Homegrower",
+      "Market Gardener",
+      "Transitioning Farmer"
+    ],
+    "season_relevance": [
+      "Spring",
+      "Fall"
+    ],
+    "action_type": "Harvest",
+    "summary": "A practical guide for working with Shepherd's Purse, including windows for propagation and harvesting different parts of the plant. It details processing methods for culinary use, medicinal tinctures/teas, and the creation of Fermented Plant Juice (FPJ) for regenerative agriculture.",
+    "chunk_text": "In sum, Shepherd’s Purse lives by the adage “make hay while the sun isn’t too hot.” It maximizes the cool, wet window of opportunity, demonstrating a fine-tuned seasonal timing that ensures its seeds are in the soil bank before harsher conditions arrive.\n5.2 Activity Schedules: Humans have long interacted with Shepherd’s Purse as food and medicine, timing their activities with its life cycle. Propagation: Sow outdoors in early spring (Feb–April) or fall (Sept–Oct). Seeds need light to germinate. Harvest Calendars: Leaves (Food) - Gather in early spring (March/April) before flowering for tender, less bitter greens. Whole Herb (Medicine) - Harvest entire above-ground plant at mid-flowering (April). गाइडलाइन is to harvest when first seed pods form but before they turn brown (Probable). Seeds - Collect in late spring when pods are dry brown for propagation or seasoning. Processing & Storage: Eating Fresh - Young greens raw (peppery) or blanched (reduces bitterness). Tincture - Fresh herb in alcohol (40-50% vodka) right at flowering (Ratio 1:2 fresh herb to solvent). Infusion/Tea - Steep 2-4 tsp dried herb per cup of boiling water for 10 min for internal bleeding/heavy periods. Strong decoction (simmer 15 min) for wound wash. Foliar & Soil Applications (Regenerative): Fermented Plant Juice (FPJ) - Mix chopped flowering plant with brown sugar (1:1), ferment 7 days. Dilute 1:500 for potassium-rich foliar feed or soil drench (Plausible). Green Manure - Hoe in green carpets of spring rosettes to add organic matter and utilize mustard-family biofumigant compounds (Plausible)."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_014",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "Global History and Lineage",
+    "species_mentioned": [
+      "Capsella bursa-pastoris",
+      "Thlaspi",
+      "St. Gerard",
+      "Arabidopsis",
+      "Ji Cai",
+      "Nazuna"
+    ],
+    "ecological_concepts": [
+      "Materia Medica",
+      "Traditional Chinese Medicine (TCM)",
+      "Columbian Exchange",
+      "Naturalized Species",
+      "Styptic",
+      "WWI/WWII history",
+      "Evolutionary model"
+    ],
+    "steward_relevance": [
+      "Education",
+      "Homesteader",
+      "Land Steward"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Education",
+    "summary": "Traces the historical timeline of Shepherd's Purse from Ancient Chinese medical records to its accidental global distribution during European colonization. It highlights the plant's resurgence as a battlefield styptic during WWI and its modern status as a genetic model organism.",
+    "chunk_text": "Part III: Stories & Lineage\n6) History & Folklore 6.1 Timeline: Ancient Times (pre-0 CE): While Greek and Roman records are scant, Traditional Chinese sources (Han dynasty, 2nd century CE) note “Ji Cai” for stopping bleeding and dysentery (Probable). Middle Ages (500–1500 CE): Europe recognizes it as Sanguinaria (blood-stauncher). Midwives used it for nosebleeds and wounds. In Japan, it became one of the haru no nanakusa (spring seven herbs). 1500–1700 (Columbian Exchange): European colonists inadvertently carry seeds to the Americas in soil ballast and grain. Documented in New England by the 1670s. 18th–19th Century: Classified by Medikus in 1792. Used as a “poor person’s pharmacy.” 20th Century: Rediscovered as a battlefield styptic during World War I and WWII when pharmaceutical supplies ran low (Probable). 21st Century: iran and China clinical trials confirm effectiveness in reducing postpartum hemorrhage (Established). Now recognized in the European Pharmacopoeia (2020s). Genetics research uses it as a model to study polyploid evolution due to its relation to Arabidopsis.\nRituals, Proverbs & Crafts: Every January 7th, Japanese families eat Nanakusa-no-sekku (seven herb porridge) for health. Proverbs like “No need to curse, there’s the shepherd’s purse” and “Shepherd’s purse in the crib, no midwife will need to nib” reflect its folk reputation for wound healing and midwifery. In China, “When spring winds blow, Shepherd’s Purse fills your bowl” celebrates its food value. Encoded Agronomy: Japanese farmers ritually eating the seven herbs served as stealth agronomy – weeding rice paddies early and turning them into nourishment (Probable). The “Doctrine of Signatures” linked its heart-shaped pods to blood medicine, which modern science validates via vasoconstrictor compounds (Established)."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_015",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "Biochemical Architecture and Evidence Crosswalk",
+    "species_mentioned": [
+      "Capsella bursa-pastoris"
+    ],
+    "ecological_concepts": [
+      "Flavonoids",
+      "Glucosinolates",
+      "Isothiocyanates",
+      "Vasoconstrictor",
+      "Oxytocic",
+      "Vitamin K",
+      "Nitrates",
+      "Antioxidant",
+      "Pharmacology"
+    ],
+    "steward_relevance": [
+      "Homesteader",
+      "Consultant",
+      "Education"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Education",
+    "summary": "Provides a deep dive into the biochemistry of Shepherd's Purse, mapping compounds like flavonoids, vitamin K, and glucosinolates to their medicinal effects. It provides a 'crosswalk' between traditional folk claims and modern scientific evidence for actions like stopping bleeding and easing menstruation.",
+    "chunk_text": "8) Biochemical & Nutritional Architecture → Evidence Crosswalk: Shepherd’s Purse contains a variety of bioactive compounds. Flavonoids (Kaempferol, Quercetin, Apigenin): Antioxidants and anti-inflammatories that support wound healing (Established). Vitamin K & Coagulant Factors: High levels of Vitamin K1 (phylloquinone) promote blood clotting (Established). Contains a peptide with oxytocic properties that helps clamp uterine vessels postpartum (Probable). Crosswalk: folk claim “it stops hemorrhage” ↔ science: “it has vitamin K and uterotonic compounds” (Established for effect). Glucosinolates & Isothiocyanates (Mustard Oils): Provide antimicrobial effects and act as a digestive aid (Probable). Amines (Tyramine) and Choline Esters: May cause vasoconstriction to reduce bleeding, but also explains unpredictable blood pressure fluctuations (Probable). Minerals: Leaves are high in Calcium and Potassium (Established). Bioactive Peptides (e.g. Bursin): Possible endocrine effects on the pituitary gland (Speculative).\nSummary of Evidence vs. Traditional Claims:\n“Stops bleeding” – Yes, via clotting vitamin K and vessel-constricting compounds (Established/Probable).\n“Eases heavy menstruation” – Likely, via uterine contracting and astringent effects (Probable, backed by clinical trials).\n“Diuretic, helps UTI/kidney” – Yes, modestly via potassium and antibacterial mustard oils (Probable).\n“Anti-inflammatory” – Yes, flavonoids (Established in lab).\n“Nutrient tonic” – Yes, high vitamins/minerals (Established).\n“Could raise/lower BP” – Speculative/Contradictory evidence; caution advised."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_016",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "Medicinal and Functional Uses",
+    "species_mentioned": [
+      "Capsella bursa-pastoris",
+      "Staph",
+      "E. coli",
+      "Dandelion",
+      "Plantain"
+    ],
+    "ecological_concepts": [
+      "Hemostatic",
+      "Menorrhagia",
+      "Fibroids",
+      "Astringent",
+      "Diuretic",
+      "Antimicrobial",
+      "Antiseptic",
+      "Postpartum Hemorrhage"
+    ],
+    "steward_relevance": [
+      "Homesteader",
+      "Homegrower",
+      "Education"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Education",
+    "summary": "Detailed breakdown of medicinal uses, including hemostatic actions for nosebleeds and wounds, and its specific value in women's health for heavy menstruation (menorrhagia) and postpartum recovery. It also discusses its use as a urinary aid and digestive astringent.",
+    "chunk_text": "9) Medicinal & Functional Uses: Hemostatic (Stops Bleeding): The signature use. Traditional: WWI/WWII soldiers used it for wounds; TCM uses it for “blood heat.” Modern: Clinical trials show it reduces postpartum hemorrhage alongside standard care (Established). Menstrual Health: Regulates excess flow (menorrhagia) and helps with fibroid-related bleeding (Probable). TCM uses it for “Flooding & Trickling.” Wound Healing: Applied as a poultice or wash. Lab studies confirm antimicrobial effects against Staph and E. coli (Probable). Urinary Aid: Mild diuretic (increases urine output) used for UTIs and hematuria (blood in urine). Drinking as a tea can combat E. coli in the urinary tract (Probable). Digestive Aid: Astringent properties help with diarrhea/dysentery (Plausible). Culinary: Used in dumplings (Ji Cai) and soups in East Asia for vitamin/mineral replenishment (Established). Cosmetic: Extracts protect skin from UV stress and reduce redness (Plausible)."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_017",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "Safety, Contraindications, and Toxicity",
+    "species_mentioned": [
+      "Capsella bursa-pastoris"
+    ],
+    "ecological_concepts": [
+      "Contraindication",
+      "Pregnancy safety",
+      "Drug interactions",
+      "Anticoagulants",
+      "Warfarin",
+      "Goitrogenic",
+      "Thyroid function",
+      "MAOIs"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Homesteader",
+      "Consultant",
+      "Education"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Education",
+    "summary": "Essential safety protocols for Shepherd's Purse. It highlights critical contraindications such as avoidance during pregnancy (due to uterine stimulation) and interactions with blood thinners like Warfarin. It also covers potential thyroid interactions and urban foraging risks.",
+    "chunk_text": "10) Safety & Contraindications: Overall Safety Tier: Low-toxicity herb (Established). Pregnancy: Contraindicated during pregnancy (Established). Uterine-contracting effect could theoretically trigger contractions. Safe only postpartum/labor under care. Anticoagulants (Warfarin): High vitamin K content can antagonize blood thinners; avoid if on these medications (Established). Hypertension/Heart Conditions: Use with caution; unpredictable effects on BP (Observed up and down). Thyroid: Contains goitrogenic glucosinolates; may interfere with thyroid medication if consumed in large amounts (Theoretical). MAOIs: Potential hypertensive reaction due to tyramine content (Established principle). Toxicity: No acute toxicity reports in humans. Large overdose may cause dizziness or (speculatively) paralysis/breathing difficulty in extreme cases. Foraging Warning: DO NOT forage from polluted urban sites as the plant accumulates heavy metals like lead (Established risk)."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_018",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "Regenerative Agriculture and Soil Scavenging",
+    "species_mentioned": [
+      "Capsella bursa-pastoris",
+      "Rye",
+      "Chickweed",
+      "Vetch",
+      "Field Peas"
+    ],
+    "ecological_concepts": [
+      "No-till",
+      "Volunteer Cover Crop",
+      "Nitrogen Scavenging",
+      "Living Mulch",
+      "Soil Structure",
+      "Mycorrhizal non-association",
+      "Bio-fumigation"
+    ],
+    "steward_relevance": [
+      "Transitioning Farmer",
+      "Market Gardener",
+      "Homesteader",
+      "Land Steward"
+    ],
+    "season_relevance": [
+      "Winter",
+      "Spring",
+      "Fall"
+    ],
+    "action_type": "Intervention",
+    "summary": "This chunk focuses on the plant's role in regenerative agriculture. It discusses using Shepherd's Purse as a 'free' volunteer cover crop to prevent winter erosion and capture nitrates, and how its root structure improves soil tilth despite its lack of mycorrhizal associations.",
+    "chunk_text": "11) Regenerative Agriculture Applications: Cold-Season Cover Crop (Volunteer): In climates with wet winters, farmers can allow the existing seed bank to sprout volunteer Shepherd's Purse as a natural cover crop. This prevents winter erosion and leaching with no seeding costs (Probable). One must incorporate it (mow/till) before seed set to manage weed pressure. Nitrogen Scavenging & Cycling: Capsella is a nitrogen scavenger, capturing free soil nitrates in its biomass and holding fertility on-site for the next crop (Probable). Soil Structure: Even though non-mycorrhizal, its roots create fine pores and channels that improve aeration and water infiltration once they decay (Probable). Brassica-heavy weed cover might temporarily reduce mycorrhizal inoculum for the next crop, but structured benefits typically outweigh this (Speculative). Green Manure: A leafy stand of Shepherd's Purse breaks down quickly (low C:N ratio) and releases nutrients. Mustard-family bio-fumigation from its residues may also help suppress certain soil pathogens (Plausible)."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_019",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "IPM, Livestock, and Economic Potential",
+    "species_mentioned": [
+      "Capsella bursa-pastoris",
+      "Cabbage aphids",
+      "Flea beetles",
+      "Chickens",
+      "Sheep",
+      "Goats"
+    ],
+    "ecological_concepts": [
+      "Integrated Pest Management (IPM)",
+      "Trap Crop",
+      "Insectary plant",
+      "Forage quality",
+      "Value-added products",
+      "Phytoremediation strategy"
+    ],
+    "steward_relevance": [
+      "Market Gardener",
+      "Rancher",
+      "Consultant",
+      "Homesteader"
+    ],
+    "season_relevance": [
+      "Spring",
+      "All"
+    ],
+    "action_type": "Planning",
+    "summary": "Explores advanced agro-ecological strategies, including using Shepherd's Purse as a trap crop for flea beetles or as early pollinator support. It also reviews livestock forage value and the potential for farm-based income through medicinal products or specialty 'Ji Cai' sales.",
+    "chunk_text": "Pollinator & Beneficial Insect Support: Tiny flowers feed early-season hoverflies (aphid predators) and parasitoid wasps (Probable). Trap Crop (IPM): Pests like flea beetles often attack Shepherd's Purse first; sacrificing weeds on margins can spare crop transplants (Speculative strategy). However, monitor for brassica pests like white mold or aphids that may harbor on the weed (Established). Livestock Integration: Generally safe for poultry, sheep, and goats (Established). Young spring rosettes provide early greens with high protein (~20% dry matter). Caution: Avoid heavy grazing in highly manured fields due to nitrate poisoning risk (Speculative). Economic Livelihood: Niche markets exist for fresh foraged “Ji Cai” or “Naengi” at ethnic markets ($5–10/lb). Farmers can sell dried herb or tinctures for medicinal use. Phytoremediation Projects: Could be part of land-cleanup services to remove accumulated copper or zinc (Speculative)."
+  },
+  {
+    "chunk_id": "shepherds_purse_wisdom_020",
+    "source_document": "Shepherd’s Purse (Capsella bursa-pastoris) – Living Plant Wisdom Profile 2.0",
+    "topic": "Future Science and Quantum Biology Hypotheses",
+    "species_mentioned": [
+      "Capsella bursa-pastoris",
+      "Capsella rubella",
+      "Arabidopsis",
+      "Nematodes"
+    ],
+    "ecological_concepts": [
+      "Allotetraploid",
+      "Genomics",
+      "Plasticity",
+      "Climate Resilience",
+      "Metabolomics",
+      "Quantum Biology",
+      "Electromagnetic Signaling",
+      "Magnetoreception"
+    ],
+    "steward_relevance": [
+      "Consultant",
+      "Education",
+      "Land Steward"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Education",
+    "summary": "The final chunk explores the frontiers of scientific research, from genomics and cold-tolerance gene isolation (CbCOR15b) to speculative quantum biology. Hypotheses include electrical signaling during seed proto-carnivory and magnetoreception in seed orientation.",
+    "chunk_text": "15) Research Frontiers & Citizen Science: Weed Genomics: A model for allotetraploid evolution. Research focuses on genes (like CbCOR15b) that provide enhanced frost and salt tolerance for possible crop breeding (Established). Clinical Trials: Ongoing multi-center trials in Iran/China are comparing Capsella extract against standard drugs for postpartum bleeding (Probable). 15.2 Quantum Biology Hypotheses (Speculative): Electromagnetic Signaling in Seed Carnivory: Hypothesis that the mucilage capture of nematodes creates an electrochemical circuit triggering germination (Highly Speculative). Coherence in Photosynthesis: Investigating if wild weeds like Capsella maintain quantum coherence differently than lab plants under environmental stress. Plant Intelligence & Magnetoreception: Observing if seeds align with the Earth's magnetic field for germination (Unknown). Conclusion: Shepherd’s Purse teaches us about resilience and finding value in the overlooked. It serves as a healer of soil wounds, an accessible medicine cabinet, and a bridge between nature and civilization."
+  }
+]

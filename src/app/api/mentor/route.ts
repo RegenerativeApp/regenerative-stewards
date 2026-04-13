@@ -1,59 +1,165 @@
 import Anthropic from '@anthropic-ai/sdk'
 import { NextRequest, NextResponse } from 'next/server'
 import { createClient } from '@/lib/supabase-server'
+import {
+  buildOnboardingSystemPrompt,
+  buildMentorSystemPrompt,
+  ExtractedProfileData,
+  Message,
+  StewardProfile,
+} from '@/lib/onboarding-schema'
+import { retrieveRelevantChunks } from '@/lib/rag'
 
-const client = new Anthropic()
+const anthropic = new Anthropic()
 
-const BASE_SYSTEM_PROMPT = `You are the Ecological Mentor — a wise, grounded advisor built into the Regenerative Stewards app. You speak like a knowledgeable friend who has spent decades working with land, plants, and ecosystems. You are not a textbook. You are not a search engine. You are a mentor.
+const EXTRACTION_USER_PROMPT_PREFIX =
+  'Extract structured data from this conversation transcript and return ONLY a JSON object with these fields: name, archetype, land_name, land_size_acres, climate_zone, province_state, soil_types (array), current_practices (array), main_enterprises (array), primary_goals (array), biggest_challenge, experience_level, mentor_tone, onboarding_complete (boolean — only true when you have name, location, archetype, and at least one goal). Use null for unknown fields. Return raw JSON only, no markdown, no explanation. Transcript:\n'
 
-Your voice is warm, direct, and rooted. You use plain language. You reach for biological and ecological metaphors when they illuminate. You have dry humor and genuine curiosity. You never moralize or lecture.
+function roleLabel(role: Message['role']): string {
+  return role === 'user' ? 'User' : 'Assistant'
+}
 
-Your primary directive is to maximize life per square inch while ensuring the steward's operation remains viable. You meet every steward exactly where they are — whether they have a windowsill with three herbs or five hundred acres ofed orchard and pasture.
+function formatTranscriptLines(msgs: Message[]): string {
+  return msgs.map((m) => `${roleLabel(m.role)}: ${m.content}`).join('\n')
+}
 
-When someone faces economic pressure toward extractive or harmful methods, you do not judge. You co-create a Bridge Strategy: acknowledge the pressure, explain the biological consequences plainly, and offer a stepped transition that restores both the bank account and the soil.
+function stripProfileDataBlock(content: string): string {
+  return content.replace(/\[PROFILE_DATA:[\s\S]*?\]/g, '').trim()
+}
 
-Always lead with the most ecologically restorative path. Always honor the steward's agency. Always be specific, not generic.`
+function parseExtractedJson(text: string): ExtractedProfileData | null {
+  let t = text.trim()
+  const fenceMatch = t.match(/^```(?:json)?\s*([\s\S]*?)```$/m)
+  if (fenceMatch) {
+    t = fenceMatch[1].trim()
+  }
+  try {
+    const parsed = JSON.parse(t) as unknown
+    if (parsed === null || typeof parsed !== 'object' || Array.isArray(parsed)) {
+      return null
+    }
+    return parsed as ExtractedProfileData
+  } catch (e) {
+    console.error('Fallback profile JSON parse failed:', e)
+    return null
+  }
+}
 
 export async function POST(request: NextRequest) {
   try {
-    const { messages } = await request.json()
-
     const supabase = await createClient()
+
     const { data: { user } } = await supabase.auth.getUser()
+    if (!user) {
+      return NextResponse.json({ error: 'Unauthorized' }, { status: 401 })
+    }
 
-    let profileContext = ''
-    if (user) {
-      const { data: profile } = await supabase
-        .from('profiles')
-        .select('display_name, archetype, usda_zone, bio')
-        .eq('id', user.id)
-        .single()
+    const { messages }: { messages: Message[] } = await request.json()
+    if (!messages?.length) {
+      return NextResponse.json({ error: 'No messages provided' }, { status: 400 })
+    }
 
-      if (profile) {
-        profileContext = `\n\nSTEWARD PROFILE:\n`
-        if (profile.display_name) profileContext += `Name: ${profile.display_name}\n`
-        if (profile.archetype) profileContext += `Archetype: ${profile.archetype}\n`
-        if (profile.usda_zone) profileContext += `USDA Zone: ${profile.usda_zone}\n`
-        if (profile.bio) profileContext += `About their land: ${profile.bio}\n`
-        profileContext += `\nUse this context to make your responses specific to this steward's situation.`
+    // Load steward profile
+    const { data: profile } = await supabase
+      .from('steward_profiles')
+      .select('*')
+      .eq('user_id', user.id)
+      .single()
+
+    const onboardingComplete = profile?.onboarding_complete ?? false
+
+    // RAG retrieval
+    const lastUserMessage = messages.filter((m: { role: string }) => m.role === 'user').pop()
+    let ragContext = ''
+    if (lastUserMessage?.content && onboardingComplete) {
+      const chunks = await retrieveRelevantChunks(lastUserMessage.content, { matchCount: 5 })
+      if (chunks.length > 0) {
+        ragContext = '\n\n---\nRELEVANT KNOWLEDGE FROM YOUR LIBRARY:\n' +
+          chunks.map(c => `[${c.source_document} — ${c.topic}]\n${c.content}`).join('\n\n---\n')
+        console.log(`RAG: retrieved ${chunks.length} chunks`)
       }
     }
 
-    const systemPrompt = BASE_SYSTEM_PROMPT + profileContext
+    // Build system prompt based on onboarding state
+    const systemPrompt = onboardingComplete
+      ? buildMentorSystemPrompt((profile ?? {}) as Partial<StewardProfile>)
+      : buildOnboardingSystemPrompt()
 
-    const response = await client.messages.create({
+    // Call Claude
+    const response = await anthropic.messages.create({
       model: 'claude-sonnet-4-5',
       max_tokens: 1024,
-      system: systemPrompt,
-      messages: messages,
+      system: systemPrompt + ragContext,
+      messages: messages.map(({ role, content }) => ({ role, content })),
     })
 
-    const content = response.content[0]
-    if (content.type !== 'text') {
-      throw new Error('Unexpected response type')
+    const rawText = response.content
+      .filter((block) => block.type === 'text')
+      .map((block) => (block as { type: 'text'; text: string }).text)
+      .join('')
+    const cleanedText = stripProfileDataBlock(rawText)
+
+    let extracted: ExtractedProfileData | null = null
+    if (!onboardingComplete) {
+      const tail = messages.slice(-8)
+      const transcriptLines = [
+        ...tail,
+        { role: 'assistant', content: rawText } as Message,
+      ]
+      const extractionUserContent =
+        EXTRACTION_USER_PROMPT_PREFIX + formatTranscriptLines(transcriptLines)
+      const extractResponse = await anthropic.messages.create({
+        model: 'claude-sonnet-4-5',
+        max_tokens: 300,
+        messages: [{ role: 'user', content: extractionUserContent }],
+      })
+      const extractRaw = extractResponse.content
+        .filter((block) => block.type === 'text')
+        .map((block) => (block as { type: 'text'; text: string }).text)
+        .join('')
+      extracted = parseExtractedJson(extractRaw)
     }
 
-    return NextResponse.json({ message: content.text })
+    const extractedOnboardingComplete = Boolean(
+      extracted?.name && extracted?.province_state && extracted?.archetype
+    )
+    if (extracted) {
+      extracted.onboarding_complete = extractedOnboardingComplete
+    }
+
+    // Persist to Supabase if extraction returned data
+    if (extracted) {
+      const transcript: Message[] = [
+        ...(profile?.raw_onboarding_transcript ?? []),
+        ...messages.map((m) =>
+          m.role === 'assistant'
+            ? { ...m, content: stripProfileDataBlock(m.content) }
+            : m
+        ),
+        { role: 'assistant', content: cleanedText, timestamp: new Date().toISOString() },
+      ]
+
+      await supabase
+        .from('steward_profiles')
+        .upsert(
+          {
+            user_id: user.id,
+            ...extracted,
+            raw_onboarding_transcript: transcript,
+            ...(extractedOnboardingComplete
+              ? { onboarding_completed_at: new Date().toISOString() }
+              : {}),
+          },
+          { onConflict: 'user_id' }
+        )
+    }
+
+    return NextResponse.json({
+      message: cleanedText,
+      onboardingComplete: extractedOnboardingComplete || onboardingComplete,
+      profileUpdated: extracted !== null,
+    })
+
   } catch (error) {
     console.error('Mentor API error:', error)
     return NextResponse.json(

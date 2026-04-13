@@ -1,0 +1,659 @@
+[
+  {
+    "chunk_id": "western_red_cedar_wisdom_001",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "App Intelligence Header and Archetype Relevance",
+    "species_mentioned": [
+      "Thuja plicata",
+      "Cupressaceae"
+    ],
+    "ecological_concepts": [
+      "Ecological restoration",
+      "old-growth conservation",
+      "carbon sequestration strategy",
+      "riparian buffers",
+      "silvopasture",
+      "agroforestry"
+    ],
+    "steward_relevance": [
+      "Land Steward",
+      "Consultant",
+      "Homesteader",
+      "Transitioning Farmer",
+      "Rancher",
+      "Homegrower",
+      "Market Gardener"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Planning",
+    "summary": "This chunk contains the system metadata and archetype relevance matrix for Western Red Cedar. It defines how different land stewards—from professional consultants to homesteaders—should prioritize and utilize cedar-related knowledge.",
+    "chunk_text": "LAYER 0 — APP INTELLIGENCE HEADER\nWestern Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0\n=== BLOCK 1: PLANT IDENTITY === Common Name: Western Red Cedar Scientific Name: Thuja plicata Family: Cupressaceae (Cypress family) Profile Type: Living Plant Wisdom Profile Version: 2.0 Source Document ID: western_red_cedar_wisdom_profile Knowledge Tier: Tier 1 – Core Library (High Retrieval Priority)\n=== BLOCK 2: ARCHETYPE RELEVANCE MATRIX ===\nPrimary Archetypes (HIGH relevance — retrieve for all queries from these users):\nLand Steward: Ecological restoration, old-growth conservation, and habitat provision.\nConsultant: Hydrological design, riparian buffers, and long-term carbon sequestration strategy.\nHomesteader: Durable timber for farm structures, natural pest repellents, and emergency survival resources.\nSecondary Archetypes (MODERATE relevance — retrieve when topic matches):\nTransitioning Farmer: Integrating windbreaks, transitioning wet areas into productive silvopasture/agroforestry.\nRancher: Natural parasite control for goats/sheep and pest-repelling bedding for livestock.\nHomegrower: Long-lasting mulch, shade-tolerant ornamentals, and home apothecary use.\nTertiary Archetypes (LOW relevance — retrieve only for specialized queries):\nMarket Gardener: Utilizing cedar-based fermented plant juices (FPJ) for pest/disease suppression."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_002",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Ecological Classification, Soil Indicators, and Seasonal Windows",
+    "species_mentioned": [
+      "Thuja plicata",
+      "Western Hemlock",
+      "Arbuscular Mycorrhizal Fungi",
+      "Glomus",
+      "Rhizophagus",
+      "Sword fern",
+      "salal",
+      "huckleberry",
+      "devil's club"
+    ],
+    "ecological_concepts": [
+      "Climax Facilitator",
+      "Nutrient Conserver",
+      "Hydrological Buffer",
+      "Keystone Habitat Provider",
+      "Nurse logs",
+      "Succession Stage",
+      "Soil Indicator Value"
+    ],
+    "steward_relevance": [
+      "Land Steward",
+      "Consultant",
+      "Homesteader"
+    ],
+    "season_relevance": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "action_type": "Observation",
+    "summary": "This section outlines the ecological roles of Western Red Cedar as a late-successional stabilizer and hydrological sponge. It also provides a seasonal calendar for observation, harvesting, and restoration activities.",
+    "chunk_text": "=== BLOCK 3: ECOLOGICAL ROLE CLASSIFICATION ===\nFunctional Guild Roles:\nClimax Facilitator (Late-successional stabilizer)\nNutrient Conserver (Calcium accumulator)\nHydrological Buffer (Green dam/sponge)\nKeystone Habitat Provider (Nurse logs/cavity nesting)\nSuccession Stage: Late — A slow-growing, shade-tolerant giant that defines climax forest stability.\nSoil Indicator Value: HIGH — Signals moist, well-drained, humid soils often near groundwater or seepage; indicates lack of recent fire disturbance.\nAssociated Species / Guild Partners:\nWestern Hemlock: Co-dominant late-successional partner.\nArbuscular Mycorrhizal Fungi (AMF): Essential symbionts (Glomus, Rhizophagus).\nUnderstory: Sword fern, salal, huckleberry, devil's club.\nNurse logs: Hosts for hemlock and cedar seedlings.\n=== BLOCK 4: SOIL LANGUAGE === Soil Preferences: Damp, rich soils (valley bottoms/coastal zones) with thick organic matter/humus.\npH Range: Acidic (pH ~5.0) to moderately acidic. Drainage: Prefers aerated, well-draining wet soil; intolerant of stagnant bogs or heavy clay. Texture Affinity: Loam and rich organic duff; can tolerate rocky calcareous outcrops if water is present. Soil Health Signal: Presence of large old individuals indicates stable, undisturbed \"old-growth\" soil structure.\nSoil Building Contribution:\nBuilds deep, spongy organic soil horizons (humus).\nCycles calcium to the surface via litterfall.\nSequesters stable soil carbon via high-lignin/wax litter.\n=== BLOCK 5: SEASONAL ACTION WINDOWS ===\nSpring: Pollination: Observe yellow pollen clouds (March/April). Harvesting: Optimal time for bark peeling when sap \"slips\" (May/June). Planting: Ideal window for seedling establishment in moist conditions. Summer: Monitoring: Watch for \"top dieback\" or \"flagging\" during drought stress. Pest Management: Essential oil content peaks in late summer; harvest tips for repellent FPJ. Fall: Seed Harvest: Collect cones as they dry and open (September/October). Root Harvest: Gather roots when sap is down for basketry. Restoration: Natural germination often occurs with return of autumn rains. Winter: Observation: Cedar remains evergreen and ready to photosynthesize on mild days. Livestock Enrichment: Provide cut limbs to goats for winter browse and supplemental deworming."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_003",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Medicinal Flags, Enterprise Intelligence, and Strategy",
+    "species_mentioned": [
+      "Thuja plicata"
+    ],
+    "ecological_concepts": [
+      "Antimicrobial",
+      "Antifungal",
+      "Neurotoxicity",
+      "Uterine stimulant",
+      "Carbon credits",
+      "Riparian buffer"
+    ],
+    "steward_relevance": [
+      "Homesteader",
+      "Rancher",
+      "Land Steward",
+      "Consultant"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Education",
+    "summary": "This chunk details the medicinal properties and significant safety warnings associated with Thujone, as well as the commercial potential of cedar. It introduces 'Bridge Strategies' for using cedar as a natural alternative to chemicals in farming and infrastructure.",
+    "chunk_text": "=== BLOCK 6: MEDICINAL AND NUTRITIONAL FLAGS === Nutritional Tier: LOW / Survival Food only\nInner cambium was processed into an emergency flour by Indigenous nations.\nSap/pitch chewed as an antiseptic gum. Key Medicinal Actions:\nAntimicrobial/Antifungal (Thujaplicins)\nAntiviral (TPS Polysaccharides)\nAnalgesic and stimulating (Thujone) Safety Flags:\nCONTAINS THUJONE: Neurotoxic in high doses; can cause seizures.\nPREGNANCY WARNING: Uterine stimulant/abortifacient; avoid internal use and limit external exposure.\nTOXICITY: Homeopathic/internal use in infants has caused seizures.\nRESPIRATORY: Plicatic acid in sawdust can cause \"cedar asthma\"; wear masks when woodworking.\n=== BLOCK 7: ENTERPRISE INTELLIGENCE === Revenue Potential: HIGH (Industrial timber) / MODERATE (Artisan/Apothecary). Product Streams:\nRot-resistant lumber (siding, shingles, decking).\nEssential oil (Arborvitae oil).\nArtisan crafts (woven bark baskets, hats, carved poles).\nNursery stock (ornamental cultivars/hedging). Input Cost: Near-zero (if wild-harvested on land) to Low (seedlings require browse protection).\nLabor Intensity: Moderate (harvesting/processing bark and wood is time-sensitive and skilled). Market Fit by Archetype:\nLand Steward: Carbon credits and high-value restoration timber.\nHomesteader: On-farm fencing and rot-proof building materials.\nRancher: Value-added organic pest-control bedding.\n=== BLOCK 8: BRIDGE STRATEGY FLAGS ===\nExtractive Pressure Scenarios This Plant Addresses:\nTimber Longevity: Bridge: Offers a natural, chemical-free alternative to pressure-treated wood for fencing/raised beds.\nParasite Management: Bridge: Provides a \"living pharmacy\" for livestock (goats/sheep) to self-medicate, reducing reliance on synthetic dewormers.\nSoil Erosion: Bridge: Long-term stabilization of riparian zones and slopes.\nTransition Framing: ",
+    "problem": "nto a generation-spanning reservoir of medicine, fiber, and the most durable wood nature can provide."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_004",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Indigenous Knowledge and Ecological Pattern Summary",
+    "species_mentioned": [
+      "Thuja plicata",
+      "Western Hemlock",
+      "Red Alder",
+      "Douglas-fir",
+      "Yellow Cedar",
+      "Salal",
+      "Sword Fern"
+    ],
+    "ecological_concepts": [
+      "Traditional Ecological Knowledge",
+      "Culturally Modified Trees",
+      "Shade tolerance",
+      "Succession",
+      "Mutualists"
+    ],
+    "steward_relevance": [
+      "Land Steward",
+      "Consultant",
+      "Homesteader"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Education",
+    "summary": "This section covers the cultural significance of the 'Tree of Life' to Northwest Coast Nations and establishes the core ecological patterns of the tree. It highlights the tree's role as a slow-growing giant that shapes forest stability and maintains the water cycle.",
+    "chunk_text": "=== BLOCK 9: TEK AND CULTURAL RESPECT FLAGS === Indigenous Knowledge Present: YES\nNorthwest Coast Nations (Haida, Coast Salish, Kwakwaka’wakw, etc.): Known as \"Tree of Life\" and \"Long Life Maker\".\nUses: Ocean-going canoes, plank longhouses, woven clothing, and sacred medicine (smudging). Cultural Handling Notes:\nReciprocity: Traditionally requires prayer, offerings (tobacco), and asking permission before harvest.\nSustainability: Bark harvesting from only one side of the tree to ensure survival (Culturally Modified Trees - CMTs).\nSacredness: Used in purification rituals, sweat lodges, and cleansing ceremonies.\n=== BLOCK 10: RETRIEVAL ROUTING TAGS ===\nPrimary Query Topics This Profile Should Surface For: \"natural rot-resistant fencing wood\", \"how to grow cedar on wet land\", \"medicinal uses of cedar leaf\", \"cedar bark harvesting season\", \"natural parasite control for goats\", \"repelling moths and fleas with cedar\", \"restoring old-growth forest characteristics\", \"can I use cedar mulch in my garden\", \"cedar tea safety and pregnancy\", \"managing cedar dieback from drought\", \"riparian buffer trees for salmon\", \"building a nurse log in permaculture\".\n=== BEGIN PROFILE TEXT BELOW ===\n1. Opening Field Vignette & Pattern Summary\nAn ancient Western Red Cedar with a 14-foot-wide trunk anchors the misty Pacific Northwest forest, its buttressed base and frayed bark testifying to centuries of life. Beneath the canopy, nurse logs (including fallen cedar giants) host mosses and seedlings, illustrating life arising from decay. Why this plant matters now: Western Red Cedar matters because it is both an ecological linchpin and a cultural cornerstone – a “Tree of Life” under threat from a changing climate and habitat loss.\nPattern Summary:\nBehavior: A slow-growing, shade-tolerant climax giant that endures for centuries, shaping its forest by maintaining a cool, moist understory (Confidence: Established).\nRelationships: Deeply enmeshed in symbiotic fungal networks and forest communities – it nurtures other organisms by providing shelter (cavities for animals, fallen logs for seedlings) and guards them with its resistant wood and pest-repelling oils (Confidence: Established).\nSoil & Place: Thrives on damp, rich soils (often in valley bottoms or rain-soaked coastal zones) and, once established, its presence indicates a stable, late-successional ecosystem with slowly cycling nutrients and acidic, low-nitrogen humus (Confidence: Established).\nTiming: Governed by rainfall and seasonal rhythms – it grows and reproduces during wet spring/fall windows, persists through dry summers by down-regulating growth (even “sacrificing” upper foliage in drought), and remains evergreen through winter, ready to photosynthesize on mild days (Confidence: Probable)."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_005",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Plant Identity, Look-Alikes, and Taxonomy",
+    "species_mentioned": [
+      "Thuja plicata",
+      "Yellow Cedar",
+      "Cupressus nootkatensis",
+      "Eastern arborvitae",
+      "Thuja occidentalis",
+      "Cedrus"
+    ],
+    "ecological_concepts": [
+      "Taxonomy",
+      "Native Range",
+      "Conservation Status",
+      "Climate change impacts",
+      "Secondary metabolites",
+      "Thujone"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Land Steward",
+      "Consultant"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Observation",
+    "summary": "This chunk details the botanical identity of Western Red Cedar, distinguishing it from 'true' cedars and similar-looking species like Yellow Cedar. It also discusses its conservation status and the growing threat of climate-driven 'cedar decline'.",
+    "chunk_text": "2. Plant Identity & Names\n2.1 Common & Indigenous Names\nCommon Names: Western Red Cedar (often hyphenated as “red-cedar” since it’s not a true cedar), Giant Arborvitae, Pacific Redcedar.\nThe name “arborvitae” means “tree of life” in Latin, reflecting its life-sustaining importance.\nIndigenous Names: Along the Northwest Coast, many First Nations languages honor this tree with names translating to “Long Life Maker,” “Rich Woman Maker,” or “Supernatural One,” alluding to its generosity and spiritual stature.\n2.2 Look-Alikes & Safety Flags\nWestern Red Cedar’s drooping, fern-like sprays of scale leaves and stringy reddish bark are quite distinctive. In its native range, it could be confused with Yellow Cedar (Cupressus nootkatensis), which has similar scale-like foliage but typically grows at higher elevations and has yellower, more feathery foliage. Western Red Cedar’s foliage has a strong sweet-resinous cedar smell when crushed, whereas Yellow Cedar’s has a milder, slightly different odor. Toxicity & Safety: No dangerously poisonous look-alikes are present in its habitat. However, cedar leaf oil contains thujone, a compound that can be harmful if ingested in quantity. Woodworkers note that fine cedar sawdust can irritate lungs (“cedar asthma”), so proper protection is advised when handling its wood.\n2.3 Taxonomy & Status\nScientific Name: Thuja plicata Donn ex D. Don. Thuja is the genus of arborvitaes (in the Cypress family, Cupressaceae), and plicata means “folded” or “braided,” referring to the pattern of its scale-like leaves. Despite the common name “cedar,” it is botanically closer to cypresses and junipers; true cedars (genus Cedrus) belong to the pine family and grow in the Old World. Native Range: Western Red Cedar is native to the Pacific Northwest of North America. It ranges from northern California, through coastal Oregon, Washington, BC, and into southeast Alaska. Conservation Status: Globally, Thuja plicata is not classified as endangered. However, old-growth groves have greatly diminished due to logging. Climate change impacts (notably multi-year droughts) are now causing regional die-back of cedars even in protected areas."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_006",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Root Communication and Chemical Signaling",
+    "species_mentioned": [
+      "Thuja plicata",
+      "Douglas-fir",
+      "Western Hemlock"
+    ],
+    "ecological_concepts": [
+      "Rhizosphere",
+      "Root Exudates",
+      "Secondary metabolites",
+      "Allelopathy",
+      "Antimicrobial",
+      "Antifungal",
+      "Volatile organic compounds"
+    ],
+    "steward_relevance": [
+      "Consultant",
+      "Land Steward",
+      "Homesteader"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Observation",
+    "summary": "This section explores the 'underground chemical conversation' of Western Red Cedar. It details how the tree uses root exudates and secondary metabolites to repel pathogens, inhibit competitors through allelopathy, and curate a specific soil microbiome.",
+    "chunk_text": "3. Soil Intelligence & Root Communication\n3.1 Root Exudates & Chemical Signaling\nWestern Red Cedar roots exude a suite of compounds that influence their immediate soil environment. While the specific chemistry of cedar root exudates is not fully mapped, we do know that cedar’s tissues contain potent secondary metabolites (terpenoids like thujone, and tropolones like thujaplicin) that could enter the soil as exudates or through decaying litter. These compounds have antimicrobial and antifungal properties – for example, thujaplicin in cedar heartwood makes it famously rot-resistant and inhospitable to many decay fungi and bacteria. Soil pH Effects: Cedar leaf litter tends to acidify the soil moderately as it breaks down. Microbial Attraction/Repulsion: Through its root exudates, cedar likely repels certain microbes (pathogens) while attracting beneficial symbionts. Notably, cedar’s presence is known to suppress some competing plants – a phenomenon possibly linked to allelopathy. Studies have long suspected that allelopathic chemical from cedar (such as leachates of its leaf litter or root exudates) can inhibit the germination and growth of other species’ seedlings. For instance, Douglas-fir seedlings often struggle to establish under mature cedars. Cedar also emits volatile organic compounds (VOCs) – the fresh “pencil cedar” smell is from monoterpenes – which can act as ecological signals. In summary, Western Red Cedar manages an underground chemical entourage: feeding friends (exudating simple carbon to nourish mutualists) and fending off foes (releasing compounds that discourage decomposers until the tree is ready to relinquish its wood, or that prevent aggressive neighbors from encroaching). The net effect is a rhizosphere that is relatively low in rapid-cycling nutrients and pathogen-free."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_007",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Mycorrhizal Partnerships and Fungal Filters",
+    "species_mentioned": [
+      "Thuja plicata",
+      "Douglas-fir",
+      "Western Hemlock",
+      "Glomus",
+      "Rhizophagus",
+      "maples",
+      "yews"
+    ],
+    "ecological_concepts": [
+      "Arbuscular mycorrhizae",
+      "Ectomycorrhizae",
+      "Symbiosis",
+      "Fungal inoculum",
+      "Drought tolerance",
+      "Nutrient cycling"
+    ],
+    "steward_relevance": [
+      "Consultant",
+      "Land Steward",
+      "Transitioning Farmer"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Intervention",
+    "summary": "This chunk highlights cedar's unique dependence on arbuscular mycorrhizae (AM) fungi, which distinguishes it from most neighboring conifers. It explains the 'fungal filter' effect where cedar seedlings fail in soils lacking the specific fungal partners required for their establishment.",
+    "chunk_text": "3.2 Mycorrhizal & Microbial Partnerships\nPerhaps the most striking aspect of cedar’s belowground life is its mycorrhizal strategy. Western Red Cedar forms arbuscular mycorrhizae (AM) – tiny fungal threads (from phylum Glomeromycota) penetrate its fine roots and form tree-fungus partnerships at the cellular level. This contrasts with many of its conifer neighbors (like Douglas-fir or hemlock), which form ectomycorrhizae. Cedar’s AM fungi are ancient symbionts that exchange nutrients (especially phosphorus and micronutrients) for sugars. Key Partners: Cedar’s fungal partners include common AM genera such as Glomus and Rhizophagus. These fungi essentially extend cedar’s root system, improving its access to phosphorus and even enhancing cedar’s drought tolerance by improving soil structure and water uptake. Crucially, cedar depends on AM fungi for successful establishment. In forests dominated by ectomycorrhizal (EM) trees (like pure hemlock-fir stands with few or no AM hosts), cedar seedlings often fail – not because of light or nutrients alone, but due to lack of AM inoculum. A classic experiment on Vancouver Island showed that cedar seeds planted in soil from a hemlock-fir stand (rich in EM fungi, poor in AM) had zero AM colonization and very poor growth, whereas seeds in soil from a cedar-hemlock stand thrive. In practical terms, Western Red Cedar is a cooperative player: it must link with the right fungal guild to prosper. Moreover, AM colonization can boost cedar’s production of defensive compounds; healthier fungal partnerships mean healthier, more chemically fortified cedar plants. Beyond mycorrhizae, cedar’s root zone hosts other microbes adapted to its slow-leaching litter."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_008",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Nutrient Cycling and Soil Diagnostics",
+    "species_mentioned": [
+      "Thuja plicata",
+      "Douglas-fir",
+      "red alder",
+      "huckleberries",
+      "maples"
+    ],
+    "ecological_concepts": [
+      "Nutrient stress-tolerator",
+      "Calcium accumulator",
+      "Nitrogen mineralization",
+      "Soil Diagnostics",
+      "Mull",
+      "Mor",
+      "Duff"
+    ],
+    "steward_relevance": [
+      "Consultant",
+      "Land Steward",
+      "Homesteader",
+      "Market Gardener"
+    ],
+    "season_relevance": [
+      "Summer",
+      "Fall"
+    ],
+    "action_type": "Observation",
+    "summary": "This section describes cedar as a 'nutrient conserver' that slowly cycles calcium while locking up nitrogen in its decay-resistant litter. It provides a field guide for land stewards to diagnose soil conditions based on cedar health and growth patterns.",
+    "chunk_text": "3.3 Nutrient Mining & Soil Diagnostics\nWestern Red Cedar is often considered a “nutrient stress-tolerator” among trees. It doesn’t so much mine soil nutrients aggressively as it conserves and slowly cycles them. Cedar foliage typically contains high calcium but low nitrogen and phosphorus relative to many trees. Over centuries, an old cedar stand can enrich the forest floor with calcium-rich, slowly decaying organic matter. Meanwhile, the low nitrogen content of cedar litter, combined with its high content of decay-resistant compounds (waxes, lignin), means that nitrogen is “locked up” in cedar forest floors. Net nitrogen mineralization rates in soils under cedar can be the lowest among neighboring forest types. This is part of cedar’s “soil intelligence” – it conditions its soil to favor its own strategy. Field Application – Quick “IF/THEN” Soil Tips:\nIF Western Red Cedar is thriving on your land, THEN your site likely has constant moisture and a robust fungal soil web. You can leverage this by planting other moisture-loving, AM-friendly understory plants (e.g. huckleberries or native maples) nearby.\nIF you plan to plant cedar saplings on a site that was previously Douglas-fir or pine dominated, THEN consider inoculating the planting holes with soil from an existing cedar stand or a commercial AM fungi preparation.\nIF you find very acidic, peatty soil with stagnant water, THEN beware – even though cedar likes wet ground, it prefers aerated, well-draining wet soil. It will not do well in stagnant bogs or heavy clay that suffocates roots.\nIF cedars are dropping yellowing foliage in late summer, THEN suspect drought stress. That carpet of shed, bronze cedar fronds is the tree’s way of reducing water loss.\nIF you notice lush moss and fern growth under cedar and little else, THEN accept it – cedar naturally creates a subdued understory."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_009",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Community Ecology and Competition Dynamics",
+    "species_mentioned": [
+      "Thuja plicata",
+      "sword fern",
+      "salal",
+      "devil’s club",
+      "red alder",
+      "Douglas-fir",
+      "Western Hemlock",
+      "vine maple"
+    ],
+    "ecological_concepts": [
+      "Climax facilitator",
+      "Nurse logs",
+      "Interference competition",
+      "Niche partitioning",
+      "Hydraulic lift",
+      "Microclimate"
+    ],
+    "steward_relevance": [
+      "Land Steward",
+      "Consultant",
+      "Homesteader"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Observation",
+    "summary": "This chunk details how Western Red Cedar shapes its forest community through 'patient dominance'. It supports shade-loving understory species and provides habitat through nurse logs and hollow trunks, while suppressing sun-loving competitors like Douglas-fir.",
+    "chunk_text": "4. Community Ecology & System Behavior\n4.1 Competition/Cooperation Dynamics\nWestern Red Cedar is often described as a climax facilitator – it doesn’t aggressively outcompete by fast growth, but by enduring and gently shaping conditions in its favor. Who it supports: Its thick canopy and persistent foliage create a shady, humid microclimate beneath, allowing shade-loving plants like sword ferns, salal, devil’s club, and mosses to thrive. In mixed forests, young cedars often grow up under the nurse canopy of quicker pioneers (like red alder or Douglas-fir) – later, cedar repays the favor by sustaining the forest into old-growth stages. Habitat Provision: Live cedars frequently develop hollow trunks or reiterated limbs that provide denning sites for mammals. Even as snags or fallen logs, cedars keep supporting life: a downed cedar log becomes a “nurse log” blanketed in moss, where hemlock or baby cedar seedlings root. Who it suppresses: Sun-loving species like Douglas-fir, pine, or most herbs and grasses simply cannot survive under a mature cedar’s deep shade. The combination of thick duff, low nutrients, and possible allelochemicals in cedar stands can suppress certain plants. Foresters have noted that Douglas-fir regeneration is particularly poor directly under cedar canopies. Facilitation vs Competition: Cedar seedlings often rely on “facilitation” to get started – they germinate best on decaying wood or in partial shade provided by nurse logs or stumps. In mixed stands, cedar and hemlock together form a stable late-successional duo, often with cedar on wetter microsites and hemlock on slightly drier hummocks – partitioning the habitat. There is even a hint of hydraulic cooperation: cedars with deep roots near streams might bring up water and, through hydraulic lift at night, moisten the upper soil, indirectly benefiting shallow-rooted neighbors."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_010",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Hydrology and Rainfall Interception",
+    "species_mentioned": [
+      "Thuja plicata",
+      "salmon"
+    ],
+    "ecological_concepts": [
+      "Rainfall interception",
+      "Evapotranspiration",
+      "Fog drip",
+      "Erosion control",
+      "Riparian buffers",
+      "Large woody debris"
+    ],
+    "steward_relevance": [
+      "Consultant",
+      "Land Steward",
+      "Rancher"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Observation",
+    "summary": "This chunk explores the hydrological impact of cedar groves. Mature trees act as 'green dams', intercepting rainfall, harvesting fog moisture, and regulating stream temperatures, which is critical for salmon habitat and overall watershed health.",
+    "chunk_text": "Microclimate Impacts: Western Red Cedar profoundly shapes the physical environment. Its evergreen canopy intercepts rainfall – a significant portion of rain or fog hitting a cedar crown will stay on its foliage and gently drip down over time or evaporate. This interception means less intense rain reaches the ground at once, smoothing out soil moisture peaks and preventing erosion. Fog and dew condense on cedar’s foliage too, effectively adding water inputs that drip to the ground even in rainless periods. The shade from cedars keeps soil temperatures lower and more stable. On a hot summer day, the forest under cedar can be markedly cooler and damper than an open area – creating a refuge for heat-sensitive species. Cedar’s fibrous roots and thick litter also enhance erosion control: rated “medium” for erosion control potential, a grove of cedars will significantly stabilize a slope or riverside simply by virtue of their large root mass and continuous soil cover. In watershed management, maintaining cedar in riparian buffers helps reduce sediment entering streams. When cedars do fall into streams (as “large woody debris”), they create pools and catch sediment, further shaping hydrology by slowing water in channels – critical for salmon habitat and stream health. Overall, Western Red Cedar’s community role is one of patient dominance: it enables the forest to reach a complex old-growth state and then maintains that state by quietly outlasting and outconditioning would-be competitors."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_011",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Herbivore and Insect Interactions",
+    "species_mentioned": [
+      "Thuja plicata",
+      "Black-tailed deer",
+      "Roosevelt elk",
+      "Black bears",
+      "arborvitae leafminer",
+      "Argyresthia thuiella",
+      "Bagworms",
+      "Spider mites",
+      "Cypress tip moth"
+    ],
+    "ecological_concepts": [
+      "Browse pressure",
+      "Chemical defense",
+      "Palatability",
+      "Wind pollination",
+      "Secondary metabolites"
+    ],
+    "steward_relevance": [
+      "Rancher",
+      "Homesteader",
+      "Land Steward"
+    ],
+    "season_relevance": [
+      "Winter",
+      "Spring"
+    ],
+    "action_type": "Observation",
+    "summary": "Despite its chemical defenses, Western Red Cedar is highly palatable to deer and elk, often referred to as 'deer candy'. This chunk discusses the challenges of cedar regeneration under heavy browsing pressure and its specialized insect relationships.",
+    "chunk_text": "4.2 Herbivore, Pollinator & Seed Relationships\nWestern Red Cedar’s interactions with animals are a study in contrasts: it is both a feast and a fortress. Herbivores (Browsing Animals): Paradoxically, despite cedar’s chemical defenses, it is highly palatable to large herbivores. In fact, foresters nickname cedar seedlings “deer candy” – both deer and elk preferentially browse on young Western Red Cedar whenever available. Black-tailed deer in coastal BC feed on cedar seedlings and saplings year-round. Roosevelt elk, too, will strip and eat cedar foliage during fall, winter, and spring. This heavy browsing pressure can prevent cedar from regenerating; indeed, in some old-growth cedar stands, lack of young cedar in the understory is attributed to deer browse. Why do herbivores eat cedar despite its bitter terpenes? Cedar foliage does contain some nutrients, and in winter especially, it’s one of the few green things available. Cedar needles carry more calcium than many conifers, which could be a dietary draw. Cedar bark can be a target too: black bears have been documented peeling bark off young cedars to eat the cambium/sapwood underneath. Thus, in the herbivore relationship, cedar is more prey than defender. Insect Interactions: Cedar is wind-pollinated, so it does not rely on insect pollinators. As for foliage pests, Western Red Cedar’s chemistry grants it a degree of natural insect resistance. Cedar wood and leaves contain compounds that repel many insects – e.g. cedar closets are used to repel moths from clothes. Still, some insects have specialized on cedar: the arborvitae leafminer, a tiny moth caterpillar, tunnels through cedar leaf scales. Bagworms, spider mites, and cypress tip moth are other minor pests. Generally, these pests don’t kill large trees but can disfigure young ones."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_012",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Seed Dispersal and Ecosystem Functions",
+    "species_mentioned": [
+      "Thuja plicata",
+      "salmon"
+    ],
+    "ecological_concepts": [
+      "Seed dispersal",
+      "Carbon sequestration",
+      "Carbon storage",
+      "Nurse logs",
+      "Hydrology",
+      "Green dam"
+    ],
+    "steward_relevance": [
+      "Land Steward",
+      "Consultant",
+      "Homesteader"
+    ],
+    "season_relevance": [
+      "Fall",
+      "Winter"
+    ],
+    "action_type": "Restoration",
+    "summary": "This section covers the low-risk seed dispersal strategy of cedar and its foundational roles in carbon and water cycling. It emphasizes that cedar wood's rot-resistance makes it an exceptionally effective long-term carbon sink in forest ecosystems.",
+    "chunk_text": "Seed Dispersal Ecology: Western Red Cedar cones are diminutive, and when mature they open their scales to release winged seeds in the fall. Dispersal is primarily by wind, but limited – the tiny papery wings carry seeds usually no more than ~100–120 meters from the parent tree. Most seeds just flutter to the forest floor nearby. The seeds germinate best on moist, exposed substrates like rotting logs, exposed mineral soil, or nurse stumps. Thick moss or leaf litter can actually impede cedar germination. 4.3 Ecosystem Functions\nWestern Red Cedar plays multiple foundational roles in its ecosystem – think of it as a living infrastructure for carbon, water, soil, and biodiversity flows: Carbon Flow & Storage: As a massive, long-lived tree, cedar is a significant carbon sink. It sequesters carbon in its woody biomass for centuries. Because cedar wood is rot-resistant, when cedars die, their logs decay slowly – meaning the carbon within remains sequestered in solid form for an extended time. One study found cedar litter and wood high in waxes and lignin decomposed much more slowly than other species. This “long residence time” makes cedar-rich forests effective at long-term carbon storage. Water Cycling: Cedars are hydrophilic. In a temperate rainforest, a cedar’s transpiration helps humidify the local air. A mature cedar stand can reduce the immediate runoff during storms by holding some rain on leaves and slowly dripping it – effectively acting as a giant “sponge” or green dam. When cedars do fall into streams, they create pools and catch sediment, shaping hydrology and creating critical salmon habitat. In floods, cedar’s high tolerance of waterlogging means it often survives to continue stabilizing a flooded area where other trees die off."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_013",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Water Wisdom, Drought Strategies, and Farm Applications",
+    "species_mentioned": [
+      "Thuja plicata",
+      "black cottonwood",
+      "Sitka spruce",
+      "skunk cabbage",
+      "horsetails"
+    ],
+    "ecological_concepts": [
+      "Hydrological niche",
+      "Drought adaptation",
+      "Top dieback",
+      "Osmotic adjustment",
+      "Fog harvesting",
+      "Allelopathy"
+    ],
+    "steward_relevance": [
+      "Homesteader",
+      "Consultant",
+      "Land Steward",
+      "Rancher"
+    ],
+    "season_relevance": [
+      "Summer",
+      "Fall"
+    ],
+    "action_type": "Intervention",
+    "summary": "Cedar's 'water wisdom' is shown through its preference for moisture and its unique drought strategy of 'top dieback'. This chunk also provides practical advice for using cedar mulch and cedar bough teas in regenerative agricultural systems.",
+    "chunk_text": "5. Water Wisdom & Hydrology\nWestern Red Cedar’s “water wisdom” is evident in where it grows and how it handles feast or famine of moisture. Natural Hydrological Niche: It flourishes in regions with high annual precipitation. In fact, cedar is often a dominant tree in “cedar swamps” or “wet cedar-hemlock forests.” It pairs with black cottonwood or Sitka spruce in floodplains, and with skunk cabbage and horsetails in swampy ground. Drought Strategies: Cedar responds to drought by conserving water internally. Its scale-like leaves have a waxy cuticle that helps reduce water loss. Another strategy is osmotic adjustment. Yet cedar’s most visible drought strategy is the sacrifice move: “top dieback.” In prolonged drought, cedars often let their uppermost crown die to reduce transpirational demand. However, repeated dieback can lead to whole-tree mortality, as seen in recent dieback events across the PNW. Cedar is highly sensitive to water deficits. On-Farm Water Uses:\nMulch: Cedar bark and wood chips are long-lasting and suppress weeds effectively. Pros: resists rot, repels insects, pleasant aroma. Cons: oils can be allelopathic to young annuals. Field rule: use around perennial shrubs/trees, but avoid mixing into soil for annuals (nitrogen tie-up).\nSwale Planting: Western Red Cedar can be an excellent candidate for planting on the down-slope edge of swales or in rain gardens. Situating cedars where water collects ensures they have moisture while they help utilize and transpire that water, preventing stagnation.\nFoliar Applications: Cedar leaf tea (steeping or fermenting cedar foliage) yields an extract rich in antimicrobial compounds. Diluted properly, it can be used as a natural pesticide/fungicide spray to repel aphids or mildew on crops. Caution: too strong a brew might harm tender leaves."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_014",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "52-Week Observation Calendar",
+    "species_mentioned": [
+      "Thuja plicata",
+      "salmonberry",
+      "dogwood"
+    ],
+    "ecological_concepts": [
+      "Phenology",
+      "Pollen release",
+      "Foliar shed",
+      "Dormancy",
+      "Traditional Ecological Knowledge"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Homesteader",
+      "Land Steward"
+    ],
+    "season_relevance": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "action_type": "Observation",
+    "summary": "This chunk provides a detailed 52-week phenological calendar for Western Red Cedar. Key events include spring pollen release (March/April), spring/summer growth flushes, and the 'cedar flagging' foliar shed in autumn.",
+    "chunk_text": "6. Phenology, Timing & Sensory Ecology\n6.1 52-Week Observation Calendar\nWinter (Dec–Feb): Cedar forest is quiet. Growth is minimal. Late winter (Jan/Feb) reproductive cycle begins: tiny pollen cones develop. Early Spring (Mar–Apr): Pollination typically spans March into April. Pollen release can appear as fine yellow dust. Seed cones begin to swell. New foliage emerges as soft, light-green sprays in April/May. Late Spring to Summer (May–July): Fertilized seed cones develop slowly. Foliage growth completes by early summer. Mid-summer (July): older needles on inner branches may yellow—normal shedding of 3-4 year old foliage. Late Summer (Aug): Stress time if drought is ongoing. Observe flagging—entire small branchlets turning rusty brown and dropping. Early Autumn (Sept): Seed cones dry and open around September. Foliar shed (cedar flagging) intensifies—inner old sprays turn yellow-brown and fall off. Late Autumn (Oct–Nov): Most seeds have dispersed. November rains rehydrate the forest. 6.2 Light, Temperature & Rainfall Cues\nCedar seedlings germinate best under filtered light. Too much sun can desiccate seedlings. Growth onset in spring is temperature-driven, typically when highs consistently exceed 8–10°C. Water availability is the most significant factor: the rainy season (fall through spring) is cedar's activity window. Lack of rainfall triggers dormancy. 6.3 Traditional Markers\nIndigenous peoples use relational markers: “when the salmonberry is in full bloom, the cedar bark will peel easily” (May to early June). The scent of cedar after the first big autumn rain is interpreted as a sign the forest is clean and ready for gathering fall medicines."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_015",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Ecological Personality and History",
+    "species_mentioned": [
+      "Thuja plicata",
+      "Western Hemlock",
+      "vine maple",
+      "yew"
+    ],
+    "ecological_concepts": [
+      "Archetype",
+      "Persistence",
+      "Facilitator",
+      "Colonial exploitation",
+      "Cultural modified trees"
+    ],
+    "steward_relevance": [
+      "Land Steward",
+      "Homesteader"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Education",
+    "summary": "This chunk explores the 'Ecological Personality' of Western Red Cedar as 'The Wise Elder'. It also traces the timeline of human relationship with the tree, from ancient Indigenous stewardship and sustainable harvesting to the colonial era of industrial logging.",
+    "chunk_text": "7. Ecological Personality Profile\nIf Western Red Cedar were a character in the forest community, it would be “The Wise Elder” – The Nurturing Stabilizer. Archetype & Role: The Stabilizer/Nurse. Cedar patiently stabilizes the forest structure, maintaining order and continuity over a millennium. Behavior Under Stress: Grace under pressure. It endures drought by stoic sacrifice (top dieback). Interactions with Neighbors: Gentle, giving, yet self-assured. It won't strangle others but outlasts and outshades them. Signature Ecological “Move”: Persistence and Provision. Its corpse becomes a “nurse log,” continuing to contribute after death. 8. History, Folklore & Cultural Roles\n8.1 Timeline of Human Relationship\nAncient & Indigenous (pre-1500s): Archaeological evidence shows cedar wood/fiber use dating back 5000+ years. Known as “Tree of Life.” Developed sustainable harvesting from living “culturally modified trees” (CMTs). Medieval (1500s): Vibrant use in large-scale art and architecture (Haida, Tlingit, Coast Salish). Cedar big-houses and carved poles. Colonial (1700s–1800s): European “discovery” by Vancouver expedition (1790s). Settlers logged cedar for shingles, siding, and poles. Indigenous use disrupted, yet cedar remained essential. Modern (1900s): Boom in cedar lumber industry. Totem pole raising re-emerged in the 1960s as a symbol of cultural renewal. 21st Century: Threatened by climate change dieback, yet icons of biodiversity. CMTs protected as heritage. Indigenous-led initiatives reviving stewardship."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_016",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Rituals, Proverbs, and Material Culture",
+    "species_mentioned": [
+      "Thuja plicata",
+      "salmon"
+    ],
+    "ecological_concepts": [
+      "Traditional Ecological Knowledge",
+      "Spiritual significance",
+      "Smudging",
+      "Material culture",
+      "Sustainable harvesting"
+    ],
+    "steward_relevance": [
+      "Homesteader",
+      "Land Steward"
+    ],
+    "season_relevance": [
+      "Spring",
+      "Fall"
+    ],
+    "action_type": "Education",
+    "summary": "Western Red Cedar is a sacred medicine used in smudging and purification. This chunk details the rich material culture—including canoes, longhouses, and woven clothing—and the strict protocols of reciprocity required when harvesting this 'ancestor' tree.",
+    "chunk_text": "8.2 Rituals, Proverbs & Material Culture\nCedar is one of the sacred medicines (with sage, sweetgrass, tobacco) used in smudging and purification. The smoke carries prayers and cleanses energy. Harvesting rituals: Every significant harvest is preceded by prayer and offerings. Proverbs: “Cedar is our grandmother and grandfather,” “From birth to death, cedar cares for our people.” Material Culture: Literally almost every part was used. Bark: Processed into fiber for matting, baskets, ropes, and clothing (hats, capes). Wood: Straight-grained, splits easily into planks for longhouses. Canoes: Large ocean-going canoes carved from single logs. Art: Totem poles, masks, and drums. Part IV — Traditional Ecological Knowledge (TEK) & Regional Stewardship\nPeoples such as the Haida, Salish, and others traditionally depended on cedar for shelter, transport, and medicine. Bark harvesting: Expert women removed long strips from only one side in spring, allowing the tree to live. These are Culturally Modified Trees (CMTs). Harvesting protocols dictate taking what is needed in the right way at the right time—exemplifying reciprocity. Spiritual dimensions: Cedar boughs and leaves used for protection and purification. fresh cedar branches spread on floors of ceremonial lodges for protection. Taboos: Carelessly killing a cedar by girdling it through improper bark stripping was believed to bring misfortune."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_017",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Biochemistry, Medicinal Compounds, and Safety",
+    "species_mentioned": [
+      "Thuja plicata"
+    ],
+    "ecological_concepts": [
+      "Monoterpenes",
+      "Thujone",
+      "Tropolones",
+      "Thujaplicins",
+      "Neurotoxicity",
+      "Antifungal",
+      "Antiviral",
+      "Immunomodulation"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Homesteader",
+      "Consultant"
+    ],
+    "season_relevance": [
+      "Summer",
+      "Late Summer"
+    ],
+    "action_type": "Education",
+    "summary": "This chunk maps cedar's traditional medical uses to its specific chemistry. It explains how thujaplicins provide rot-resistance and antimicrobial action, while detailing the serious neurotoxic risks and pregnancy warnings associated with thujone.",
+    "chunk_text": "Part V — Medical & Biochemical Intelligence\n10. Biochemistry & Nutrition (Evidence-Mapped)\nEssential Oil: Monoterpenes (Thujone & Others) – Rich in α- and β-thujone. Thujone is insecticidal and analgesic but neurotoxic at high doses (convulsant). Indigenous healers limited internal dosing; it can induce menstrual bleeding or miscarriage. Confidence: High. Tropolones (Thujaplicins) & Rot Resistance: Heartwood contains α-, β-, and γ-thujaplicin—powerful antifungals/antibacterials. They inhibit wood-decaying fungi. Traditional use as wound dressings congruent with this chemistry. Confidence: High. Lignans & Polyphenols: Bark and heartwood contain tannins and astringent polyphenols acting as styptics and anti-inflammatories. Confidence: Moderate. Polysaccharides & Immune Modulation: Water-soluble Thuja Polysaccharides (TPS) show immune effects; possibly antiviral. Confidence: Low. Nutritional Content: LOW edibility. Inner cambium was emergency survival food. Bitterness and resins make it unpalatable. 10.2 Safety & Contraindications\nWestern Red Cedar is a potent medicine. INTERNAL: Thujone is a neurotoxin; can trigger seizures. Do not drink strong cedar teas or take oil internally. PREGNANCY: Strictly forbidden internally; can cause miscarriage (abortifacient). CHILDREN: Avoid all medicinal use; documented infant seizures from homeopathic Thuja. TOPICAL: Generally safe if diluted; concentrated oil can cause dermatitis. RESPIRATORY: Plicatic acid in sawdust causes “cedar asthma” in woodworkers; wear masks. SMOKE: Moderate use; excessive smoke irritates lungs."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_018",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Regenerative Agriculture and Fermented Inputs",
+    "species_mentioned": [
+      "Thuja plicata",
+      "comfrey",
+      "mugwort",
+      "lactic acid bacteria"
+    ],
+    "ecological_concepts": [
+      "Korean Natural Farming",
+      "Fermented Plant Juice",
+      "Integrated Pest Management",
+      "Antimicrobial",
+      "Phytotoxicity"
+    ],
+    "steward_relevance": [
+      "Market Gardener",
+      "Homesteader",
+      "Transitioning Farmer"
+    ],
+    "season_relevance": [
+      "Spring",
+      "Summer"
+    ],
+    "action_type": "Intervention",
+    "summary": "Instructions for creating Fermented Plant Juice (FPJ) and Fermented Plant Extracts (FPE) using cedar tips. These inputs serve as natural fungicides and pest repellents in regenerative farming, provided they are diluted correctly to avoid phytotoxicity.",
+    "chunk_text": "Part VI — Regenerative Agriculture Applications\n11. KNF, BD & JADAM Integration (Overview)\nCedar by-products play valuable roles in natural pest repellents and long-lasting mulch. 11.1 FPJ/FPE Guidance (Fermented Plant Juice/Extract)\nHarvest Timing: New growth tips in late spring (growth hormones/sugars) or late summer (maximum aromatic oils for pest repellent). Preparation: Cedar’s antimicrobial nature can inhibit fermentation. Mix small amounts of cedar with other plants (comfrey, mugwort) to dilute effect. traditional KNF method: equal weight of plant and brown sugar. If using cedar alone, add EM or yeast to jump-start. Successfully fermented cedar FPJ has a sweet-and-sour resinous scent. Application Rates: DILUTION IS KEY. Growth-promoting FPJ: 1:500 to 1:1000 in water. Pest control extract: 1:200 foliar spray. Test spray small areas first; oils can be phytotoxic (burning leaves). Soil drench: 1:1000 or more. Synergy: Combine with LAB (lactic acid bacteria) solution in animal pens to reduce ammonia and pests. 11.2 Biodynamic Use & Planetary Associations\nEsoteric associations: Mercury (air/mind/scent) or Saturn (longevity/structure/protection). Practically: craft tree pastes with cedar bark for orchard fungal protection. In compost: Use sparingly (1% mass) as a medicinal ingredient to suppress pathogens without stopping decomposition."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_019",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Livestock, Parasite Management, and IPM",
+    "species_mentioned": [
+      "Thuja plicata",
+      "Goats",
+      "Sheep",
+      "Cattle",
+      "Horses",
+      "Chickens"
+    ],
+    "ecological_concepts": [
+      "Zoopharmacognosy",
+      "Anthelmintic",
+      "Ectoparasites",
+      "Integrated Pest Management",
+      "Nitrogen drawdown"
+    ],
+    "steward_relevance": [
+      "Rancher",
+      "Homesteader",
+      "Transitioning Farmer"
+    ],
+    "season_relevance": [
+      "Winter",
+      "All"
+    ],
+    "action_type": "Intervention",
+    "summary": "Cedar acts as a 'living pharmacy' for goats and sheep, providing a natural deworming browse. This section also covers the use of cedar shavings in animal bedding to repel fleas, ticks, and mites, while cautioning about nitrogen tie-up in compost.",
+    "chunk_text": "11.4 Livestock Integration\nForage Value: Palatability is low for most, but Goats readily eat needles and strip bark. Deer and elk rely on it for winter browse. Goats voluntarily consume cedar saplings when clearing brush. Medicinal Browsing (Parasite Control): Anecdotal evidence suggests browsing cedar lowers internal parasite loads (barber pole worm). Cedar contains tannins and terpenes (thujone) creating a hostile gut environment. This is zoopharmacognosy—self-medicating. Goat herders occasionally feed cut limbs as natural vermifuge. Bedding: Cedar shavings repel fleas, ticks, mites, and moths. In coops/stalls, it reduces lice and ammonia smell. Caution: avoid pure cedar for chicks; aged shavings preferred. 11.5 Integrated Pest Management (IPM) Applications\nInsect Deterrence: Volatile oils interfere with insect neurology. Cedar chips deter moths, cockroaches, ants, and slugs. Orchard IPM: Placing shavings around fruit tree bases repels ground pests. Fungal Suppression: Cedar oil suppresses Phytophthora root rot. Cedar needle tea used as foliar wash proactively prevents powdery mildew. Physical Barriers: Cedar boards for raised beds/greenhouse benches resist earwigs/termites. Rodent Repellent: Mice avoid areas with cedar pungency. 11.3 Soil, Compost & Mulch Roles\nC:N Profile: Extremely high (500:1 for wood). Tilling fresh cedar into soil ties up nitrogen. SURFACE MULCH only. Decay is long—lasts 2-3 times longer than pine. Best around perennials, blueberries, and rhododendrons (acid-loving)."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_020",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Processing, Products, and Emerging Science",
+    "species_mentioned": [
+      "Thuja plicata",
+      "Phytophthora",
+      "Pleurotus pulmonarius"
+    ],
+    "ecological_concepts": [
+      "Metabolomics",
+      "Genomics",
+      "Chemotypes",
+      "Phyllosphere",
+      "Circular Use",
+      "Biochar"
+    ],
+    "steward_relevance": [
+      "Land Steward",
+      "Consultant",
+      "Homesteader"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Education",
+    "summary": "This chunk covers circular use strategies for cedar residues, including biochar production. It also introduces emerging research in cedar genomics and metabolomics, which aims to breed trees for superior drought and decay resistance.",
+    "chunk_text": "13) Residue Loop & Circular Use\nCircular uses for residues: Sawdust/bark repurposed to close the loop. Composting: Cedar resists decay; pre-digest with Bokashi fermentation (anaerobic) to break down antifungal oils. Biochar: Pyrolyzing cedar waste turns rot-proof wood into stable soil carbon, neutralizing volatile oils. Secondary ferments: Use spent leaf mash in compost teas or create cedar-infused vinegar for cleaning. 14) Product Development & QC\nEssential oils (Arborvitae oil), tinctures, salves, and woven crafts. Quality Control: assessed by aroma (fresh-green, sharp musk) and straight grain. Lab markers: α/β thujone (leaf) and thujaplicin (heartwood). 15) Emerging Science\nMetabolomics: Mapping chemical diversity to identify chemotypes. Studies track how drought stress affects protective compounds. Genomics: Cedar genome sequenced (2023-2024)—12 billion base pairs. Identifying genes for decay resistance and Phytophthora resistance allows for genomic selection of seedlings. Microbiomes: Cedar hosts specialized arbuscular mycorrhizal fungi (AMF) and unique foliar endophytes that may contribute to its antifungal powers. 16) Quantum Biology: Speculative research on bioelectrical synchronization in forests—cedar as a 'hub' in energetic networks. 17) Citizen Science: Programs like 'Western Redcedar Dieback Map' on iNaturalist empower citizens to track cedar health and climate impacts."
+  },
+  {
+    "chunk_id": "western_red_cedar_wisdom_021",
+    "source_document": "Western Red Cedar (Thuja plicata) – Living Plant Wisdom Profile 2.0",
+    "topic": "Climate Shift, Ecological Repair, and Synthesis",
+    "species_mentioned": [
+      "Thuja plicata",
+      "salmon",
+      "black bears",
+      "spotted owls"
+    ],
+    "ecological_concepts": [
+      "Climate refugia",
+      "Dieback",
+      "Structural diversity",
+      "Resilience",
+      "Succession",
+      "Stewardship"
+    ],
+    "steward_relevance": [
+      "Land Steward",
+      "Consultant",
+      "Homesteader"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Restoration",
+    "summary": "The concluding section addresses cedar's vulnerability to climate change and its critical role in ecological repair. It summarizes the tree's legacy as a 'generous elder' that nurtures forests both in life and as a nurse log after death.",
+    "chunk_text": "23) What This Plant Teaches\nSoil: Roots anchor soil; nurse logs create renewal. Water: Collects, conserves, and purifies. Animals: Shelters multitudes (bears, owls, salmon). Humans: Teaches reverence and reciprocity. 24) Climate Shift Role\nFate is a tale of vulnerability and resilience. Hot, dry summers cause widespread dieback. Cedar will likely retreat from drier areas, seeking refuge in cooler, wetter microsites (north-facing slopes, fog belts). Future depends on adaptive management and selective breeding for drought tolerance. 25) Ecological Repair & Future Potential\nPioneer of shade—saplings establish under disturbed canopy for long-term succession. Incorporating cedar into managed forestry increases structural diversity. Perhaps greatest contribution is its afterlife: a fallen log remains for 100+ years as a nurse log. By planting cedar today, we invest in an enduring framework for ecosystem recovery. 26) The Signature Move: Western Red Cedar’s unique ecological superpower is its enduring generosity – it stands for centuries defying rot and weather, and even after falling it transforms into a life-giving nurse log, continuously sheltering and nourishing new generations of forest in its “afterlife”."
+  }
+]

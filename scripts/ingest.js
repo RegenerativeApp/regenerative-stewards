@@ -3,7 +3,7 @@ const path = require('path');
 const { createClient } = require('@supabase/supabase-js');
 const OpenAI = require('openai');
 const { repairJson } = require('json-repair');
-require('dotenv').config({ path: path.resolve(__dirname, '../.env.local') });
+
 
 const SUPABASE_URL = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const SUPABASE_SERVICE_KEY = process.env.SUPABASE_SERVICE_ROLE_KEY;

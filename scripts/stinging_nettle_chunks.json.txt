@@ -1,4 +1,4 @@
-[
+﻿[
 {
 "chunk_id": "stinging_nettle_wisdom_001",
 "source_document": "Stinging Nettle (Urtica dioica) – Living Plant Wisdom Profile 2.0",

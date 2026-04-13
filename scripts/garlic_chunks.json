@@ -1,0 +1,648 @@
+[
+  {
+    "chunk_id": "garlic_wisdom_profile_001",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "App Intelligence Header and Identity",
+    "species_mentioned": [
+      "Allium sativum",
+      "Amaryllidaceae",
+      "Allioideae"
+    ],
+    "ecological_concepts": [
+      "Plant Identity",
+      "Archetype Relevance Matrix",
+      "Ecological Role Classification",
+      "Functional Guild Roles"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Market Gardener",
+      "Homesteader",
+      "Land Steward",
+      "Transitioning Farmer",
+      "Rancher",
+      "Consultant"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Planning",
+    "summary": "This header defines Garlic's identity as a core library profile and outlines its high relevance across all stewardship archetypes, from kitchen medicine to biofumigation.",
+    "chunk_text": "=== BLOCK 1: PLANT IDENTITY ===\nCommon Name: Garlic\nScientific Name: Allium sativum\nFamily: Amaryllidaceae (subfamily Allioideae)\nProfile Type: Living Plant Wisdom Profile\nVersion: 2.0\nSource Document ID: garlic_wisdom_profile\nKnowledge Tier: Tier 1 – Core Library (High Retrieval Priority)\n=== BLOCK 2: ARCHETYPE RELEVANCE MATRIX ===\nPrimary Archetypes (HIGH relevance):\nHomegrower: Kitchen medicine, companion planting for roses/tomatoes, and easy-to-store nutrition.\nMarket Gardener: High-value niche specialty (hardnecks), seasonal scapes, and intensive intercropping.\nHomesteader: Self-sufficiency through seed saving (clones), winter food security, and natural livestock care.\nLand Steward: Soil \"cleansing\" via biofumigation and biodiversity support for beneficial insects.\nSecondary Archetypes (MODERATE relevance):\nTransitioning Farmer: Low-input alternative to synthetic fumigants and high-profit-per-acre potential.\nRancher: Natural fly repellent and internal parasite support for cattle, sheep, and poultry.\nConsultant: Designing polyculture guilds, IPM strategies, and heavy metal phytoremediation assistance.\nTertiary Archetypes (LOW relevance):\nN/A: Profile contains high-relevance data for all steward types.\n=== BLOCK 3: ECOLOGICAL ROLE CLASSIFICATION ===\nFunctional Guild Roles:\nChemical Guardian (Pest/Pathogen Repellent)\nNutrient Miner (Sulfur, Phosphorus, Selenium)\nSoil Microbiome Engineer\nPollinator Support (Nectar source)\nSuccession Stage: Early/Disturbed – Thrives in loose, fertile garden soils;\npresence at old homesteads signals past human cultivation and rich soil.\nSoil Indicator Value: HIGH — Presence of robust garlic signals well-structured, fertile soil with adequate sulfur and organic matter;\nstunted growth flags waterlogging, compaction, or extreme acidity.\nAssociated Species / Guild Partners:\nTomatoes/Peppers/Nightshades: Deter spider mites and aphids.\nRoses/Fruit Trees: Wards off black spot, aphids, and borers.\nCarrots: Mutual pest confusion (carrot root fly/onion fly)."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_002",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Soil Requirements and Seasonal Action Windows",
+    "species_mentioned": [
+      "Allium sativum",
+      "Tomatoes",
+      "Peppers",
+      "Nightshades",
+      "Roses",
+      "Fruit Trees",
+      "Carrots"
+    ],
+    "ecological_concepts": [
+      "Soil Language",
+      "Bio-drilling",
+      "Biofumigation",
+      "Vernalization",
+      "Soil Building",
+      "Nutrient Mining"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Market Gardener",
+      "Homesteader",
+      "Land Steward"
+    ],
+    "season_relevance": [
+      "Spring",
+      "Summer",
+      "Fall",
+      "Winter"
+    ],
+    "action_type": "Intervention",
+    "summary": "Outlines specific soil preferences, including the need for high drainage and sulfur, and provides a seasonal calendar for planting, vernalization, and harvest.",
+    "chunk_text": "Associated Species / Guild Partners:\nTomatoes/Peppers/Nightshades: Deter spider mites and aphids.\nRoses/Fruit Trees: Wards off black spot, aphids, and borers.\nCarrots: Mutual pest confusion (carrot root fly/onion fly).\n=== BLOCK 4: SOIL LANGUAGE === Soil Preferences: Loose, well-drained, fertile soil rich in organic matter.\npH Range: 5.5 to 8.0 (Prefers near-neutral to slightly acidic). Drainage: High (Critical);\nroots rot in anaerobic, waterlogged, or standing water conditions. Texture Affinity: Prefers good tilth/loam;\nsuffers in heavy clay or compacted soil. Soil Health Signal: Spindly, disease-prone growth indicates poor drainage or low sulfur.\nRobust, spicy bulbs indicate high fertility and microbial life. Soil Building Contribution:\nAccumulates sulfur and phosphorus in topsoil.\nRoots leave aeration channels (bio-drilling) upon decomposition.\nNatural soil \"sanitizer\" reducing pathogen loads for subsequent crops.\n=== BLOCK 5: SEASONAL ACTION WINDOWS === Spring: Focus on rapid leaf growth; harvest scapes (hardneck);\nmonitor for rust in wet weather. Summer: Bulb enlargement cues by longest day; stop watering 2-3 weeks pre-harvest;\nlift bulbs when bottom 40% of leaves are brown; cure in shade. Fall: Primary planting window;\ncloves root in cooling soil; apply heavy mulch for winter protection. Winter: Vernalization period (0–10°C) required for bulbing;\ndormant bulbs survive freezes to -10°C; early shoots emerge in mild spells."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_003",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Medicinal, Nutritional, and Enterprise Intelligence",
+    "species_mentioned": [
+      "Allium sativum",
+      "Dogs",
+      "Cats"
+    ],
+    "ecological_concepts": [
+      "Antimicrobial",
+      "Cardioprotective",
+      "Immunomodulatory",
+      "FODMAP",
+      "Phytoremediation",
+      "Pathogen Cycles"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Market Gardener",
+      "Homesteader",
+      "Rancher",
+      "Consultant"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Planning",
+    "summary": "Covers the nutritional profile and medicinal actions of garlic, safety warnings for pets and surgery, and economic product streams for farmers and ranchers.",
+    "chunk_text": "=== BLOCK 6: MEDICINAL AND NUTRITIONAL FLAGS ===\nNutritional Tier: HIGH\nSignificant source of Vitamin B6, C, Manganese, and Selenium (if soil-available).\nRich in prebiotic inulin fibers for gut health.\nKey Medicinal Actions:\nBroad-spectrum antimicrobial (antibacterial, antifungal, antiviral, antiparasitic).\nCardioprotective (lowers cholesterol and blood pressure).\nAntioxidant and immunomodulatory.\nSafety Flags:\nBleeding Risk: May potentiate blood thinners; stop medicinal doses 7–10 days before surgery.\nGI Irritation: Raw garlic can burn mucous membranes; high FODMAP content may cause bloating in IBS.\nTopical Burns: Raw garlic can cause chemical burns if applied directly to skin for long periods.\nPet Toxicity: Toxic to dogs and cats; causes hemolytic anemia.\n=== BLOCK 7: ENTERPRISE INTELLIGENCE ===\nRevenue Potential: HIGH\nProduct Streams:\nFresh Bulbs (Commodity vs. Gourmet/Heirloom).\nValue-added: Black garlic, garlic scape pesto, garlic-infused honey/vinegar.\nSeed Garlic: Replanting stock for other growers.\nNatural Pesticides: Commercial repellent sprays.\nInput Cost: Low (Cloves can be saved from own harvest; low fertility needs if mycorrhizae are present).\nLabor Intensity: Moderate (Hand planting, weeding, scaping, and manual harvest/curing). Market Fit by Archetype:\nMarket Gardener: Gourmet hardnecks and scapes for direct-to-consumer.\nRancher: Biosecurity additive for livestock feed/water.\n=== BLOCK 8: BRIDGE STRATEGY FLAGS ===\nExtractive Pressure Scenarios This Plant Addresses:\nContinuous Cropping Sickness: Bridge: Use garlic in rotation to break pathogen cycles and sanitize soil without synthetic fumigants.\nPest Outbreaks (Orchards/Roses): Bridge: Interplant garlic as a permanent \"chemical shield\" to reduce reliance on insecticides.\nLivestock Parasite Loads: Bridge: Integrate garlic as a natural antibiotic/anthelmintic to reduce pharmaceutical use."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_004",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Cultural Wisdom and Opening Field Vignette",
+    "species_mentioned": [
+      "Allium sativum",
+      "Tomatoes",
+      "Honeybee"
+    ],
+    "ecological_concepts": [
+      "Traditional Ecological Knowledge",
+      "Honorable Harvest",
+      "Perennial bulb",
+      "Senescence",
+      "Regenerative Landscape"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Homesteader",
+      "Land Steward"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Observation",
+    "summary": "Details global cultural perspectives (Cherokee, Korean, Ayurveda) and introduces the plant's life cycle through a descriptive field vignette and behavior summary.",
+    "chunk_text": "=== BLOCK 9: TEK AND CULTURAL RESPECT FLAGS ===\nIndigenous Knowledge Present: YES\nCherokee: Use of Nun’ni (garlic) for coughs and fever; ",
+    "lot": "rotocols.\nKorean: Myth of Dangun (bear becoming woman via garlic); Laba garlic traditions.\nAyurveda (India): Classified as Mahaushadha (Great Medicine); Rasona for vata disorders.\nCultural Handling Notes:\nHonorable Harvest: Never take the first plant found; replant small bulblets/cloves to ensure future patches (Cherokee/TEK).\nSpiritual Taboos: Avoided in some sattvic/Jain/Buddhist diets due to",
+    "heat": "nd overstimulation.\nTEK Sources Present: YES (Documented ethnographic, oral history, and traditional medicinal texts).\n=== BLOCK 10: RETRIEVAL ROUTING TAGS ===\nPrimary Query Topics This Profile Should Surface For:",
+    "fall": "natural remedies for garden pests",
+    "companion plants for tomatoes and roses": "medicinal benefits of raw garlic",
+    "how to cure garlic for long storage": "garlic for livestock parasites",
+    "how to make black garlic": "growing garlic in the Pacific Northwest",
+    "natural soil fumigants": "garlic crop rotation benefits",
+    "plants that repel deer and rabbits": "is garlic toxic to dogs and cats\"\nCross-Reference Profiles: Tomatoes, Roses, Onions, Leeks, Ramps, Beans (antagonism), Mycorrhizae.\nDo Not Retrieve For: Shady garden designs; bog or wetland restoration; high-nitrogen legume guilds.\n=== END LAYER 0 HEADER ===\n=== BEGIN PROFILE TEXT BELOW ===\n1) Opening Field Vignette\nA summer dawn breaks over rows of green garlic spears beaded with dew. The air carries a sharp, sulfurous sweetness – the unmistakable aroma of garlic rising from crushed leaves. In the loamy soil beneath, plump white bulbs quietly swell, wrapped in papery skins. A honeybee drifts toward a globe of garlic flowers on a curly scape left to bloom, sipping nectar from the tiny pale blooms (the plant’s rare gift to pollinators). Nearby, tomato vines glisten without a nibble on their leaves – as if standing under garlic’s protective watch. This humble plant guardian repels grazing rabbits and ravenous insects with its scent, creating a safe haven for its garden neighbors (Traditional, Probable). Under the midsummer sun, garlic’s sword-like leaves begin to yellow, signaling that its hidden work is done – nutrients drawn from winter earth now stored in a bulb of concentrated medicine and flavor.\nWhy this plant matters now: Garlic bridges ancient wisdom and modern science as a protective ally – nourishing our bodies, healing soils, and guarding gardens in an era that needs its resilient spirit more than ever.\nPattern Summary (5 points):\nBehavior: Garlic grows as a perennial bulb cultivated as an annual, focusing on leafy growth in cool short days and switching to bulb formation as days lengthen and temperatures rise. It quietly saves energy in its underground bulb to survive stress (e.g. drought or winter) and regrow when conditions improve."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_005",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Biological Identity and Global Names",
+    "species_mentioned": [
+      "Allium sativum",
+      "Allium ampeloprasum",
+      "Allium vineale",
+      "Allium tricoccum",
+      "Death Camas",
+      "Lily-of-the-valley",
+      "False hellebores"
+    ],
+    "ecological_concepts": [
+      "Chemical Alliances",
+      "Allelopathy",
+      "Naturalization",
+      "Domestication",
+      "Clonal Propagation"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Homesteader",
+      "Consultant"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Observation",
+    "summary": "Explains garlic's relationships with soil and neighbors, its etymology across multiple languages, and critical safety markers for distinguishing garlic from toxic look-alikes.",
+    "chunk_text": "Relationships: It forms chemical alliances and defenses – exuding sulfur compounds that repel pests and pathogens while attracting beneficial soil microbes. Garlic often coexists cooperatively in gardens: it doesn’t overshadow neighboring plants and can even boost their health (e.g. reducing disease in intercropping systems). Soil & Place: Garlic thrives in loose, well-drained, fertile soils and indicates such conditions when it grows well. It tolerates a range of pH (mildly acidic to alkaline) and cannot grow in full shade, preferring sunny locations – thus it reveals open, sun-rich sites with good tilth. Its presence (especially as volunteer sprouts at old homesteads) can hint at past human cultivation and rich garden soil. Timing: This plant’s life cycle is governed by seasonal cues – autumn planting and winter chill trigger root growth; warming spring days spur leaf emergence; lengthening summer days cue bulb enlargement.. By mid-summer, garlic’s foliage senesces, aligning harvest with the dry season. Traditional growing calendars (e.g. “plant on the shortest day, harvest on the longest day”) encode its timing needs (Traditional, Established).\nPractical Doorway: To understand garlic, start in the soil: feel its cloves in your palm and plant them in fall, observe how frost and thaw awaken its shoots, and smell the alchemy of its crushed leaves. Notice fewer pests where garlic grows (garlic oil and interplanting deter many insects), and taste its pungency – the same chemicals that tell of healthy sulfur-rich soil. Through hands-on cultivation and observation, garlic’s role as a healer of soil and spirit becomes clear.\n2) Plant Identity & Names\nGarlic is a familiar culinary herb, yet it carries many identities across cultures and history. This section honors who garlic is, its many names, its look-alikes and safety notes, and its scientific classification and biogeography. Though domesticated and global, garlic’s true wild origins are elusive, adding mystique to its identity. Each name and trait is a clue to how humans have viewed this plant through time.\n2.1 Common & Indigenous Names\nEnglish “Garlic”: From Old English gār-lēac meaning “spear-leek,” referring to its pointed leaves. Nicknamed the “stinking rose” for its pungent smell and revered status. Latin: Allium sativum L. – Allium is Latin for garlic and sativum means “cultivated”. South & East Asian Names: Sanskrit Lasuna or Rasona (लशुन / रसोन) – meaning “lacking one taste” (having all tastes except sour). Chinese Da Suan (大蒜, “great garlic”) is ubiquitous in cuisine and medicine; folklore in China credits garlic with warming the body and detoxifying.\n2.2 Look-Alikes & Safety Flags\nGarlic’s grass-like leaves and white bulbs can superficially resemble other bulbous plants, including some dangerous ones, so identification is key: Wild Look-Alikes: Death Camas (Toxicoscordion spp., a lily family plant) has onion-like bulbs but lacks the garlic/onion odor. Safety: Always crush a piece – a true garlic or wild onion will emit the characteristic pungent smell; death camas will not. Wild Onions & Ramps: Many edible wild Alliums (like Allium vineale – wild garlic, or Allium tricoccum – ramps) look similar. Confusion caution: Lily-of-the-valley (Convallaria) and False hellebores (Veratrum) have leaves that could be mistaken for wild garlic in early spring, but they have no onion scent and are toxic."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_006",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Taxonomy and Root Intelligence",
+    "species_mentioned": [
+      "Allium sativum",
+      "Allium longicuspis",
+      "Allium vineale",
+      "Glomus",
+      "Rhizophagus intraradices"
+    ],
+    "ecological_concepts": [
+      "Taxonomy",
+      "Softneck",
+      "Hardneck",
+      "Arbuscular Mycorrhizal Fungi",
+      "Rhizosphere Engineering",
+      "Organosulfur Compounds"
+    ],
+    "steward_relevance": [
+      "Market Gardener",
+      "Homesteader",
+      "Land Steward",
+      "Consultant"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Observation",
+    "summary": "Covers garlic's classification into softneck and hardneck varieties and details its underground chemical signaling, including the role of diallyl disulfide and mycorrhizal partnerships.",
+    "chunk_text": "Toxicity to Pets: A related safety note: Garlic itself, while a beloved food for humans, can be toxic to dogs and cats if ingested in quantity.. Like onions, it can cause hemolytic anemia in pets (Established veterinary knowledge). Morphological differentiators: Garlic’s distinct cloves (multiple bulblets wrapped together in a papery tunic) set it apart from single-bulb look-alikes. Its leaves are flat or slightly keeled, not round and hollow, and it usually doesn’t produce true seeds.\n2.3 Taxonomy & Status\nScientific Classification: Garlic is a bulbous perennial herb in the Amaryllidaceae family, subfamily Allioideae. Genus: Allium (the onion genus). Allium sativum has two major variety groups – softneck garlic (var. sativum) and hardneck garlic (var. ophioscorodon). Native Range: Garlic’s exact wild origin is obscure – it is not found in a truly wild state today. The consensus is it arose in Central Asia. Conservation & Weedy Status: Garlic is in no danger of extinction (NatureServe G5 equivalent – secure, cultivated). It is not generally considered invasive; however, its relative wild garlic (Allium vineale) is an invasive weed in some regions.\n3) Soil Intelligence & Root Communication\n“Now that you’ve met garlic above ground, let’s journey underground to see how it behaves in the soil and communicates with its ecosystem.” Garlic may seem quiet with its shallow roots and small footprint, but its underground chemistry is powerful. It secretes compounds that can reshape soil microbiology, forging alliances with fungi while fending off foes.\n3.1 Root Exudates & Chemical Signaling\nSulfur Rich Exudates: Garlic roots exude a suite of organosulfur compounds – chemically akin to the famous allicin – into the surrounding soil. Key among these is diallyl disulfide (DADS), a volatile sulfur compound identified as a major allelochemical. Allelopathy: Garlic is known in agronomy as an “allelopathic crop” – it can inhibit or enhance the growth of other plants through chemicals. For example, compounds like DADS at low concentrations promote root growth of some plants (e.g. tomatoes) but at higher concentrations inhibit growth.\n3.2 Mycorrhizal & Microbial Partnerships\nAMF Symbiosis: Despite its antimicrobial reputation, garlic does partner with beneficial fungi. It associates with arbuscular mycorrhizal fungi (AMF) – microscopic fungi that penetrate root cells to exchange nutrients. Research confirms that garlic inoculated with AMF (like Rhizophagus intraradices or Glomus spp.) shows improved growth, bulb size, and phosphorus uptake. Rhizosphere Engineering: Garlic doesn’t just passively host microbes; it can shape its microbiome. The unique exudates of garlic favor certain microbial groups, increasing populations of Proteobacteria and Actinobacteria (groups associated with nutrient cycling and disease suppression)."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_007",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Nutrient Mining and Soil Diagnostics",
+    "species_mentioned": [
+      "Allium sativum",
+      "Beans",
+      "Peas",
+      "Tomatoes",
+      "Peppers",
+      "Brassicas",
+      "Roses",
+      "Cucumber"
+    ],
+    "ecological_concepts": [
+      "Nutrient Mining",
+      "Biofortification",
+      "Phytoremediation",
+      "Soil Diagnostics",
+      "Antagonism",
+      "Integrated Pest Management"
+    ],
+    "steward_relevance": [
+      "Transitioning Farmer",
+      "Land Steward",
+      "Consultant"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Observation",
+    "summary": "Details garlic's ability to mine phosphorus and sulfur and accumulate selenium or heavy metals. Includes a field guide for diagnosing soil health based on garlic's growth patterns.",
+    "chunk_text": "Nitrogen-fixing Relationships: Garlic is not a legume; there’s a known antagonism with nitrogen-fixers: Rhizobium bacteria are thought to be inhibited by garlic’s sulfur compounds. Garden lore to “keep garlic away from beans/peas” is likely due to garlic exudates suppressing those symbiotic bacteria.\n3.3 Nutrient Mining & Soil Diagnostics\nNutrient Uptake Strategy: Garlic is a “nutrient miner” – its roots actively scavenge for phosphorus and sulfur. In soils rich in organic matter, garlic can accumulate sulfur to ~0.5% of its dry weight. Accumulator Tendencies: Garlic can hyperaccumulate certain micronutrients. It is famous for accumulating selenium if available, leading to “selenium garlic” used as a dietary supplement. On the flip side, garlic will also uptake heavy metals like cadmium and lead. Interestingly, interplanting garlic with known hyperaccumulator plants increased those plants’ uptake of Pb and Cd dramatically, as garlic's exudates might chelate or mobilize heavy metals.\nIndicator of Soil Conditions: Robust garlic growth (tall lush leaves, large bulbs) often indicates well-structured soil with good organic matter and adequate sulfur. If garlic comes up spindly, it might indicate compacted or waterlogged soil. In traditional wisdom, pungency = fertility: very spicy garlic means the soil had ample sulfur, whereas bland garlic suggests nutrient-poor soil. Garlic is also sensitive to soil acidity – it prefers near-neutral to slightly acidic soil.\nField Application – If/Then Quick Guide:\nIF a field suffers from soil-borne pests, THEN consider a garlic rotation. Garlic’s allelochemicals can reduce pathogen loads.\nIF planting garlic, THEN avoid close proximity to legumes. Garlic’s root zone will likely inhibit Rhizobium bacteria.\nIF garlic leaves exhibit yellow tips early in the season, THEN check soil drainage. Yellow stunted garlic may indicate waterlogged or sulfur-poor soil.\nIF using garlic as a natural pesticide, THEN harness its exudates by making a garlic spray. For example, garlic tea or oil sprays can repel aphids and slugs."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_008",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Community Ecology and Companion Dynamics",
+    "species_mentioned": [
+      "Allium sativum",
+      "Lettuce",
+      "Tomatoes",
+      "Peppers",
+      "Eggplants",
+      "Roses",
+      "Carrots",
+      "Beans",
+      "Peas",
+      "Asparagus",
+      "Sage",
+      "Deer",
+      "Rabbits"
+    ],
+    "ecological_concepts": [
+      "Competition",
+      "Cooperation",
+      "Companion Planting",
+      "Niche Separation",
+      "Herbivory",
+      "Trophic Relationships"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Market Gardener",
+      "Homesteader",
+      "Land Steward"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Planning",
+    "summary": "Explores how garlic interacts with surrounding plants and animals, functioning as a 'chemical shield' for nightshades and roses while acting as a deterrent for mammalian herbivores like deer.",
+    "chunk_text": "4) Community Ecology & System Behavior\nGarlic does not stand alone; it interacts with surrounding plants, animals, and ecosystem processes. In the garden or farm, garlic often plays the role of a protector and niche-filler. 4.1 Competition / Cooperation Dynamics\nMild Competitor for Resources: Garlic’s above-ground footprint is small – its slender leaves cast little shade. This makes garlic a relatively non-competitive neighbor for light and water. It can be intercropped under taller plants (e.g. tucked between rows of lettuce, alongside roses or in orchard understories) with minimal resource competition. Chemical Competition (Allelopathy): Garlic can suppress certain neighbors chemically, most notably legumes (beans and peas). Conversely, garlic supports others: carrots grow better with garlic because the smell repels carrot root fly. Roses are a classic example – planting garlic at a rose’s base is said to reduce aphids and fungal disease.\nWho Garlic Supports vs. Suppresses: Supports: tomatoes, peppers, eggplants (nightshades); fruit trees (repels borers); brassicas (repels caterpillars and aphids). Suppresses: legumes (beans, peas); asparagus (possible competition or allelopathy); sage and some herbs.\n4.2 Herbivore, Pollinator & Seed Relationships\nHerbivores & Predators: Most mammalian herbivores avoid garlic. Deer typically spurn garlic and onions due to the smell and taste. Rabbits and groundhogs similarly leave garlic alone, making it a valuable border planting. In the insect world, garlic’s sulfur volatiles repel or confuse many pests like aphids and cabbage loopers. Who eats garlic? Very few animals – but there are specialized feeders like onion thrips and the Allium leafminer. Pollinators: Although garlic is mainly propagated by cloves, it can produce flowers (especially hardneck types). These draw honeybees, native bees, and hoverflies. The plant is hermaphroditic and self-fertile, but many cultivated garlics have sterile pollen."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_009",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Ecosystem Functions and Water Wisdom",
+    "species_mentioned": [
+      "Allium sativum",
+      "Climax Species",
+      "Worms",
+      "Voles",
+      "Gophers"
+    ],
+    "ecological_concepts": [
+      "Carbon Cycle",
+      "Water Cycling",
+      "Transpiration",
+      "Soil Building",
+      "Erosion Prevention",
+      "Drought Response"
+    ],
+    "steward_relevance": [
+      "Land Steward",
+      "Homesteader",
+      "Rancher"
+    ],
+    "season_relevance": [
+      "Spring",
+      "Summer"
+    ],
+    "action_type": "Observation",
+    "summary": "Analyzes garlic's role in carbon and water cycles, its contribution to soil structure, and its 'water wisdom'—the ability to time growth cycles to seasonal moisture availability.",
+    "chunk_text": "Seed & Reproduction Ecology: Cultivated garlic is generally sterile – it reproduces via cloves (vegetative propagation). Humans are the primary dispersers – every continent’s garlic population came from people carrying bulbs. In an ecosystem sense, garlic’s “strategy” is to hitchhike with humans rather than rely on wind or wildlife. Food Web Role: As a mostly unbrowsed plant, garlic doesn’t contribute much to herbivore diets. Soil-wise, decaying garlic provides organic matter that soil detritivores (worms, microbes) break down. It might deter voles or gophers in a small radius.\n4.3 Ecosystem Functions\nCarbon Flow: Garlic contributes to the carbon cycle as a fast-growing herbaceous plant. In a temperate climate, garlic is often one of the first greens in late winter/early spring, starting to fix CO₂ early in the year. Its foliage and spent roots after harvest become organic matter that decomposes relatively quickly. Water Cycling: Garlic has a modest transpiration rate compared to broadleaf plants. In early spring, its rapid leaf growth uses soil moisture at a time when few other plants do, which can help prevent waterlogging for neighbors. Conversely, in drought conditions garlic will go dormant early (leaves brown out) to conserve water in the bulb. Soil Building: Garlic adds organic matter through leftover roots and leaf matter. Its fine roots, when they decay, contribute to soil structure by leaving tiny pores that improve aeration. Erosion prevention: en masse a garlic field provides decent ground cover from fall to mid-summer, anchoring some soil through winter.\n5) Water Wisdom & Hydrology\nGarlic originates from regions of pronounced seasons, which has given it a certain water wisdom: an ability to take advantage of moisture when available and survive when it’s scarce. It favors well-drained slopes, valley edges, or loess plains where water percolates but doesn’t stagnate. Drought Strategies: Garlic copes with drought primarily by going dormant early. The bulb itself acts as a water storage organ. Flood/Excess Water Strategies: Garlic is much less tolerant of flooding or waterlogged soil. Its roots need oxygen; extended saturation leads to root rot. However, garlic can survive freezing of soil moisture (hardy to at least -10°C)."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_010",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Hydrology Applications and Phenology Calendar",
+    "species_mentioned": [
+      "Allium sativum",
+      "Aphids",
+      "Slugs",
+      "Deer"
+    ],
+    "ecological_concepts": [
+      "Dew Harvesting",
+      "Riparian Zones",
+      "Swales",
+      "Phenology",
+      "Vernalization",
+      "Photoperiodism"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Homesteader",
+      "Land Steward",
+      "Consultant"
+    ],
+    "season_relevance": [
+      "Fall",
+      "Winter",
+      "Spring"
+    ],
+    "action_type": "Planning",
+    "summary": "Describes practical farm water uses for garlic (extracts and mulch) and initiates a 52-week observation calendar focused on winter dormancy and spring growth triggers.",
+    "chunk_text": "Dew and Fog Harvesting: Garlic’s leaves are waxy and smooth, which can indeed collect dew. In early morning, one can often see droplets on garlic leaves sliding toward the base, suggesting it can funnel dew to its roots. On-Farm Water Uses: Some innovative farmers add fermented garlic extracts to irrigation water as a plant protection measure. Garlic stems and leaves (garlic straw) are often used as a mulch for other crops to conserve moisture and suppress weeds. Swale/Berm Planting: Garlic can be planted on raised berms of swales where it benefits from infiltrated water without waterlogging. Irrigation needs: It typically needs consistent watering during bulb formation, then dry conditions pre-harvest to prevent rot and concentrate flavors.\n6) Phenology, Timing & Sensory Ecology\nGarlic’s life unfolds in a rhythmic dance with the seasons. By tracking its phenology, we see how it aligns with environmental cues – length of day, temperature changes, even signals from other species. 6.1 52-Week Observation Calendar\nWinter (Dec–Feb): In many temperate zones, garlic lies dormant as a bulb in mid-winter. Through January, garlic is quietly preparing underground – vernalization (cold exposure) is occurring, which is crucial for later bulb formation. In late winter (Feb), one may see garlic shoots poking above ground. Spring (Mar–May): This is garlic’s prime growing season. In March, garlic leaves rapidly elongate. By April, most garlic plants have a lush cluster of 6–8 leaves. Sensory detail: Crush a spring garlic leaf and the smell is fresh and sharp. In May, hardneck garlic sends up its flower stalk (scape). This scape grows fast, curling once or twice in a pig-tail loop. Farmers often snap off these scapes to direct energy to the bulb. During this period, garlic demands plenty of moisture and nutrients."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_011",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Summer Harvest and Cultural Timing",
+    "species_mentioned": [
+      "Allium sativum",
+      "Daylilies",
+      "Cicadas",
+      "Fireflies"
+    ],
+    "ecological_concepts": [
+      "Photoperiod Response",
+      "Senescence",
+      "Curing",
+      "Traditional Ecological Knowledge",
+      "Bio-indicator"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Market Gardener",
+      "Homesteader"
+    ],
+    "season_relevance": [
+      "Summer",
+      "Fall"
+    ],
+    "action_type": "Harvest",
+    "summary": "Covers the summer harvest window, triggered by photoperiod and browning leaves, and explores traditional cultural markers for planting and harvesting garlic by the moon and stars.",
+    "chunk_text": "Summer (Jun–Aug): By June, garlic bulbs are enlarging rapidly. After the longest day of the year (late June), garlic senses the days shortening – a signal to stop producing new leaves and put final energy into bulbs. Traditionally, harvest comes in early to mid-summer. The rule of thumb: harvest when ~40% of the leaves have yellowed/browned. Phenology signals: Often, the garlic harvest coincides with the first daylily blooms or the drying of wild grasses. Once harvested, garlic bulbs are cured in shade for a few weeks. Fall (Sep–Nov): This is the start of the next cycle. Planting time for garlic is traditionally in the fall – often October. Phenology cues for planting: “Plant garlic when the evening temperatures consistently drop and autumn crickets go silent,” or “at first hard frost.”\n6.2 Light, Temperature & Rainfall Cues\nPhotoperiod (Daylength): Garlic is a long-day plant for bulbing. Most garlic varieties require daylengths above ~13–14 hours to trigger the bulbing process. Temperature: Garlic experiences vernalization – exposure to cold (around 0–10°C for several weeks) is needed for proper bulbing. Optimal growing temperatures for leaf growth are 18–24°C, while slightly warmer (25–30°C) favor bulbing. Rainfall & Soil Moisture: A dry period in late spring can signal the plant to start curing. Garlic cloves often wait for the first autumn rain to start rooting.\n6.3 Traditional Markers & Cultural Timing\nAcross cultures, people have long noted local signs to time garlic activities. “Plant on the shortest day, Harvest on the longest day” – This English adage encapsulates garlic’s cycle. Planting by Moon and Stars: In biodynamic and folk traditions, garlic is often planted on a waning moon. One Italian folklore says plant garlic on the feast of San Michele (late September) and harvest on San Giovanni (June 24). Local Phenology for Planting: e.g., “when maple leaves turn gold” or “when the first frost blackens the pumpkin vines.” Sensory Tradition: Some farmers would say you can hear when garlic is ready – the rustle of its dry leaves in the wind changes tone."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_012",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Ecological Personality and Ancient History",
+    "species_mentioned": [
+      "Allium sativum",
+      "Honeybee",
+      "Vampires",
+      "Alexander the Great"
+    ],
+    "ecological_concepts": [
+      "Archetypes",
+      "Chemical Warfare",
+      "Stoicism",
+      "Historical Domestication",
+      "Nutraceuticals"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Land Steward",
+      "Consultant"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Education",
+    "summary": "Profiles garlic's 'Ecological Personality' as 'The Sentinel Alchemist' and begins a historical journey of garlic's use from Ancient Egypt (pyramid builders) to Classical Antiquity.",
+    "chunk_text": "7) Ecological Personality Profile\nImagine Garlic as a character in an ecological community – who is it? Garlic is “The Sentinel Alchemist.” It stands quietly at ground-level yet its presence is powerfully felt through its chemistry. Archetype: The Guardian/Protector. Garlic is the wise guardian of the garden – positioned on the borders or among vulnerable plants, it wards off pests and diseases. Behavior Under Stress: Garlic doesn’t confront with brute force – instead, it withdraws inward to its bulb, conserving its core. Behavior with Neighbors: Garlic is a polite neighbor spatially – it doesn’t overshadow neighbors but subtly pushes back against pathogens by exuding deterrents. Signature Ecological Move: “Chemical warfare for the greater good.” It alters the chemical environment to cleanse the soil of pests like nematodes.\n8) History, Folklore & Cultural Roles\nGarlic’s relationship with humanity spans at least five millennia and every continent. Few plants have such a rich tapestry of myth, medicine, and culinary lore. 8.1 Timeline of Human Relationship\nPrehistory & Early Domestication (>2000 BCE): Garlic likely originated in Central Asia. Ancient Egypt (circa 2500–1500 BCE): Egyptian laborers building the pyramids were fed garlic daily for strength and to prevent illness. Garlic was so valued that 15 pounds could purchase a slave, and Tutankhamun’s tomb contained garlic bulbs for the afterlife. Classical Antiquity (500 BCE – 500 CE): Greek athletes at the original Olympic games ate garlic before competitions as an early “performance enhancer.” Greek soldiers and Alexander the Great’s army also consumed garlic for courage and stamina. Ancient Rome: Legionaries planted garlic in conquered lands believing it imbued courage to the soil. Pliny the Elder wrote extensively about 61 remedies using garlic."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_013",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Medieval Folklore and Modern Medicine",
+    "species_mentioned": [
+      "Allium sativum",
+      "Louis Pasteur",
+      "Vampires",
+      "Werewolves",
+      "Cats",
+      "Dogs"
+    ],
+    "ecological_concepts": [
+      "Plague Remedies",
+      "Antibiotics",
+      "Ethnobotany",
+      "Biomedical Research",
+      "Seed Sovereignty"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Homesteader",
+      "Consultant"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Education",
+    "summary": "Continues the historical timeline through the Medieval era (plague protection and vampire lore) into the Modern era, highlighting Louis Pasteur's observations and garlic's role in WWII.",
+    "chunk_text": "Medieval Era (500–1500 CE): Monastic gardens grew garlic as a key medicinal herb. During the Black Death (14th c.), garlic was used as a protective medicine; the famous “Four Thieves Vinegar” legend held that thieves survived plague by drinking garlic-infused vinegar. Culturally, Europeans believed garlic repelled vampires, werewolves, and witches. Colonial Era & Columbian Exchange (1500–1800 CE): Garlic traveled to the New World with European colonists. Native American peoples began incorporating garlic or wild garlic in remedies for coughs and fever. 18th-century French and British soldiers carried garlic to prevent gangrene in wounds.\nModern Era (1800s–2000): In 1858, Louis Pasteur noted garlic’s antibiotic effect. Garlic was coined “Russian Penicillin” during WWII when the Soviet Union used garlic poultices on wounds to prevent infection. Throughout the 20th century, garlic became the subject of biomedical research on cardiovascular benefits. Revival & Current (2000–2025): In the 21st century, garlic stands at a crossroad of tradition and science. Nutritional science confirms allicin and sulfides have antimicrobial, antioxidant effects. Agriculture: Heirloom and local garlic varieties (rocambole, porcelain, etc.) are being preserved by small farmers – a revival of biodiversity appreciation. Indigenous and local knowledge about wild Alliums is being documented to ensure preservation of cultural identity."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_014",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Encoded Agronomy and TEK Protocols",
+    "species_mentioned": [
+      "Allium sativum",
+      "Mosquitoes",
+      "Ticks",
+      "Vampires",
+      "Mice",
+      "Ramps"
+    ],
+    "ecological_concepts": [
+      "Encoded Agronomy",
+      "Honorable Harvest",
+      "Reciprocity",
+      "Ethnoveterinary",
+      "Integrated Pest Management"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Homesteader",
+      "Rancher",
+      "Land Steward"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Observation",
+    "summary": "Decodes myths (like vampire protection) as ecological signals for pest control and discusses Traditional Ecological Knowledge (TEK) stewardship protocols like the 'Honorable Harvest'.",
+    "chunk_text": "8.3 Encoded Agronomy (Myth as Ecological Signal)\nThroughout garlic’s lore, stories often carried hidden agricultural wisdom. Vampires & Mosquitoes: The belief that garlic repels vampires can be seen as an encoded signal that garlic repels bloodsucking insects like mosquitoes and ticks. Strength & Endurance Myths: Legend that “garlic makes you strong like a pyramid builder” is validated by modern science showing garlic can improve blood circulation. “Garlic in the granary keeps the mice away”: This encodes a pest management tactic; the strong smell can indeed repel rodents. Companion Plant Lore: English cottage gardeners said “Plant roses with garlic to keep them healthy,” which encodes IPM – garlic’s sulfur helps deter black spot fungus and aphids.\n9) Traditional Ecological Knowledge (TEK) & Regional Stewardship\nIndigenous and local communities have developed practices to cultivate and honor garlic in harmony with the land. For example, Eastern Cherokee peoples gather wild ramps with great care – traditionally harvesting by cutting one leaf and leaving the bulb to regrow. This “take a little, leave a lot” approach is a TEK strategy to ensure patch health. Stewardship Protocols: A unifying theme in TEK is that harvest and cultivation are done in a way that sustains the plant population. Many indigenous communities have protocols for tending wild Alliums: never take the first plant you find and never empty a patch – always leave enough for the land to “feed itself.” This aligns with the “Honorable Harvest” – take only what you need, say thank you, and do no harm."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_015",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Biochemistry and Secondary Metabolites",
+    "species_mentioned": [
+      "Allium sativum",
+      "Candida",
+      "Bifidobacteria"
+    ],
+    "ecological_concepts": [
+      "Prebiotic Fibers",
+      "Secondary Metabolites",
+      "Organosulfur Compounds",
+      "Allicin",
+      "Bioavailability",
+      "Antioxidant Capacity"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Homesteader",
+      "Consultant"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Education",
+    "summary": "Details garlic's biochemical 'arsenal,' specifically the conversion of alliin to allicin upon crushing and the subsequent formation of diallyl disulfide and ajoene for long-term health effects.",
+    "chunk_text": "10) Medical & Biochemical Intelligence\nGarlic stands as one of nature’s most potent “biopharmacies.” Modern science has validated many of garlic’s legendary healing properties, tracing them to a cocktail of unique compounds. 10.0 Biochemistry & Nutrition\nPrimary Metabolites & Nutrients: Garlic bulbs are packed with fructans/inulin fibers. These carbohydrates include prebiotic fibers that promote beneficial gut microbiota. Garlic is notes as notably high in manganese, vitamin B6, vitamin C, and selenium. Secondary Metabolites (Organosulfur Compounds): The star compound is alliin. When garlic is crushed or chopped, the enzyme alliinase is released and rapidly converts alliin into allicin. Allicin is highly reactive and transient – breaking down into other sulfur compounds like diallyl disulfide (DADS), diallyl trisulfide (DATS), and ajoene. Each has distinct bioactivity: e.g., ajoene has strong anti-fungal and anti-clotting properties, while DADS and DATS are studied for anti-cancer effects. Garlic also provides flavonoids and selenium compounds if grown in Se-rich soil. Nutrient Density: Just 1–2 cloves can significantly impact blood biomarkers, lowering cholesterol and blood pressure modestly. Garlic’s antioxidant capacity triggers our endogenous antioxidant enzymes like glutathione. Garlic is also an anti-microbial nourishment: it may suppress pathogenic species like Candida while feeding beneficial bifidobacteria."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_016",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Medical Safety and Contraindications",
+    "species_mentioned": [
+      "Allium sativum",
+      "Dogs",
+      "Cats"
+    ],
+    "ecological_concepts": [
+      "Contraindications",
+      "Bleeding Risk",
+      "Gastrointestinal Irritation",
+      "Drug Interactions",
+      "Pet Toxicity",
+      "Hemolytic Anemia"
+    ],
+    "steward_relevance": [
+      "Homegrower",
+      "Rancher",
+      "Homesteader"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Education",
+    "summary": "Provides critical safety information regarding gastrointestinal irritation, bleeding risks associated with surgery and blood thinners, and the severe toxicity of garlic to dogs and cats.",
+    "chunk_text": "10.2 Safety & Contraindications\nDespite garlic’s many benefits, it’s crucial to recognize situations where garlic may cause harm. Gastrointestinal Irritation: Raw garlic can cause a burning sensation in the mouth, esophagus, and stomach. Sensitive individuals may experience heartburn or nausea. People with acid reflux or peptic ulcers are advised to avoid raw garlic. Garlic also contains fructans that can ferment in the gut, causing bloating in those with IBS. Topical application on skin can cause severe irritation or even burns if left too long. Bleeding Risk: Garlic has mild anti-platelet activity – it makes blood less “sticky.” This can increase bleeding risk in combination with pharmaceutical blood thinners or prior to surgery. A conservative guideline is to stop high-dose garlic at least 7–10 days before any surgery. Drug Interactions: Garlic supplements can induce the CYP3A4 enzyme in the liver, which may reduce levels of some drugs, such as certain HIV protease inhibitors. Pets and Livestock: Garlic is toxic to dogs and cats in significant quantities. It can cause hemolytic anemia in pets. Cats are especially sensitive; even 1–2 cloves can be harmful. Symptoms include weakness, vomiting, and dark urine. For livestock, garlic is generally less dangerous because ruminants handle it better, but do not let an animal devour a whole bag of garlic."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_017",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Regenerative Agriculture and Natural Inputs",
+    "species_mentioned": [
+      "Allium sativum",
+      "Chickens",
+      "Cattle"
+    ],
+    "ecological_concepts": [
+      "Korean Natural Farming",
+      "JADAM",
+      "Biodynamic Agriculture",
+      "Oriental Herbal Nutrient",
+      "Biopesticides",
+      "Fermentation"
+    ],
+    "steward_relevance": [
+      "Transitioning Farmer",
+      "Market Gardener",
+      "Rancher",
+      "Homesteader"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Intervention",
+    "summary": "Explains how to integrate garlic into regenerative systems using Korean Natural Farming (OHN) and JADAM pesticide recipes, as well as its role in biodynamic pest management.",
+    "chunk_text": "11) Regenerative Agriculture Applications\nGarlic shines as a multipurpose tool in the regenerative toolkit. 11.0 KNF, BD & JADAM Integration\nKorean Natural Farming (KNF): One cornerstone KNF concoction is Oriental Herbal Nutrient (OHN), a ferment including garlic that acts as a natural antibiotic and immunity booster for plants. KNF farmers apply OHN to sprays or livestock water to strengthen resistance to disease. JADAM Organic Farming: Recipes include boiling garlic, chili, and ginger in water with soap to make a potent pesticide tea for powdery mildew or aphids. JADAM also uses garlic for soil disinfection to suppress nematodes. Biodynamic (BD) Use: Farmers use garlic-based sprays for pest management. Practically, a biodynamic orchardist might make a garlic-pepper tea to spray on fruit trees for fungal disease reduction. In Western astro-herbalism, garlic is associated with Mars due to its fiery nature. BD growers often plant garlic in the fall on a descending moon favoring root development. 11.1 FPJ/FPE Guidance (Fermented Plant Juice/Extract): Garlic's antimicrobial strength means fermentation can be tricky. To make a Garlic FPJ, combine garlic with equal parts ginger and brown sugar to help kickstart lactic acid bacteria. Dilution for foliar sprays is typically 1:500 to 1:1000. 11.4 Livestock Integration: Garlic in feed seems to boost immunity and repel external parasites. Dairy farmers add garlic powder to cattle feed to repel horn flies. Research on poultry showed garlic powder in feed can lead to fewer intestinal parasites."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_018",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Integrated Pest Management and Synergies",
+    "species_mentioned": [
+      "Allium sativum",
+      "Aphids",
+      "Whiteflies",
+      "Carrot Rust Fly",
+      "Spider Mites",
+      "Nematodes",
+      "Tomatoes",
+      "Roses",
+      "Brassicas",
+      "Beans",
+      "Peas"
+    ],
+    "ecological_concepts": [
+      "Integrated Pest Management",
+      "Biopesticide",
+      "Nematicide",
+      "Companion Planting",
+      "Antagonism",
+      "Rhizobium Inhibition"
+    ],
+    "steward_relevance": [
+      "Market Gardener",
+      "Homegrower",
+      "Homesteader",
+      "Consultant"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Planning",
+    "summary": "Describes garlic's utility as a biopesticide and nematicide in IPM, while identifying critical companion planting synergies with nightshades and antagonisms with legumes.",
+    "chunk_text": "11.5 IPM (Integrated Pest Management) Applications\nGarlic serves as a biopesticide to minimize chemical use. Insect Repellent & Insecticide: Garlic’s sulfur volatiles confuse aphids, whiteflies, and carrot rust flies. Mechanisms include masking host plant scent or irritating insect chemoreceptors. Fungal and Bacterial Disease Management: Garlic spray is used for powdery mildew on cucurbits or roses. Garlic extracts have shown inhibition of Botrytis (gray mold). Nematicide: Garlic extract soil drench is used to suppress root-knot nematodes. Vertebrate Pest Deterrence: Garden lore says planting garlic around the perimeter helps repel rabbits and deer.\n11.6 Synergies & Antagonisms\nSynergies (Good Companions): Nightshades (Tomatoes, Peppers): Garlic repels spider mites and aphids; interplanting can reduce fungal diseases. Fruit Trees & Roses: Garlic repels borers and Japanese beetles and wards off black spot. Brassicas: Garlic may repel the cabbage butterfly. Carrots: Carrots and Alliums mutually repel each other's pests (onion fly/carrot root fly).\nAntagonisms (Avoid Pairings): Legumes (Beans, Peas): Garlic exudes compounds that inhibit nitrogen-fixing Rhizobium bacteria on legume roots, stunting growth. Asparagus: Garlic can compete for the same shallow zone and its exudates may not be appreciated. Sage and certain Herbs: Garlic’s strong sulfur might inhibit sage’s mycorrhiza. Other Alliums: Don’t plant garlic where onions were just grown to avoid shared pest build-up."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_019",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Processing and Value-Added Products",
+    "species_mentioned": [
+      "Allium sativum",
+      "Clostridium botulinum"
+    ],
+    "ecological_concepts": [
+      "Maillard Reaction",
+      "Black Garlic",
+      "Botulism Control",
+      "Organoleptic Standards",
+      "HPLC Analysis",
+      "Standardization"
+    ],
+    "steward_relevance": [
+      "Market Gardener",
+      "Homesteader",
+      "Consultant"
+    ],
+    "season_relevance": [
+      "Summer",
+      "All"
+    ],
+    "action_type": "Harvest",
+    "summary": "Covers harvest optimization, curing metamorphosis, and the 'alchemy' of black garlic production, alongside critical safety standards for preventing botulism in garlic-in-oil products.",
+    "chunk_text": "12) Harvest Optimization & Alchemy\nPeak Timing: Harvest when the lower ~1/3 of leaves have browned but at least 5 green leaves remain. Curing & Transformation: Bulbs are laid in single layers in a dry, shaded place for 2–3 weeks to funnel energy into the cloves and form protective wrappers. Curing dehydrates the bulb slightly, concentrating compounds.\nFermentation & Value-Added Magic: Black garlic is created by fermenting whole bulbs at ~60–75°C for 30–40 days, undergoing a slow Maillard reaction. This roughly tenfolds the antioxidant levels compared to raw garlic. Lacto-fermented garlic gains probiotic benefits.\n14) Product Development & Quality Control\nMarketable Goods: Indispensable as a spice (bulbs, cloves, powder), seasonal scapes, and medicinal supplements standardized for allicin content. Garlic scapes are featured in pestos and pickles. Aged garlic extract (AGE) increases stable sulfur compounds like S-allylcysteine. Quality Control: A high-quality bulb should feel firm with tight skins. Pyruvate tests on juice are used as an index of garlic pungency. Microbial safety: Fresh garlic can carry Clostridium botulinum spores. In the anaerobic environment of oil, these can produce botulism toxin. Thus, producers must acidify garlic (below pH 4.2) or keep refrigerated. Medicinal standardization: Supplement makers often standardize to alliin content or allicin potential using HPLC analysis to ensure efficacy."
+  },
+  {
+    "chunk_id": "garlic_wisdom_profile_020",
+    "source_document": "Garlic (Allium sativum) – Living Plant Wisdom Profile 2.0",
+    "topic": "Research Frontiers and Climate Resilience",
+    "species_mentioned": [
+      "Allium sativum",
+      "Pseudomonas",
+      "Rust Fungus",
+      "Cattle"
+    ],
+    "ecological_concepts": [
+      "Genomics",
+      "Chemotype Diversity",
+      "Microbiome Research",
+      "Vernalization Needs",
+      "Phytoremediation",
+      "Methane Reduction"
+    ],
+    "steward_relevance": [
+      "Land Steward",
+      "Transitioning Farmer",
+      "Rancher",
+      "Consultant"
+    ],
+    "season_relevance": [
+      "All"
+    ],
+    "action_type": "Education",
+    "summary": "Summarizes cutting-edge research on the garlic genome, rhizosphere microbiome, and its role in climate adaptation (e.g., reducing cattle methane) and heavy metal phytoremediation.",
+    "chunk_text": "15) Emerging Science\nModern techniques in metabolomics and genomics are expanding our understanding. In 2021, a chromosome-level garlic genome was published (16.2 Gb genome assembly). This reveals the genetic basis of garlic’s pungency and gene families for alliinase enzymes. Chemotype diversity: Different garlic cultivars can have widely varying levels of key compounds (e.g., allicin content). Microbiome research: Certain Pseudomonas bacteria thrive around garlic roots and act as growth promoters. Genomic insights help identify resistance genes to viruses like garlic mosaic virus. 24) Climate Shift Role: Warmer winters may affect vernalization needs for bulbing in hardneck garlic. Rainfall extremes (flooding) can cause rot. In the PNW, rust fungus (Puccinia allii) thrives in warmer, wetter springs. Adaptation include raised beds and airflow. 25) Ecological Repair & Future Potential: Garlic can be an agent of bioremediation; interplanting garlic increases heavy metal (lead/cadmium) uptake by hyperaccumulator plants. Crushing garlic into soil acts as a biofumigant against nematodes. Climate mitigation: Feeding garlic to cattle has been shown to halve their methane emissions by knocking down methane-producing gut microbes. Garlic remains an ecosystem doctor, aiding in soil repair and safeguarding health in uncertain times."
+  }
+]

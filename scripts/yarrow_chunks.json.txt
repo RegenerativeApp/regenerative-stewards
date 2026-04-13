@@ -1,4 +1,4 @@
-[
+﻿[
 {
 "chunk_id": "yarrow_wisdom_profile_001",
 "source_document": "Yarrow (Achillea millefolium) – Living Plant Wisdom Profile 2.0",

@@ -1,4 +1,4 @@
-[
+﻿[
 {
 "chunk_id": "white_clover_wisdom_profile_001",
 "source_document": "White Clover (Trifolium repens) – Living Plant Wisdom Profile 2.0",
