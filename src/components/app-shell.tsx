@@ -10,7 +10,7 @@ import {
 const SIDEBAR_ITEMS: NavItem[] = [
   { href: "/dashboard", label: "Home", icon: "🏡" },
   { href: "/mentor", label: "Mentor", icon: "🧠", mentor: true },
-  { href: "/oracle", label: "Plant Oracle", icon: "🌿", comingSoon: true },
+  { href: "/oracle", label: "Plant Oracle", icon: "🌿" },
   { href: "/journal", label: "Journal", icon: "📓" },
   { href: "/zones", label: "Zones", icon: "🗺️" },
   { href: "/profile", label: "Profile", icon: "🌱" },
