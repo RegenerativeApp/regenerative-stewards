@@ -39,7 +39,13 @@ export default async function JournalPage() {
         )}
 
         <div className="space-y-4">
-          {observations?.map((obs) => (
+          {observations?.map((obs) => {
+            const photoUrls = Array.isArray(obs.photo_urls)
+              ? (obs.photo_urls as string[]).filter(
+                  (u): u is string => typeof u === "string" && u.length > 0,
+                )
+              : [];
+            return (
             <div key={obs.id} className="rounded-2xl border border-stone-200 bg-amber-50 p-6 shadow-sm">
             <div className="flex items-start justify-between gap-4 mb-3">
                 <div>
@@ -51,8 +57,29 @@ export default async function JournalPage() {
               {obs.body && (
                 <p className="text-sm text-stone-600 italic leading-relaxed line-clamp-3">{obs.body}</p>
               )}
+              {photoUrls.length > 0 ? (
+                <div className="mt-3 flex flex-wrap gap-2">
+                  {photoUrls.map((url, i) => (
+                    <a
+                      key={`${obs.id}-${i}-${url.slice(-24)}`}
+                      href={url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block shrink-0 overflow-hidden rounded-lg border border-stone-200 bg-stone-100 ring-stone-300 transition hover:ring-2 focus:outline-none focus:ring-2 focus:ring-green-600"
+                    >
+                      {/* eslint-disable-next-line @next/next/no-img-element */}
+                      <img
+                        src={url}
+                        alt={`Photo ${i + 1} for ${obs.title || "observation"}`}
+                        className="h-14 w-14 object-cover sm:h-16 sm:w-16"
+                      />
+                    </a>
+                  ))}
+                </div>
+              ) : null}
             </div>
-          ))}
+            );
+          })}
         </div>
       </div>
     </main>

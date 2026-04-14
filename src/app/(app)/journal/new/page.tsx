@@ -1,63 +1,69 @@
-import { redirect } from "next/navigation";
-import { createClient } from "@/lib/supabase-server";
+"use client";
 
-export default async function NewObservationPage() {
-  const supabase = await createClient();
-  const {
-    data: { user },
-  } = await supabase.auth.getUser();
+import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { createClient } from "@/lib/supabase";
+import PhotoUpload from "@/components/photo-upload";
 
-  if (!user) {
-    redirect("/login");
-  }
+export default function NewObservationPage() {
+  const router = useRouter();
+  const supabase = createClient();
 
-  const { data: zones } = await supabase
-    .from("zones")
-    .select("id, name")
-    .eq("user_id", user.id)
-    .order("name");
-
-  async function saveObservation(formData: FormData) {
-    "use server";
-    const supabase = await createClient();
-    const {
-      data: { user },
-    } = await supabase.auth.getUser();
-
-    if (!user) redirect("/login");
-
-    const zone_id = formData.get("zone_id") as string;
-    const type = formData.get("type") as string;
-    const title = formData.get("title") as string;
-    const body = formData.get("body") as string;
-    const observed_at = formData.get("observed_at") as string;
-
-    await supabase.from("observations").insert({
-      user_id: user.id,
-      zone_id: zone_id || null,
-      type,
-      title,
-      body,
-      observed_at: observed_at || new Date().toISOString(),
-      photo_urls: [],
-    });
-
-    redirect("/journal");
-  }
+  const [places, setPlaces] = useState<{ id: string; name: string }[]>([]);
+  const [photoUrls, setPhotoUrls] = useState<string[]>([]);
+  const [saving, setSaving] = useState(false);
 
   const now = new Date().toISOString().slice(0, 16);
 
   const observationTypes = [
-    "plant",
-    "soil",
-    "water",
-    "wildlife",
-    "insect",
-    "weather",
-    "harvest",
-    "intervention",
-    "general",
+    "plant", "soil", "water", "wildlife", "insect",
+    "weather", "harvest", "intervention", "general",
   ];
+
+  useEffect(() => {
+    async function loadPlaces() {
+      const { data: { user } } = await supabase.auth.getUser();
+      if (!user) { router.push("/login"); return; }
+
+      const { data } = await supabase
+        .from("places")
+        .select("id, name")
+        .eq("user_id", user.id)
+        .order("name");
+
+      setPlaces(data || []);
+    }
+    loadPlaces();
+  }, []);
+
+  async function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    setSaving(true);
+
+    const form = new FormData(e.currentTarget);
+    const { data: { user } } = await supabase.auth.getUser();
+    if (!user) { router.push("/login"); return; }
+
+    const place_id = form.get("place_id") as string;
+
+    const { error } = await supabase.from("observations").insert({
+      user_id: user.id,
+      place_id: place_id || null,
+      type: form.get("type") as string,
+      title: form.get("title") as string,
+      body: form.get("body") as string,
+      observed_at: (form.get("observed_at") as string) || new Date().toISOString(),
+      photo_urls: photoUrls,
+    });
+
+    if (error) {
+      console.error("Save failed:", error.message);
+      setSaving(false);
+      return;
+    }
+
+    router.push("/journal");
+  }
 
   return (
     <main className="min-h-screen bg-stone-100 px-6 py-12">
@@ -68,22 +74,22 @@ export default async function NewObservationPage() {
           <p className="mt-1 text-sm text-stone-500 italic">Record what the land is showing you.</p>
         </div>
 
-        <form action={saveObservation} className="rounded-2xl border border-stone-200 bg-amber-50 p-8 shadow-sm space-y-6">
+        <form onSubmit={handleSubmit} className="rounded-2xl border border-stone-200 bg-amber-50 p-8 shadow-sm space-y-6">
           <div>
             <label className="block text-sm font-medium text-stone-700 mb-1">When</label>
             <input type="datetime-local" name="observed_at" defaultValue={now} className="w-full rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm text-stone-800 focus:outline-none focus:ring-2 focus:ring-stone-400" />
           </div>
 
           <div>
-            <label className="block text-sm font-medium text-stone-700 mb-1">Zone</label>
-            <select name="zone_id" className="w-full rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm text-stone-800 focus:outline-none focus:ring-2 focus:ring-stone-400">
-              <option value="">No zone selected</option>
-              {zones?.map((zone) => (
-                <option key={zone.id} value={zone.id}>{zone.name}</option>
+            <label className="block text-sm font-medium text-stone-700 mb-1">Place</label>
+            <select name="place_id" className="w-full rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm text-stone-800 focus:outline-none focus:ring-2 focus:ring-stone-400">
+              <option value="">No place selected</option>
+              {places.map((place) => (
+                <option key={place.id} value={place.id}>{place.name}</option>
               ))}
             </select>
-            {(!zones || zones.length === 0) && (
-              <p className="mt-1 text-xs text-stone-400 italic">No zones yet — you can addhem later.</p>
+            {places.length === 0 && (
+              <p className="mt-1 text-xs text-stone-400 italic">No places yet — you can add them later.</p>
             )}
           </div>
 
@@ -98,7 +104,7 @@ export default async function NewObservationPage() {
 
           <div>
             <label className="block text-sm font-medium text-stone-700 mb-1">Headline</label>
-            <input type="text" name="title" placeholder="e.g. Comfrey flowering in Zone 2" className="w-full rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm text-stone-800 placeholder:text-stone-300 focus:outline-none focus:ring-2 focus:ring-stone-400" />
+            <input type="text" name="title" placeholder="e.g. Comfrey flowering in the south beds" className="w-full rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm text-stone-800 placeholder:text-stone-300 focus:outline-none focus:ring-2 focus:ring-stone-400" />
           </div>
 
           <div>
@@ -106,9 +112,13 @@ export default async function NewObservationPage() {
             <textarea name="body" rows={6} placeholder="What are you seeing, smelling, sensing? What is the land telling you?" className="w-full rounded-lg border border-stone-200 bg-white px-3 py-2 text-sm text-stone-800 placeholder:text-stone-300 italic focus:outline-none focus:ring-2 focus:ring-stone-400 resize-none" />
           </div>
 
+          <PhotoUpload onPhotosChange={setPhotoUrls} />
+
           <div className="flex items-center justify-between pt-2">
             <a href="/journal" className="text-sm text-stone-400 hover:text-stone-600">Cancel</a>
-            <button type="submit" className="rounded-lg bg-stone-800 px-6 py-2 text-sm font-medium text-stone-100 transition hover:bg-stone-900">Record observation</button>
+            <button type="submit" disabled={saving} className="rounded-lg bg-stone-800 px-6 py-2 text-sm font-medium text-stone-100 transition hover:bg-stone-900 disabled:opacity-50">
+              {saving ? "Saving..." : "Record observation"}
+            </button>
           </div>
         </form>
       </div>

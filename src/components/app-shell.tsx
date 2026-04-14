@@ -12,7 +12,7 @@ const SIDEBAR_ITEMS: NavItem[] = [
   { href: "/mentor", label: "Mentor", icon: "🧠", mentor: true },
   { href: "/oracle", label: "Plant Oracle", icon: "🌿" },
   { href: "/journal", label: "Journal", icon: "📓" },
-  { href: "/zones", label: "Zones", icon: "🗺️" },
+  { href: "/places", label: "Places", icon: "🗺️" },
   { href: "/profile", label: "Profile", icon: "🌱" },
 ];
 
