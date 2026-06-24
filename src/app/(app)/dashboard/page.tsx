@@ -60,7 +60,7 @@ export default async function DashboardPage() {
       icon: "📓",
       title: "Field Journal",
       subtitle: "Record what the land is showing you",
-      hover: "hover:border-amber-300 hover:shadow-md",
+      hover: "hover:border-[#40916C] hover:shadow-md",
     },
     {
       href: "/places",

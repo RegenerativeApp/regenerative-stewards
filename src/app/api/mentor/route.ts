@@ -9,11 +9,12 @@ import {
   StewardProfile,
 } from '@/lib/onboarding-schema'
 import { retrieveRelevantChunks } from '@/lib/rag'
+import { getRecentObservations } from '@/lib/observations'
 
 const anthropic = new Anthropic()
 
 const EXTRACTION_USER_PROMPT_PREFIX =
-  'Extract structured data from this conversation transcript and return ONLY a JSON object with these fields: name, archetype, land_name, land_size_acres, climate_zone, province_state, soil_types (array), current_practices (array), main_enterprises (array), primary_goals (array), biggest_challenge, experience_level, mentor_tone, onboarding_complete (boolean — only true when you have name, location, archetype, and at least one goal). Use null for unknown fields. Return raw JSON only, no markdown, no explanation. Transcript:\n'
+  'Extract structured data from this conversation transcript and return ONLY a JSON object with these fields: name, archetype, land_name, land_size_acres, climate_zone, province_state, soil_types (array), current_practices (array), main_enterprises (array), primary_goals (array), biggest_challenge, experience_level, mentor_tone, communication_frequency (weekly | biweekly | monthly; default weekly if unclear), communication_include_seasonal_reflections, communication_include_practical_nudges, communication_include_plant_reminders (booleans; if steward wants a mix, everything, or unclear, set all three true), onboarding_complete (boolean — only true when you have name, location, archetype, and at least one goal). Use null for unknown fields. Return raw JSON only, no markdown, no explanation. Transcript:\n'
 
 function roleLabel(role: Message['role']): string {
   return role === 'user' ? 'User' : 'Assistant'
@@ -25,6 +26,20 @@ function formatTranscriptLines(msgs: Message[]): string {
 
 function stripProfileDataBlock(content: string): string {
   return content.replace(/\[PROFILE_DATA:[\s\S]*?\]/g, '').trim()
+}
+
+const COMMUNICATION_FREQUENCIES = ['weekly', 'biweekly', 'monthly'] as const
+
+function normalizeCommunicationFrequency(
+  value: ExtractedProfileData['communication_frequency'] | string | null | undefined,
+): (typeof COMMUNICATION_FREQUENCIES)[number] {
+  if (
+    typeof value === 'string' &&
+    (COMMUNICATION_FREQUENCIES as readonly string[]).includes(value)
+  ) {
+    return value as (typeof COMMUNICATION_FREQUENCIES)[number]
+  }
+  return 'weekly'
 }
 
 function parseExtractedJson(text: string): ExtractedProfileData | null {
@@ -68,6 +83,10 @@ export async function POST(request: NextRequest) {
 
     const onboardingComplete = profile?.onboarding_complete ?? false
 
+    const journalContext = onboardingComplete
+      ? await getRecentObservations(supabase, user.id)
+      : ''
+
     // RAG retrieval
     const lastUserMessage = messages.filter((m: { role: string }) => m.role === 'user').pop()
     let ragContext = ''
@@ -89,7 +108,7 @@ export async function POST(request: NextRequest) {
     const response = await anthropic.messages.create({
       model: 'claude-sonnet-4-5',
       max_tokens: 1024,
-      system: systemPrompt + ragContext,
+      system: systemPrompt + journalContext + ragContext,
       messages: messages.map(({ role, content }) => ({ role, content })),
     })
 
@@ -129,6 +148,14 @@ export async function POST(request: NextRequest) {
 
     // Persist to Supabase if extraction returned data
     if (extracted) {
+      const {
+        communication_frequency,
+        communication_include_seasonal_reflections,
+        communication_include_practical_nudges,
+        communication_include_plant_reminders,
+        ...stewardProfileFields
+      } = extracted
+
       const transcript: Message[] = [
         ...(profile?.raw_onboarding_transcript ?? []),
         ...messages.map((m) =>
@@ -144,7 +171,7 @@ export async function POST(request: NextRequest) {
         .upsert(
           {
             user_id: user.id,
-            ...extracted,
+            ...stewardProfileFields,
             raw_onboarding_transcript: transcript,
             ...(extractedOnboardingComplete
               ? { onboarding_completed_at: new Date().toISOString() }
@@ -152,6 +179,21 @@ export async function POST(request: NextRequest) {
           },
           { onConflict: 'user_id' }
         )
+
+      if (extractedOnboardingComplete) {
+        await supabase.from('communication_preferences').upsert(
+          {
+            user_id: user.id,
+            frequency: normalizeCommunicationFrequency(communication_frequency),
+            include_seasonal_reflections:
+              communication_include_seasonal_reflections ?? true,
+            include_practical_nudges: communication_include_practical_nudges ?? true,
+            include_plant_reminders: communication_include_plant_reminders ?? true,
+            send_day_of_week: 0,
+          },
+          { onConflict: 'user_id' }
+        )
+      }
     }
 
     return NextResponse.json({
