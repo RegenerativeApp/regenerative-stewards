@@ -55,7 +55,7 @@ type IdentifyJson = {
   visual_notes: string;
 };
 
-type OracleSections = {
+type LandStewardSections = {
   plant_id: string;
   ecological_role: string;
   soil_message: string;
@@ -63,7 +63,7 @@ type OracleSections = {
   companion_notes: string;
 };
 
-export default function OraclePage() {
+export default function LandStewardPage() {
   const cameraInputRef = useRef<HTMLInputElement>(null);
   const fileInputRef = useRef<HTMLInputElement>(null);
   const previewObjectUrlRef = useRef<string | null>(null);
@@ -75,7 +75,7 @@ export default function OraclePage() {
   const [identification, setIdentification] = useState<IdentifyJson | null>(
     null,
   );
-  const [sections, setSections] = useState<OracleSections | null>(null);
+  const [sections, setSections] = useState<LandStewardSections | null>(null);
   const [chunksUsed, setChunksUsed] = useState<number | null>(null);
 
   const revokePreview = useCallback(() => {
@@ -119,7 +119,7 @@ export default function OraclePage() {
     [onFileChosen],
   );
 
-  const askOracle = async () => {
+  const askLandSteward = async () => {
     if (!selectedFile) {
       setError("Add a photo first.");
       return;
@@ -165,7 +165,7 @@ export default function OraclePage() {
     <div className="mx-auto max-w-2xl space-y-6 p-6 md:p-8">
       <div>
         <h1 className="text-2xl font-semibold tracking-tight text-stone-800">
-          Plant Oracle
+          Land Steward
         </h1>
         <p className="mt-1 text-sm text-stone-600">
           Show the land a leaf or a flower — we&apos;ll seek a name and a little
@@ -224,10 +224,10 @@ export default function OraclePage() {
         <button
           type="button"
           disabled={!selectedFile || loading}
-          onClick={askOracle}
+          onClick={askLandSteward}
           className="rounded-xl border border-green-200 bg-green-50 px-4 py-2.5 text-sm font-medium text-green-900 shadow-sm transition enabled:hover:border-green-300 enabled:hover:bg-green-100 disabled:cursor-not-allowed disabled:opacity-50"
         >
-          {loading ? "Listening to the land…" : "Ask the Oracle"}
+          {loading ? "Listening to the land…" : "Ask the Land Steward"}
         </button>
       </div>
 

@@ -6,14 +6,14 @@ import { retrieveRelevantChunks } from '@/lib/rag'
 const anthropic = new Anthropic()
 
 /** Vision step: strict JSON only */
-const ORACLE_IDENTIFY_USER = `Look at this plant photo. Respond with ONLY valid JSON (no markdown fences, no other text). Use this exact shape:
+const LAND_STEWARD_IDENTIFY_USER = `Look at this plant photo. Respond with ONLY valid JSON (no markdown fences, no other text). Use this exact shape:
 {"common_name":"string","scientific_name":"string or null","confidence":"low"|"medium"|"high","visual_notes":"one short sentence about what you see"}`
 
 /**
  * Synthesis step: steward-facing copy. (Original request referenced a vision system prompt;
  * identification uses the image; this prompt shapes the final library-grounded answer.)
  */
-const ORACLE_SYNTHESIS_SYSTEM = `You are the Plant Oracle inside Regenerative Stewards — a calm, observant guide for land stewards in British Columbia and the Pacific Northwest.
+const LAND_STEWARD_SYNTHESIS_SYSTEM = `You are the Land Steward inside Regenerative Stewards — a calm, observant guide for land stewards in British Columbia and the Pacific Northwest.
 
 You combine what was inferred from the steward's photo with any excerpts from the app's plant knowledge library (when provided). Prefer the library for local ecology, uses, and companions; fill gaps carefully with general botany and regional patterns. If identification confidence was low, say so gently and suggest what to photograph next.
 
@@ -33,7 +33,7 @@ type IdentifyJson = {
   visual_notes: string
 }
 
-type OracleSections = {
+type LandStewardSections = {
   plant_id: string
   ecological_role: string
   soil_message: string
@@ -98,7 +98,7 @@ export async function POST(request: NextRequest) {
     }
 
     const idResponse = await anthropic.messages.create({
-      model: 'claude-sonnet-4-5',
+      model: 'claude-sonnet-4-6',
       max_tokens: 512,
       messages: [
         {
@@ -112,7 +112,7 @@ export async function POST(request: NextRequest) {
                 data: base64,
               },
             },
-            { type: 'text', text: ORACLE_IDENTIFY_USER },
+            { type: 'text', text: LAND_STEWARD_IDENTIFY_USER },
           ],
         },
       ],
@@ -149,7 +149,13 @@ export async function POST(request: NextRequest) {
       .filter(Boolean)
       .join(' ')
 
-    const chunks = await retrieveRelevantChunks(ragQuery, { matchCount: 5 })
+    let chunks
+    try {
+      chunks = await retrieveRelevantChunks(ragQuery, { matchCount: 5 })
+    } catch (e) {
+      console.error('RAG retrieval failed, continuing without library:', e)
+      chunks = []
+    }
     const ragBlock =
       chunks.length > 0
         ? chunks
@@ -163,9 +169,9 @@ export async function POST(request: NextRequest) {
     const synthesisUser = `Identification JSON (from photo):\n${JSON.stringify(identified, null, 2)}\n\nKnowledge library excerpts:\n${ragBlock}\n\nProduce the JSON response as specified in your system instructions.`
 
     const synResponse = await anthropic.messages.create({
-      model: 'claude-sonnet-4-5',
+      model: 'claude-sonnet-4-6',
       max_tokens: 2048,
-      system: ORACLE_SYNTHESIS_SYSTEM,
+      system: LAND_STEWARD_SYNTHESIS_SYSTEM,
       messages: [{ role: 'user', content: synthesisUser }],
     })
 
@@ -177,14 +183,14 @@ export async function POST(request: NextRequest) {
     const synJsonRaw = extractJsonObject(synText)
     if (!synJsonRaw) {
       return NextResponse.json(
-        { error: 'Could not parse oracle synthesis' },
+        { error: 'Could not parse Land Steward synthesis' },
         { status: 502 }
       )
     }
 
-    let sections: OracleSections
+    let sections: LandStewardSections
     try {
-      sections = JSON.parse(synJsonRaw) as OracleSections
+      sections = JSON.parse(synJsonRaw) as LandStewardSections
     } catch {
       return NextResponse.json(
         { error: 'Invalid synthesis JSON' },
@@ -200,7 +206,7 @@ export async function POST(request: NextRequest) {
   } catch (error) {
     console.error('Oracle API error:', error)
     return NextResponse.json(
-      { error: 'The Oracle is unavailable. Please try again.' },
+      { error: 'The Land Steward is unavailable. Please try again.' },
       { status: 500 }
     )
   }

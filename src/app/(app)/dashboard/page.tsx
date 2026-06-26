@@ -51,7 +51,7 @@ export default async function DashboardPage() {
     {
       href: "/oracle",
       icon: "📸",
-      title: "Plant Oracle",
+      title: "Land Steward",
       subtitle: "Identify any plant from a photo",
       hover: "hover:border-green-300 hover:shadow-md",
     },
