@@ -170,7 +170,8 @@ export async function POST(request: NextRequest) {
     }
 
     const extractedOnboardingComplete = Boolean(
-      extracted?.name && extracted?.province_state && extracted?.archetype
+      extracted?.province_state &&
+      (extracted?.primary_goals?.length ?? 0) > 0
     )
     if (extracted) {
       extracted.onboarding_complete = extractedOnboardingComplete
