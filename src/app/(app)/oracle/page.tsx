@@ -243,7 +243,7 @@ export default function LandStewardPage() {
       ) : null}
 
       {error ? (
-        <p className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-800">
+        <p className="rounded-xl border border-amber-200 bg-amber-50 px-4 py-3 text-sm text-amber-900 leading-relaxed">
           {error}
         </p>
       ) : null}
@@ -258,21 +258,32 @@ export default function LandStewardPage() {
       {sections && !loading ? (
         <div className="space-y-4">
           {identification ? (
-            <p className="text-xs text-stone-500">
-              Match confidence:{" "}
-              <span className="font-medium text-stone-700">
-                {identification.confidence}
-              </span>
-              {chunksUsed !== null ? (
-                <>
-                  {" "}
-                  · Library passages used:{" "}
-                  <span className="font-medium text-stone-700">
-                    {chunksUsed}
+            <div className="rounded-xl border border-stone-200 bg-white px-4 py-3 space-y-2">
+              <div className="flex items-center gap-2 flex-wrap">
+                <span className={`inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium ${
+                  identification.confidence === 'high'
+                    ? 'bg-green-100 text-green-800'
+                    : identification.confidence === 'medium'
+                    ? 'bg-amber-100 text-amber-800'
+                    : 'bg-red-100 text-red-800'
+                }`}>
+                  {identification.confidence === 'high' && '✓ Good match'}
+                  {identification.confidence === 'medium' && '~ Possible match'}
+                  {identification.confidence === 'low' && '? Uncertain — see note below'}
+                </span>
+                {chunksUsed !== null && chunksUsed > 0 && (
+                  <span className="text-xs text-stone-500">
+                    · {chunksUsed} library {chunksUsed === 1 ? 'passage' : 'passages'} found
                   </span>
-                </>
-              ) : null}
-            </p>
+                )}
+              </div>
+              {identification.confidence === 'low' && (
+                <p className="text-xs text-stone-500 leading-relaxed">
+                  This one was hard to read from the photo. Try a closer shot of a single leaf,
+                  flower, or seed head — or add another photo for comparison.
+                </p>
+              )}
+            </div>
           ) : null}
 
           <section className="rounded-2xl border border-stone-200 bg-amber-50 p-5 shadow-sm">
@@ -319,6 +330,24 @@ export default function LandStewardPage() {
               {sections.companion_notes}
             </p>
           </section>
+
+          <div className="rounded-xl border border-stone-200 bg-stone-50 px-4 py-3 flex items-center justify-between gap-4">
+            <p className="text-xs text-stone-500">
+              Does this identification look wrong?
+            </p>
+            <button
+              type="button"
+              onClick={() => {
+                setSections(null)
+                setIdentification(null)
+                setChunksUsed(null)
+                setError("That's okay — plant ID from photos is genuinely hard, especially for tricky genera. Try a closer shot of a leaf, flower, or seed head and ask again.")
+              }}
+              className="shrink-0 rounded-lg border border-stone-300 bg-white px-3 py-1.5 text-xs font-medium text-stone-700 shadow-sm transition hover:border-red-200 hover:bg-red-50 hover:text-red-800"
+            >
+              That&apos;s not right
+            </button>
+          </div>
         </div>
       ) : null}
     </div>

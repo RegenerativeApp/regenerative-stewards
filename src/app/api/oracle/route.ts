@@ -149,7 +149,7 @@ export async function POST(request: NextRequest) {
       .filter(Boolean)
       .join(' ')
 
-    let chunks
+    let chunks: Awaited<ReturnType<typeof retrieveRelevantChunks>> = []
     try {
       chunks = await retrieveRelevantChunks(ragQuery, { matchCount: 5 })
     } catch (e) {
