@@ -83,6 +83,36 @@ export async function POST(request: NextRequest) {
 
     const onboardingComplete = profile?.onboarding_complete ?? false
 
+    // Load recent steward context for memory spine
+    const { data: recentContext } = await supabase
+      .from('steward_context')
+      .select('type, content, created_at')
+      .eq('user_id', user.id)
+      .order('created_at', { ascending: false })
+      .limit(15)
+
+    let contextMemory = ''
+    if (recentContext && recentContext.length > 0) {
+      const lines = recentContext
+        .reverse()
+        .map((row) => {
+          const date = new Date(row.created_at).toISOString().split('T')[0]
+          const summary =
+            row.type === 'plant_id'
+              ? `Identified: ${row.content.plant_name ?? 'unknown'} (${row.content.confidence ?? '?'} confidence)${row.content.place_name ? ` in ${row.content.place_name}` : ''}`
+              : row.type === 'observation'
+              ? `Observation: ${row.content.note ?? ''}`
+              : row.type === 'onboarding'
+              ? `Profile: ${JSON.stringify(row.content)}`
+              : row.type === 'mentor_conversation'
+              ? `Conversation: ${row.content.summary ?? ''}`
+              : `${row.type}: ${JSON.stringify(row.content)}`
+          return `[${date}] ${summary}`
+        })
+        .join('\n')
+      contextMemory = `\n\n---\nSTEWARD MEMORY (chronological, most recent last):\n${lines}\n---`
+    }
+
     const journalContext = onboardingComplete
       ? await getRecentObservations(supabase, user.id)
       : ''
@@ -106,9 +136,9 @@ export async function POST(request: NextRequest) {
 
     // Call Claude
     const response = await anthropic.messages.create({
-      model: 'claude-sonnet-4-5',
+      model: 'claude-sonnet-4-6',
       max_tokens: 1024,
-      system: systemPrompt + journalContext + ragContext,
+      system: systemPrompt + contextMemory + journalContext + ragContext,
       messages: messages.map(({ role, content }) => ({ role, content })),
     })
 
@@ -128,7 +158,7 @@ export async function POST(request: NextRequest) {
       const extractionUserContent =
         EXTRACTION_USER_PROMPT_PREFIX + formatTranscriptLines(transcriptLines)
       const extractResponse = await anthropic.messages.create({
-        model: 'claude-sonnet-4-5',
+        model: 'claude-sonnet-4-6',
         max_tokens: 300,
         messages: [{ role: 'user', content: extractionUserContent }],
       })
@@ -194,6 +224,41 @@ export async function POST(request: NextRequest) {
           { onConflict: 'user_id' }
         )
       }
+    }
+
+    // Write onboarding extraction to steward_context
+    if (extracted) {
+      await supabase.from('steward_context').insert({
+        user_id: user.id,
+        type: 'onboarding',
+        source: 'mentor_extraction',
+        content: {
+          name: extracted.name ?? null,
+          archetype: extracted.archetype ?? null,
+          land_size_acres: extracted.land_size_acres ?? null,
+          climate_zone: extracted.climate_zone ?? null,
+          province_state: extracted.province_state ?? null,
+          soil_types: extracted.soil_types ?? null,
+          primary_goals: extracted.primary_goals ?? null,
+          biggest_challenge: extracted.biggest_challenge ?? null,
+          experience_level: extracted.experience_level ?? null,
+        },
+      })
+    }
+
+    // Write conversation turn to steward_context (always)
+    const userMessage = messages[messages.length - 1]
+    if (userMessage?.role === 'user' && cleanedText) {
+      await supabase.from('steward_context').insert({
+        user_id: user.id,
+        type: 'mentor_conversation',
+        source: 'mentor',
+        content: {
+          summary: `User: ${userMessage.content.slice(0, 200)}${userMessage.content.length > 200 ? '…' : ''} → Mentor: ${cleanedText.slice(0, 200)}${cleanedText.length > 200 ? '…' : ''}`,
+          user_message: userMessage.content.slice(0, 500),
+          mentor_response: cleanedText.slice(0, 500),
+        },
+      })
     }
 
     return NextResponse.json({
