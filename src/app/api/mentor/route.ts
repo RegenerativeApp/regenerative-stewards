@@ -86,7 +86,7 @@ export async function POST(request: NextRequest) {
     // Load recent steward context for memory spine
     const { data: recentContext } = await supabase
       .from('steward_context')
-      .select('type, content, created_at')
+      .select('type, content, created_at, unacknowledged')
       .eq('user_id', user.id)
       .order('created_at', { ascending: false })
       .limit(15)
@@ -115,6 +115,14 @@ row.type === 'plant_id'
       contextMemory = `\n\n---\nSTEWARD MEMORY (chronological, most recent last):\n${lines}\n---`
     }
 
+    let nudgeContext = ''
+    const unacknowledgedRows =
+      recentContext?.filter((row) => row.unacknowledged === true) ?? []
+    if (unacknowledgedRows.length > 0) {
+      const note = unacknowledgedRows[0].content?.note ?? ''
+      nudgeContext = `\n\nJOURNAL NUDGE: The steward recently logged the following observation that they haven't discussed with you yet: ${note}. Acknowledge this naturally at the start of your response — ask how it turned out, what they noticed next, or what changed. Don't ignore it.`
+    }
+
     const journalContext = onboardingComplete
       ? await getRecentObservations(supabase, user.id)
       : ''
@@ -140,7 +148,7 @@ row.type === 'plant_id'
     const response = await anthropic.messages.create({
       model: 'claude-sonnet-4-6',
       max_tokens: 1024,
-      system: systemPrompt + contextMemory + journalContext + ragContext,
+      system: systemPrompt + contextMemory + nudgeContext + journalContext + ragContext,
       messages: messages.map(({ role, content, imageBase64, imageMimeType }) => {
         if (imageBase64 && imageMimeType) {
           const validMimeType = imageMimeType as 'image/jpeg' | 'image/png' | 'image/gif' | 'image/webp'
@@ -171,6 +179,16 @@ row.type === 'plant_id'
       .map((block) => (block as { type: 'text'; text: string }).text)
       .join('')
     const cleanedText = stripProfileDataBlock(rawText)
+
+    try {
+      await supabase
+        .from('steward_context')
+        .update({ unacknowledged: false })
+        .eq('user_id', user.id)
+        .eq('unacknowledged', true)
+    } catch (e) {
+      console.error('steward_context acknowledge failed:', e)
+    }
 
     let extracted: ExtractedProfileData | null = null
     if (!onboardingComplete) {

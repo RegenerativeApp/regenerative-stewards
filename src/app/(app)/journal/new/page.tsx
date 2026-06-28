@@ -69,6 +69,7 @@ export default function NewObservationPage() {
         user_id: user.id,
         type: "observation",
         source: "field_journal",
+        unacknowledged: true,
         content: {
           note: (form.get("title") as string) || (form.get("body") as string || "").slice(0, 200),
           observation_type: form.get("type") as string,
