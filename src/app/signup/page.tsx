@@ -36,6 +36,12 @@ export default function SignupPage() {
       return;
     }
 
+    void fetch("/api/send-welcome", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ email, name: displayName }),
+    }).catch(() => {});
+
     router.push("/dashboard");
   }
 
