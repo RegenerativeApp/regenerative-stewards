@@ -150,3 +150,30 @@ export default function ResetPasswordPage() {
               width: '100%',
               padding: '0.85rem',
               background: status === 'success' ? '#40916C' : '#3D2B1F',
+              color: '#FEFAE0',
+              border: 'none',
+              borderRadius: '8px',
+              fontSize: '1rem',
+              cursor: status === 'loading' ? 'wait' : 'pointer',
+              fontFamily: 'Georgia, serif',
+              opacity: status === 'loading' ? 0.7 : 1,
+            }}
+          >
+            {status === 'loading' ? 'Updating…' : status === 'success' ? 'Done ✓' : 'Update password'}
+          </button>
+        )}
+      </div>
+    </div>
+  )
+}
+
+const inputStyle: React.CSSProperties = {
+  width: '100%',
+  padding: '0.7rem 0.9rem',
+  border: '1px solid rgba(107,112,92,0.3)',
+  borderRadius: '6px',
+  fontSize: '1rem',
+  background: '#FAF8F0',
+  color: '#1D1D1D',
+  outline: 'none',
+}
