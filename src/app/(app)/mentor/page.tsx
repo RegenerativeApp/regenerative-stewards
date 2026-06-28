@@ -25,6 +25,34 @@ export default function MentorPage() {
   const [messages, setMessages] = useState<Message[]>([
     { ...OPENING_MESSAGE, id: generateId() },
   ])
+
+  useEffect(() => {
+    async function loadOpeningMessage() {
+      const {
+        data: { user },
+      } = await supabase.auth.getUser()
+      if (!user) return
+
+      const { data: profile } = await supabase
+        .from('steward_profiles')
+        .select('name, onboarding_complete')
+        .eq('user_id', user.id)
+        .maybeSingle()
+
+      if (profile?.onboarding_complete) {
+        const name = profile.name?.trim() || 'friend'
+        setMessages([
+          {
+            role: 'assistant',
+            content: `Good to see you, ${name}. What's happening on the land?`,
+            id: generateId(),
+          },
+        ])
+      }
+    }
+    void loadOpeningMessage()
+  }, [])
+
   const [input, setInput] = useState('')
   const [isLoading, setIsLoading] = useState(false)
   const [onboardingComplete, setOnboardingComplete] = useState(false)
