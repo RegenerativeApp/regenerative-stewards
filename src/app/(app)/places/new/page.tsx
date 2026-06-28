@@ -17,7 +17,6 @@ export default async function NewPlacePage() {
     const {
       data: { user },
     } = await supabase.auth.getUser();
-
     if (!user) redirect("/login");
 
     const name = formData.get("name") as string;
@@ -32,6 +31,23 @@ export default async function NewPlacePage() {
       soil_type: soil_type || null,
       area_acres: area_acres ? parseFloat(area_acres) : null,
     });
+
+    // Write new place to steward context (memory spine)
+    try {
+      await supabase.from("steward_context").insert({
+        user_id: user.id,
+        type: "place_added",
+        source: "your_places",
+        content: {
+          place_name: name,
+          soil_type: soil_type || null,
+          area_acres: area_acres ? parseFloat(area_acres) : null,
+          description: description ? description.slice(0, 200) : null,
+        },
+      });
+    } catch (e) {
+      console.error("steward_context write failed (place_added):", e);
+    }
 
     redirect("/places");
   }

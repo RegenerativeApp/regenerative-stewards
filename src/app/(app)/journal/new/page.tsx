@@ -62,6 +62,24 @@ export default function NewObservationPage() {
       return;
     }
 
+    // Write observation to steward context (memory spine)
+    try {
+      const placeName = places.find((p) => p.id === place_id)?.name ?? null;
+      await supabase.from("steward_context").insert({
+        user_id: user.id,
+        type: "observation",
+        source: "field_journal",
+        content: {
+          note: (form.get("title") as string) || (form.get("body") as string || "").slice(0, 200),
+          observation_type: form.get("type") as string,
+          place_name: placeName,
+          has_photos: photoUrls.length > 0,
+        },
+      });
+    } catch (e) {
+      console.error("steward_context write failed (observation):", e);
+    }
+
     router.push("/journal");
   }
 

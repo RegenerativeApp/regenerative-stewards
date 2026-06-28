@@ -106,6 +106,8 @@ export async function POST(request: NextRequest) {
               ? `Profile: ${JSON.stringify(row.content)}`
               : row.type === 'mentor_conversation'
               ? `Conversation: ${row.content.summary ?? ''}`
+              : row.type === 'place_added'
+              ? `New place added: ${row.content.place_name ?? 'unknown'}${row.content.soil_type ? ` (${row.content.soil_type} soil)` : ''}${row.content.area_acres ? `, ${row.content.area_acres} acres` : ''}`
               : `${row.type}: ${JSON.stringify(row.content)}`
           return `[${date}] ${summary}`
         })
