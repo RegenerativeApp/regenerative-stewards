@@ -62,6 +62,8 @@ export interface Message {
   role: 'user' | 'assistant'
   content: string
   timestamp?: string
+  imageBase64?: string
+  imageMimeType?: string
 }
 
 // src/lib/onboarding-schema.ts  — REFINED (Day 3)

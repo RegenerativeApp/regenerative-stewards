@@ -98,8 +98,8 @@ export async function POST(request: NextRequest) {
         .map((row) => {
           const date = new Date(row.created_at).toISOString().split('T')[0]
           const summary =
-            row.type === 'plant_id'
-              ? `Identified: ${row.content.plant_name ?? 'unknown'} (${row.content.confidence ?? '?'} confidence)${row.content.place_name ? ` in ${row.content.place_name}` : ''}`
+row.type === 'plant_id'
+  ? `Plant identified: ${row.content.plant_name ?? 'unknown'}${row.content.scientific_name ? ` (${row.content.scientific_name})` : ''} — ${row.content.confidence ?? '?'} confidence. Soil message: ${row.content.soil_message ?? 'none recorded'}. Ecological role: ${row.content.ecological_role ?? 'none recorded'}`
               : row.type === 'observation'
               ? `Observation: ${row.content.note ?? ''}`
               : row.type === 'onboarding'
@@ -141,7 +141,29 @@ export async function POST(request: NextRequest) {
       model: 'claude-sonnet-4-6',
       max_tokens: 1024,
       system: systemPrompt + contextMemory + journalContext + ragContext,
-      messages: messages.map(({ role, content }) => ({ role, content })),
+      messages: messages.map(({ role, content, imageBase64, imageMimeType }) => {
+        if (imageBase64 && imageMimeType) {
+          const validMimeType = imageMimeType as 'image/jpeg' | 'image/png' | 'image/gif' | 'image/webp'
+          return {
+            role,
+            content: [
+              {
+                type: 'image' as const,
+                source: {
+                  type: 'base64' as const,
+                  media_type: validMimeType,
+                  data: imageBase64,
+                },
+              },
+              {
+                type: 'text' as const,
+                text: content || 'What can you tell me about this?',
+              },
+            ],
+          }
+        }
+        return { role, content }
+      }),
     })
 
     const rawText = response.content
